@@ -1,0 +1,7 @@
+{
+  "python.autoComplete.extraPaths": [
+    "/home/irl-19/choreonoid_ws/devel/lib/python3/dist-packages",
+    "/home/irl-19/catkin_ws/devel/lib/python3/dist-packages",
+    "/opt/ros/noetic/lib/python3/dist-packages"
+  ]
+}

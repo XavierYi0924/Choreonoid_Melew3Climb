@@ -1,0 +1,19 @@
+format: ChoreonoidBody
+formatVersion: 1.0
+angleUnit: degree
+name: Duowalls
+
+links:
+  - name: douwall
+    jointType: fixed
+    elements:
+      - type: Shape
+        geometry:
+          type: Resource
+          uri: "duo_wall.stl"
+        appearance:
+          material:
+            diffuseColor: [0.6, 0.7, 0.8] # 材质颜色 (R, G, B) - 灰色
+        collision: true
+        contactMaterial:
+          friction: [0.8, 0.6]

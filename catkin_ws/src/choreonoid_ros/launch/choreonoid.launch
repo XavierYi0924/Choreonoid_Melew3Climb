@@ -1,0 +1,7 @@
+<launch>
+  <arg name="choreonoid_arg" default=""/>
+  <param name="/use_sim_time" value="true"/>
+  <node name="choreonoid" pkg="choreonoid_ros" type="choreonoid" args="$(arg choreonoid_arg)" output="screen">
+        <param name="publish_clock" value="true"/>
+  </node>
+</launch>

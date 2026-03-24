@@ -1,0 +1,48 @@
+<launch>
+  <group ns="md80_FL">
+    <!-- add_md80s service call -->
+    <node pkg="rosservice" type="rosservice" name="add_md80s" args="call /add_md80s_FL '{drive_ids: [11, 12, 13, 14, 27]}'" output="screen">
+      <param name="rosdep_aware" value="True" />
+    </node>
+
+    <!-- set_mode_md80s service call -->
+    <node pkg="rosservice" type="rosservice" name="set_mode_md80s" args="call /set_mode_md80s_FL '{drive_ids: [11, 12, 13, 14, 27], mode:['IMPEDANCE', 'IMPEDANCE', 'IMPEDANCE', 'IMPEDANCE', 'IMPEDANCE']}'" output="screen">
+      <param name="rosdep_aware" value="True" />
+    </node>
+  </group>
+
+  <group ns="md80_FR">
+    <!-- add_md80s service call -->
+    <node pkg="rosservice" type="rosservice" name="add_md80s" args="call /add_md80s_FR '{drive_ids: [15, 16, 17, 18, 28]}'" output="screen">
+      <param name="rosdep_aware" value="True" />
+    </node>
+
+    <!-- set_mode_md80s service call -->
+    <node pkg="rosservice" type="rosservice" name="set_mode_md80s" args="call /set_mode_md80s_FR '{drive_ids: [15, 16, 17, 18, 28], mode:['IMPEDANCE', 'IMPEDANCE', 'IMPEDANCE', 'IMPEDANCE', 'IMPEDANCE']}'" output="screen">
+      <param name="rosdep_aware" value="True" />
+    </node>
+  </group>
+  <group ns="md80_BL">
+    <!-- add_md80s service call -->
+    <node pkg="rosservice" type="rosservice" name="add_md80s" args="call /add_md80s_BL '{drive_ids: [19, 20, 21, 22, 29]}'" output="screen">
+      <param name="rosdep_aware" value="True" />
+    </node>
+
+    <!-- set_mode_md80s service call -->
+    <node pkg="rosservice" type="rosservice" name="set_mode_md80s" args="call /set_mode_md80s_BL '{drive_ids: [19, 20, 21, 22, 29], mode:['IMPEDANCE', 'IMPEDANCE', 'IMPEDANCE', 'IMPEDANCE', 'IMPEDANCE']}'" output="screen">
+      <param name="rosdep_aware" value="True" />
+    </node>
+  </group>
+
+  <group ns="md80_BR">
+    <!-- add_md80s service call -->
+    <node pkg="rosservice" type="rosservice" name="add_md80s" args="call /add_md80s_BR '{drive_ids: [23, 24, 25, 26, 30]}'" output="screen">
+      <param name="rosdep_aware" value="True" />
+    </node>
+
+    <!-- set_mode_md80s service call -->
+    <node pkg="rosservice" type="rosservice" name="set_mode_md80s" args="call /set_mode_md80s_BR '{drive_ids: [23, 24, 25, 26, 30], mode:['IMPEDANCE', 'IMPEDANCE', 'IMPEDANCE', 'IMPEDANCE', 'IMPEDANCE']}'" output="screen">
+      <param name="rosdep_aware" value="True" />
+    </node>
+  </group>
+</launch>

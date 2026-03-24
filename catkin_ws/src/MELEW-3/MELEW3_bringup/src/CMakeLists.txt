@@ -1,0 +1,2 @@
+choreonoid_add_simple_controller(MELEW3LinkPublisher MELEW3LinkPublisher.cpp)
+target_link_libraries(MELEW3LinkPublisher ${roscpp_LIBRARIES})

@@ -1,0 +1,26 @@
+format: ChoreonoidBody
+formatVersion: 1.0
+name: Slope20
+links:
+  -
+    name: Base
+    translation: [ 0, 0, 0 ]
+    jointType: fixed
+    material: Ground
+    elements:
+      -
+        type: Visual
+        resource:
+          uri: "slope/Ground.obj"
+      -
+        type: Visual
+        resource:
+          uri: "slope/Slope20.obj"
+      -
+        type: Collision
+        resource:
+          uri: "slope/Ground.stl"
+      -
+        type: Collision
+        resource:
+          uri: "slope/Slope20.stl"

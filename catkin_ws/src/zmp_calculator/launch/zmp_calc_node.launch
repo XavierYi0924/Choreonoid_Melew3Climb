@@ -1,0 +1,14 @@
+<launch>
+  <arg name="project_file" default="zmp_test_project.cnoid"/>
+
+  <!-- Choreonoid ROS -->
+  <include file="$(find choreonoid_ros)/launch/choreonoid.launch">
+    <arg name="choreonoid_arg" value="$(find zmp_calculator)/project/$(arg project_file) --start-simulation"/>
+  </include>
+  <rosparam command="load" file="$(find zmp_calculator)/config/gen_config.yaml"/>
+
+  <group ns="zmp">
+    <rosparam command="load" file="$(find zmp_calculator)/config/zmp_config.yaml"/>
+  </group>
+  <node pkg="zmp_calculator" name="zmp_calculator_node" type="zmp_calculator_node"/>
+</launch>

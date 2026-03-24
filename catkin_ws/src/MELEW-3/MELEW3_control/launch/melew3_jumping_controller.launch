@@ -1,0 +1,8 @@
+<launch>
+  <!-- <node pkg="melew3_control" name = "z_jumping" type = "z_jumping" output="screen"/> -->
+  <!-- <node pkg="melew3_control" name = "z_sine_wave" type = "z_sine_wave" output="screen"/> -->
+  <!-- <node pkg="melew3_control" name = "jumping" type = "jumping" output="screen"/> -->
+  <node pkg="melew3_control" name = "AM_jumping" type = "AM_jumping" output="screen"/>
+  <!-- <node pkg="melew3_control" name = "pi_jumping" type = "pi_jumping" output="screen"/> -->
+  <!-- <node pkg="melew3_control" name = "running" type = "running" output="screen"/> -->
+</launch>

@@ -1,0 +1,11 @@
+loop_rate: 1000
+dt: 0.001
+actual_zmp_topic_name: "zmp"
+leg_num: 2
+support_area_x_min: -0.0
+support_area_y_min: -0.0
+support_area_x_max: 0.0
+support_area_y_max: 0.0
+min_contact_force: 15.0
+ft_sensor_link_num_L: 5
+ft_sensor_link_num_R: 11

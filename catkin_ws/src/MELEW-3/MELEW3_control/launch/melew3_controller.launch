@@ -1,0 +1,4 @@
+<launch>
+  <!-- <node pkg="melew3_control" name = "z_sine_wave" type = "z_sine_wave" output="screen"/> -->
+  <node pkg="melew3_control" name = "dancing" type = "dancing" output="screen"/>
+</launch>

@@ -1,0 +1,5 @@
+# enable/disable
+bool mode
+---
+# Whether if configuration success
+bool success

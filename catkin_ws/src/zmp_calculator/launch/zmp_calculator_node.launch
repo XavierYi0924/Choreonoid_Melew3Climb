@@ -1,0 +1,5 @@
+<launch>
+  <node name="zmp_calculator" pkg="zmp_calculator" type="zmp_calculator_node">
+    <rosparam command="load" file="$(find zmp_calculator)/config/param.yaml"/>
+  </node>
+</launch>

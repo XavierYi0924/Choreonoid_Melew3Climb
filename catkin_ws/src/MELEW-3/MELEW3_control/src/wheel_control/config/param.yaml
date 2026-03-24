@@ -1,0 +1,38 @@
+/loop_rate: 100
+
+/zg/waypoint_ref_topic_name: /waypoint_ref
+
+/pr/sampling_time: 0.001
+/pr/leg_rotate_time: 1.0
+/pr/start_control_time: 5.0
+/pr/com_height: 0.41441016151
+/pr/Qe: 1.0
+/pr/Ru: 3.0
+
+/sn/zmp_ref_topic_name: /zmp_ref
+/sn/com_height_ref_topic_name: /com_height_ref
+/sn/SNE_threshold:
+  x: 0.02
+  y: 0.01
+/sn/phi: 0
+/sn/xi: 0
+/sn/d_leg: 0.50
+/sn/b_leg: 0.40
+/sn/l_limit: 0.44
+
+/FL_leg_offset:
+  x: 0.25
+  y: 0.20
+  z: 0.0
+/FR_leg_offset:
+  x: 0.25
+  y: -0.20
+  z: 0.0
+/BL_leg_offset:
+  x: -0.25
+  y: 0.20
+  z: 0.0
+/BR_leg_offset:
+  x: -0.25
+  y: -0.20
+  z: 0.0  

@@ -1,0 +1,5 @@
+# Information for robot to be passed to the microcontroller
+melew3_msgs/motor_info[] motor
+---
+uint8 motor_quantity
+uint8 checksum

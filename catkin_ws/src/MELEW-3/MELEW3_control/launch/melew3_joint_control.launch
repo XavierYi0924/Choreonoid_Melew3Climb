@@ -1,0 +1,27 @@
+<launch>
+
+  <arg name="model" default="$(find melew3_description)/xacro/MELEW3.xacro"/>
+  <!-- ↑胴体部分幅400長さ500が大きい場合 -->
+  <!-- <arg name="model" default="$(find melew3_description)/xacro/MELEW3_s.xacro"/> -->
+
+  <param name="use_sim_time" value="true"/>
+
+  <!-- robot description -->
+  <param name="/MELEW3/robot_description" command="$(find xacro)/xacro --inorder '$(arg model)'"/>
+  
+  <!-- state publisher -->
+  <!-- <node ns="IBR" name="robot_state_publisher" pkg="robot_state_publisher" type="robot_state_publisher" respawn="true"/> -->
+
+  <!-- load the controllers -->
+  <rosparam file="$(find melew3_control)/config/MELEW3_group_position_control.yaml" command="load"/>
+
+  <node name="MELEW3_controller_spawner" pkg="controller_manager"
+    type="spawner" output="screen" respawn="true"
+    args="--namespace MELEW3
+      leg_FL_position_controller
+      leg_FR_position_controller
+      leg_BL_position_controller
+      leg_BR_position_controller
+      wheel_controller
+      "/>
+</launch>

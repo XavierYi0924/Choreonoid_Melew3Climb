@@ -1,0 +1,4 @@
+.vscode/
+/MELEW3_pkgs
+build/
+.DS_Store
