@@ -1,0 +1,1 @@
+/home/mrp/catkin_ws/devel/.private/melew3_msgs/lib/python3/dist-packages/melew3_msgs/srv/_SetModeMd80s.py

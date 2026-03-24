@@ -1,0 +1,14 @@
+-I/home/mrp/catkin_ws/build/choreonoid
+-I/home/mrp/catkin_ws/build/choreonoid/include
+-I/home/mrp/catkin_ws/src/choreonoid
+-I/home/mrp/catkin_ws/src/choreonoid/include
+-I/usr/include
+-I/usr/include
+-I/usr/include/python3.8
+-I/home/mrp/catkin_ws/src/choreonoid/thirdparty/pybind11-2.12.0/include
+-I/usr/include/eigen3
+-I/home/mrp/catkin_ws/src/choreonoid/thirdparty/CLI11
+-D$<$<CONFIG:Debug>:CNOID_DEBUG>
+-o
+/home/mrp/catkin_ws/build/choreonoid/src/Base/moc_ItemSelectionModel.cpp
+/home/mrp/catkin_ws/src/choreonoid/src/Base/ItemSelectionModel.h

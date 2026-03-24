@@ -1,0 +1,110 @@
+# Japanese translations for Choreonoid package.
+# This file is distributed under the same license as the Choreonoid package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Choreonoid\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-22 23:03+0900\n"
+"PO-Revision-Date: 2021-10-25 12:00+0900\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "AudioItem"
+msgstr "音声アイテム"
+
+msgid "Audio File"
+msgstr "音声ファイル"
+
+msgid "CoInitialize failed. MediaView is not available."
+msgstr "CoInitialize関数の実行に問題があるため，メディアビューを利用できません．"
+
+msgid "Media"
+msgstr "メディア"
+
+msgid "MediaView"
+msgstr "メディアビュー"
+
+msgid "Media View"
+msgstr "メディアビュー"
+
+msgid "Keep Aspect Ratio"
+msgstr "アスペクト比を維持"
+
+msgid "Keep Original Size"
+msgstr "元のサイズを維持"
+
+msgid "This media file is not able to seek!"
+msgstr "本メディアファイルはシーク出来ません！"
+
+msgid "Failed({}) to stop media clip!\n"
+msgstr "メディアクリップの停止が出来ません({})！\n"
+
+msgid "GStreamer cannot be initialized: "
+msgstr "GStreamerの初期化が出来ません: "
+
+msgid "Initialization of the GSMediaView failed. The playbin plugin is missing."
+msgstr "GSMediaViewの初期化に失敗しました．playbinプラグインがありません．"
+
+msgid "Initialization of the GSMediaView failed. The ximagesink could not be created."
+msgstr "GSMediaViewの初期化に失敗しました．ximagesinkを生成できません．"
+
+msgid "MediaItem"
+msgstr "メディアアイテム"
+
+msgid "Media file"
+msgstr "メディアファイル"
+
+msgid "load an media file"
+msgstr "メディアファイルの読み込み"
+
+msgid "Media file \"{}\" does not exist."
+msgstr "メディアファイル \"{}\" が存在しません．"
+
+msgid "offset"
+msgstr "オフセット"
+
+msgid "PulseAudio's main loop cannot be created."
+msgstr "PulseAudioのメインループを生成できません．"
+
+msgid "PulseAudio's context cannot be created."
+msgstr "PulseAudioのコンテキストを生成できません．"
+
+msgid "PulseAudio's context cannot be connected to the server."
+msgstr "PulseAudioのコンテキストをサーバに接続できません．"
+
+msgid "PulseAudio"
+msgstr ""
+
+msgid "Keep Stream Connections"
+msgstr "ストリーム接続を維持"
+
+msgid "Fully-Synchronized Audio Playback"
+msgstr "音声再生の完全同期"
+
+msgid "Audio item \"{0}\" cannot be initialized."
+msgstr "音声アイテム \"{0}\" を初期化できません．"
+
+msgid "PulseAudio's stream cannot be created."
+msgstr "PulseAudioのストリームを生成できません．"
+
+msgid "PulseAudio stream cannot be connected: {0}"
+msgstr "PulseAudioのストリームを接続できません： {0}."
+
+msgid "PulseAudio stream cannot be ready."
+msgstr "PulseAudioのストリームを準備できません．"
+
+msgid "PulseAudio stream for {0} cannot be written."
+msgstr "{0}のPulseAudioストリームに書き込むことができません．"
+
+msgid "overflowed"
+msgstr "オーバフロー"
+
+msgid "underflowed"
+msgstr "アンダーフロー"
+
+msgid "PulseAudioManager: Buffer of {0} {1}. Its playback time is adjusted to {2}."
+msgstr "PulseAudioManager: {0}のバッファが{1}です．再生時刻を{2}に調整します．"

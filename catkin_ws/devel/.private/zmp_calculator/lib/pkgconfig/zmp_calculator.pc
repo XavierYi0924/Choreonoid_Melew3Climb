@@ -1,0 +1,8 @@
+prefix=/home/mrp/catkin_ws/devel/.private/zmp_calculator
+
+Name: zmp_calculator
+Description: Description of zmp_calculator
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

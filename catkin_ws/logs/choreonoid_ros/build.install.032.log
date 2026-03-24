@@ -1,0 +1,28 @@
+[ 15%] Built target choreonoid
+[ 30%] Built target RobotHWCnoid
+[ 84%] Built target CnoidROSPlugin
+[100%] Built target PyROSPlugin
+[36mInstall the project...[0m
+-- Install configuration: "Release"
+-- Installing: /home/mrp/catkin_ws/devel/_setup_util.py
+-- Installing: /home/mrp/catkin_ws/devel/env.sh
+-- Installing: /home/mrp/catkin_ws/devel/setup.bash
+-- Installing: /home/mrp/catkin_ws/devel/local_setup.bash
+-- Installing: /home/mrp/catkin_ws/devel/setup.sh
+-- Installing: /home/mrp/catkin_ws/devel/local_setup.sh
+-- Installing: /home/mrp/catkin_ws/devel/setup.zsh
+-- Installing: /home/mrp/catkin_ws/devel/local_setup.zsh
+-- Installing: /home/mrp/catkin_ws/devel/setup.fish
+-- Installing: /home/mrp/catkin_ws/devel/local_setup.fish
+-- Installing: /home/mrp/catkin_ws/devel/.rosinstall
+-- Up-to-date: /home/mrp/catkin_ws/devel/share/choreonoid_ros/package.xml
+-- Up-to-date: /home/mrp/catkin_ws/devel/share/choreonoid_ros/plugins.xml
+-- Up-to-date: /home/mrp/catkin_ws/devel/share/choreonoid_ros/launch
+-- Up-to-date: /home/mrp/catkin_ws/devel/share/choreonoid_ros/launch/ros2
+-- Up-to-date: /home/mrp/catkin_ws/devel/share/choreonoid_ros/launch/ros2/choreonoid.launch.xml
+-- Up-to-date: /home/mrp/catkin_ws/devel/share/choreonoid_ros/launch/choreonoid.launch
+-- Up-to-date: /home/mrp/catkin_ws/devel/lib/choreonoid_ros/choreonoid
+-- Up-to-date: /home/mrp/catkin_ws/devel/share/locale/ja/LC_MESSAGES/CnoidROSPlugin-.mo
+-- Up-to-date: /home/mrp/catkin_ws/devel/lib/choreonoid-2.2/libCnoidROSPlugin.so
+-- Up-to-date: /home/mrp/catkin_ws/devel/lib/libRobotHWCnoid.so
+-- Up-to-date: /home/mrp/catkin_ws/devel/lib/choreonoid-2.2/python/cnoid/ROSPlugin.so

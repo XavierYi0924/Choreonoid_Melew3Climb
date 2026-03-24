@@ -1,0 +1,8 @@
+prefix=/home/mrp/catkin_ws/devel/.private/qpOASES
+
+Name: qpOASES
+Description: Description of qpOASES
+Version: 3.2.0
+Cflags: -I/home/mrp/catkin_ws/src/MELEW-3/MELEW3_pkgs/qpOASES/qpOASES_svn/include
+Libs: -L${prefix}/lib -lqpOASES
+Requires: 

@@ -1,0 +1,1 @@
+/home/mrp/catkin_ws/devel/.private/melew3_msgs/share/common-lisp/ros/melew3_msgs/srv/_package_robot_config.lisp

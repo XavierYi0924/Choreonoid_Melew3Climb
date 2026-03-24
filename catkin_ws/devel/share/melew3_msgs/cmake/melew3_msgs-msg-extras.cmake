@@ -1,0 +1,1 @@
+/home/mrp/catkin_ws/devel/.private/melew3_msgs/share/melew3_msgs/cmake/melew3_msgs-msg-extras.cmake

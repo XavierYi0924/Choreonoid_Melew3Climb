@@ -1,0 +1,4 @@
+[ 15%] Built target choreonoid
+[ 30%] Built target RobotHWCnoid
+[ 84%] Built target CnoidROSPlugin
+[100%] Built target PyROSPlugin

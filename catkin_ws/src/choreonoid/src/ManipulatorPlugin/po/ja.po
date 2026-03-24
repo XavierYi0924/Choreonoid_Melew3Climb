@@ -1,0 +1,292 @@
+# Japanese translations for Choreonoid package.
+# This file is distributed under the same license as the Choreonoid package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Choreonoid\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2022-07-26 19:33+0900\n"
+"PO-Revision-Date: 2021-10-25 12:00+0900\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Invalid condition type"
+msgstr "無効な条件型"
+
+msgid "Any program item for {} is not found."
+msgstr "{}用のプログラムアイテムがみつかりません．"
+
+msgid "Program \"{0}\" is incomplete due to unresolved references."
+msgstr "プログラム \"{0}\" は未解決の参照があり不完全です．"
+
+msgid "The startup program for {0} is not specified."
+msgstr "{}の開始プログラムが指定されていません．"
+
+msgid "Variables for {} cannot be initialized."
+msgstr "{0}の変数を初期化できません．"
+
+msgid "Variable {0} is not defined."
+msgstr "変数 {0} は定義されていません．"
+
+msgid "{0} cannot be executed because the interpreter for it is not found."
+msgstr "{0}はこれに対応したインタプリタがみつからないため実行できません．"
+
+msgid "Failed to execute {0} statement. The control was terminated."
+msgstr "{0}ステートメントの実行に失敗しました．制御を終了しました．"
+
+msgid "A program specified in a call statement is empty."
+msgstr "Callステートメントのプログラムが指定されていません．"
+
+msgid "Program \"{0}\" specified in a call statement does not exist."
+msgstr "Callステートメントに指定されているプログラム \"{0}\" が存在しません．"
+
+msgid "Empty conditional expression."
+msgstr "空の条件式．"
+
+msgid "Conditional expression \"{0}\" is invalid."
+msgstr "条件式 \"{0}\" は無効です．"
+
+msgid "Type / operator mismatch in the conditional expression of a While statement."
+msgstr "Whileステートメントの条件式における型とオペレータがマッチしていません．"
+
+msgid "Integer value {0} is out of range."
+msgstr "整数値{0}は範囲外です．"
+
+msgid "Expression assigned to variable {0} is empty."
+msgstr "変数{0}に式が設定されていません．"
+
+msgid "Term \"{0}\" is invalid."
+msgstr "項 \"{0}\" は無効です．"
+
+msgid "Expression ends with operator {0}."
+msgstr "オペレータ {0} で式が終了しています．"
+
+msgid "Type mismatch in expresion \"{0} {1} {2}\""
+msgstr "式 \"{0} {1} {2}\" における型が一致していません．"
+
+msgid "{0} cannot be executed because {1} does not have a signal I/O device"
+msgstr "{0}は{1}がシグナルI/Oデバイスを有していないため実行できません．"
+
+msgid "Speed ratio"
+msgstr "速度比率"
+
+msgid "MprMultiVariableListItem"
+msgstr "Mprマルチ変数リストアイテム"
+
+msgid "Num integer vars"
+msgstr "整数値変数総数"
+
+msgid "Num real vars"
+msgstr "実数値変数総数"
+
+msgid "Num boolean vars"
+msgstr "真偽値変数総数"
+
+msgid "Num string vars"
+msgstr "文字列変数総数"
+
+msgid "The joint displacement of {0} is out of its movable range."
+msgstr "{0}の関節変位が可動範囲外です．"
+
+msgid "The current manipulator position is not valid: {0}."
+msgstr "現在のマニピュレータの姿勢は有効ではありません：{0}."
+
+msgid "Could not fetch all the elements of position {0}."
+msgstr "ポジション{0}の要素の全てを取り込むことができません．"
+
+msgid "Could not fetch all the elements of the position."
+msgstr "ポジションの要素の全てを取り込むことができません．"
+
+msgid "Invalid index"
+msgstr "無効なインデックス"
+
+msgid "The recursive structure of CompositePosition is not supported"
+msgstr "複合ポジションの再帰構造はサポートされていません"
+
+msgid "{0} is not supported"
+msgstr "{0}はサポートされていません"
+
+msgid "{0} cannot be loaded as a manipulator position set"
+msgstr "{0}はマニピュレータ位置集として読み込むことができません"
+
+msgid "Format version {0} is not supported."
+msgstr "フォーマットバージョン{0}はサポートされていません．"
+
+msgid "Invalid position ID"
+msgstr "無効なポジションID"
+
+msgid "Position"
+msgstr "ポジション"
+
+msgid "Note"
+msgstr "注釈"
+
+msgid "J"
+msgstr ""
+
+msgid "MprPositionListView"
+msgstr "Mprポジションビュー"
+
+msgid "Waypoints"
+msgstr "教示点"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Touch-up"
+msgstr "タッチアップ"
+
+msgid "Two-stage sync"
+msgstr "2段階同期"
+
+msgid "Remove"
+msgstr "削除"
+
+msgid "Position :"
+msgstr "ポジション："
+
+msgid "Move to"
+msgstr "移動"
+
+msgid "%1 ( Not found )"
+msgstr "%1 ( 不定 )"
+
+msgid "Base"
+msgstr "基準座標"
+
+msgid "Tool"
+msgstr "ツール"
+
+msgid "Config"
+msgstr "形態"
+
+msgid "Auto"
+msgstr "自動"
+
+msgid "{0} cannot be loaded as a Manipulator program file"
+msgstr "{0}はマニピュレータプログラムファイルとして読み込むことができません"
+
+msgid "Statement type \"{0}\" is not supported"
+msgstr "ステートメント型 \"{0}\" はサポートされていません"
+
+msgid "Position {0} is not found in {1}."
+msgstr "ポジション{0}は{1}にありません．"
+
+msgid "TCP {0}"
+msgstr ""
+
+msgid "{0} of {1} cannot be moved to position {2}."
+msgstr "{1}の{0}はポジション{2}に到達することができません．"
+
+msgid "Program item \"{0}\" is not associated with any manipulator."
+msgstr "プログラムアイテム \"{0}\" はどのマニピュレータとも関連付けられていません．"
+
+msgid "Startup"
+msgstr "スタートアップ"
+
+msgid "Num statements"
+msgstr "ステートメント数"
+
+msgid "Num positions"
+msgstr "位置数"
+
+msgid "Refresh"
+msgstr "リフレッシュ"
+
+msgid "Renumbering"
+msgstr "リナンバリング"
+
+msgid "Program item is not specified."
+msgstr "プログラムアイテムが指定されていません．"
+
+msgid "Enable"
+msgstr "有効化"
+
+msgid "Disable"
+msgstr "無効化"
+
+msgid "Cut"
+msgstr "切り取り"
+
+msgid "Copy"
+msgstr "コピー"
+
+msgid "Paste"
+msgstr "貼り付け"
+
+msgid "Insert empty line"
+msgstr "空行の挿入"
+
+msgid "Tag Group"
+msgstr "タググループ"
+
+msgid "Invalid value type"
+msgstr "無効な値型"
+
+msgid "{0} cannot be loaded as a manipulator variable list"
+msgstr "{0}はマニピュレータ変数リストとして読み込むことができません"
+
+msgid "Unknown variable type"
+msgstr "無効な変数型"
+
+msgid "String \"{0}\" is specified as ID, but the string id type is not supported in this system"
+msgstr ""
+"文字列 \"{0}\" はIDとして指定されていますが、文字列型のIDはこのシステムではサポートされていませ"
+"ん．"
+
+msgid "No."
+msgstr "番号"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "ID"
+msgstr ""
+
+msgid "Type"
+msgstr "型"
+
+msgid "Value"
+msgstr "値"
+
+msgid "Integer"
+msgstr "整数"
+
+msgid "Real"
+msgstr "実数"
+
+msgid "Logical"
+msgstr "論理値"
+
+msgid "String"
+msgstr "文字列"
+
+msgid "Unknown"
+msgstr "不明"
+
+msgid "False"
+msgstr ""
+
+msgid "True"
+msgstr ""
+
+msgid "Negative number cannot be used as ID."
+msgstr "マイナスの値はIDとして使用できません．"
+
+msgid "ID {0} is already in use."
+msgstr "ID{0}は既に使用されています．"
+
+msgid "MprVariableListView"
+msgstr "Mpr変数リストビュー"
+
+msgid "Variables"
+msgstr "変数"
+
+msgid "General"
+msgstr "一般"
+
+msgid "Boolean"
+msgstr "ブール"

@@ -1,0 +1,8 @@
+In Ubuntu Linux 22.04, execute the following commands in the source directory:
+
+./misc/script/install-requisites-ubuntu-22.04.sh
+cmake -B build
+cmake --build build --parallel [NUMBER_OF_CPU_CORES]
+cmake --install build --prefix [INSTALL_DIRECTORY]
+
+Please refer to the Choreonoid manual for more details.

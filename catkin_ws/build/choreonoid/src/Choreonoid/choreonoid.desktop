@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Choreonoid
+Version=2.2
+Encoding=UTF-8
+Comment=Intagrated graphical robotics framework
+Exec=/home/mrp/catkin_ws/devel/bin/choreonoid %f
+Icon=/home/mrp/catkin_ws/devel/share/choreonoid-2.2/icon/choreonoid.svg
+Categories=Education;Science;Physics;Robotics;;Engineering
+MimeType=application/x-choreonoid

@@ -1,0 +1,61 @@
+Not searching for unused variables given on the command line.
+[36m--[0m Found PkgConfig: /usr/bin/pkg-config (found version "0.29.1")
+[36m--[0m The C compiler identification is GNU 9.4.0
+[36m--[0m The CXX compiler identification is GNU 9.4.0
+[36m--[0m Check for working C compiler: /usr/bin/cc
+[36m--[0m Check for working C compiler: /usr/bin/cc -- works
+[36m--[0m Detecting C compiler ABI info
+[36m--[0m Detecting C compiler ABI info - done
+[36m--[0m Detecting C compile features
+[36m--[0m Detecting C compile features - done
+[36m--[0m Check for working CXX compiler: /usr/bin/c++
+[36m--[0m Check for working CXX compiler: /usr/bin/c++ -- works
+[36m--[0m Detecting CXX compiler ABI info
+[36m--[0m Detecting CXX compiler ABI info - done
+[36m--[0m Detecting CXX compile features
+[36m--[0m Detecting CXX compile features - done
+[36m--[0m Performing Test has_cpp20
+[36m--[0m Performing Test has_cpp20 - Failed
+[36m--[0m Performing Test has_cpp17
+[36m--[0m Performing Test has_cpp17 - Success
+[36m--[0m Looking for include file dlfcn.h
+[36m--[0m Looking for include file dlfcn.h - found
+[36m--[0m Looking for pthread.h
+[36m--[0m Looking for pthread.h - found
+[36m--[0m Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[36m--[0m Performing Test CMAKE_HAVE_LIBC_PTHREAD - Failed
+[36m--[0m Looking for pthread_create in pthreads
+[36m--[0m Looking for pthread_create in pthreads - not found
+[36m--[0m Looking for pthread_create in pthread
+[36m--[0m Looking for pthread_create in pthread - found
+[36m--[0m Found Threads: TRUE
+[36m--[0m Found OpenGL: /usr/lib/x86_64-linux-gnu/libOpenGL.so
+[36m--[0m Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.10", minimum required is "3")
+[36m--[0m Checking for module 'freetype2'
+[36m--[0m   Found freetype2, version 23.1.17
+CMake Warning (dev) at /usr/lib/x86_64-linux-gnu/cmake/assimp-5.0/assimpTargets.cmake:54 (if):
+  if given arguments:
+
+    "ON"
+
+  An argument named "ON" appears in a conditional statement.  Policy CMP0012
+  is not set: if() recognizes numbers and boolean constants.  Run "cmake
+  --help-policy CMP0012" for policy details.  Use the cmake_policy command to
+  set the policy and suppress this warning.
+[36mCall Stack (most recent call first):[0m
+  /usr/lib/x86_64-linux-gnu/cmake/assimp-5.0/assimp-config.cmake:1 (include)
+  CMakeLists.txt:647 (find_package)
+This warning is for project developers.  Use -Wno-dev to suppress it.
+
+[36m--[0m Checking for module 'yaml-0.1'
+[36m--[0m   Found yaml-0.1, version 0.2.2
+[36m--[0m Checking for module 'libzip'
+[36m--[0m   Found libzip, version 1.5.1
+[36m--[0m Found ZLIB: /usr/lib/x86_64-linux-gnu/libz.so (found version "1.2.11")
+[36m--[0m Found PNG: /usr/lib/x86_64-linux-gnu/libpng.so (found version "1.6.37")
+[36m--[0m Found JPEG: /usr/lib/x86_64-linux-gnu/libjpeg.so (found version "80")
+[36m--[0m Checking for module 'uuid'
+[36m--[0m   Found uuid, version 2.34.0
+[36m--[0m Configuring done
+[36m--[0m Generating done
+[36m--[0m Build files have been written to: /home/mrp/catkin_ws/build/choreonoid

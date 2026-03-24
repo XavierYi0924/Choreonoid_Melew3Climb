@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/mrp/catkin_ws/build/qpOASES/CMakeFiles/qpOASES"
+		},
+		{
+			"file" : "/home/mrp/catkin_ws/build/qpOASES/CMakeFiles/qpOASES.rule"
+		},
+		{
+			"file" : "/home/mrp/catkin_ws/build/qpOASES/CMakeFiles/qpOASES-complete.rule"
+		},
+		{
+			"file" : "/home/mrp/catkin_ws/build/qpOASES/qpOASES-prefix/src/qpOASES-stamp/qpOASES-install.rule"
+		},
+		{
+			"file" : "/home/mrp/catkin_ws/build/qpOASES/qpOASES-prefix/src/qpOASES-stamp/qpOASES-mkdir.rule"
+		},
+		{
+			"file" : "/home/mrp/catkin_ws/build/qpOASES/qpOASES-prefix/src/qpOASES-stamp/qpOASES-download.rule"
+		},
+		{
+			"file" : "/home/mrp/catkin_ws/build/qpOASES/qpOASES-prefix/src/qpOASES-stamp/qpOASES-update.rule"
+		},
+		{
+			"file" : "/home/mrp/catkin_ws/build/qpOASES/qpOASES-prefix/src/qpOASES-stamp/qpOASES-patch.rule"
+		},
+		{
+			"file" : "/home/mrp/catkin_ws/build/qpOASES/qpOASES-prefix/src/qpOASES-stamp/qpOASES-configure.rule"
+		},
+		{
+			"file" : "/home/mrp/catkin_ws/build/qpOASES/qpOASES-prefix/src/qpOASES-stamp/qpOASES-build.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"qpOASES"
+		],
+		"name" : "qpOASES"
+	}
+}

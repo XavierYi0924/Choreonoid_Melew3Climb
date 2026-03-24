@@ -1,0 +1,2 @@
+// Deprecated. Use the BodyKinematicsKit header
+#include "src/Body/BodyKinematicsKit.h"

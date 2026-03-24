@@ -1,0 +1,609 @@
+format: ChoreonoidBody
+formatVersion: 1.0
+angleUnit: degree
+name: MELEW3
+rootLink: BODY
+
+# 外観の設定 --------------------------------------------------
+appearances:
+  - &WHITE
+    material:
+      diffuseColor: [ 0.9, 0.9, 0.9 ]
+  - &BLACK
+    material:
+      diffuseColor: [ 0.2, 0.2, 0.2 ]
+      specularColor: [ 0.1, 0.1, 0.1 ]
+  - &GRAY
+    material:
+      diffuseColor: [ 0.7, 0.7, 0.7 ]
+  - &DARKGRAY
+    material:
+      diffuseColor: [ 0.45, 0.45, 0.45 ]
+  - &RED
+    material:
+      diffuseColor: [ 0.9, 0.1, 0.1]
+  - &GREEN
+    material:
+      diffuseColor: [ 0.1, 0.9, 0.1 ]
+  - &BLUE
+    material:
+      diffuseColor: [ 0.2, 0.2, 0.8 ]
+      specularColor: [ 0.2, 0.2, 0.8 ]
+  - &ENZI
+    material:
+      diffuseColor: [ 0.72, 0.259, 0.29 ]
+  - &SIKONN
+    material:
+      diffuseColor: [ 0.251, 0.1608, 0.2863 ]
+  - &YAMABUKI
+    material:
+      diffuseColor: [ 0.988, 0.686, 0.09 ]   
+  - &LEMON
+    material:
+      diffuseColor: [ 1.0, 0.9, 0.4 ]  
+
+# リンクの設定 --------------------------------------------------
+links:
+  # Body --------------------------------------------------
+  -
+    name: BODY
+    jointType: free
+    translation: [ 0.0, 0.0, 1.0 ]
+    elements:
+      -
+        type: RigidBody
+        centerOfMass: [ 0.0, 0.0, 0.0]
+        mass: 6.0
+        inertia: [
+        0.08638450, 0.0, 0.0,
+        0.0, 0.13138450, 0.0,
+        0.0, 0.0, 0.20500000]
+      -
+        type: Shape
+        geometry: {type: Resource, uri: "MELEW3_stl/body.STL"}
+        appearance: *GRAY
+      -
+        type: RateGyroSensor
+        name: RateGyroSensor
+        id: 0
+      -
+        type: AccelerationSensor
+        name: AccelerationSensor
+        id: 1
+      - type: Camera
+        name: Camera
+        translation: [ 0.2, 0.0, 0.075 ]
+        rotation: [ [ 1, 0, 0, 90 ], [ 0, 1, 0, -90 ] ]
+        format: COLOR_DEPTH
+
+#FrontLeft
+  # Hip_Yaw --------------------------------------------------
+  -
+    name: HIP_YAW_FL
+    parent: BODY
+    translation: [ 0.25, 0.2, 0 ]
+    jointType: revolute
+    jointAxis: Z
+    jointRange: [ -90, 90 ]
+    maxJointVelocity: 90
+    jointId: 0
+    elements: &HIP_YAW
+      -
+        type: RigidBody
+        centerOfMass: [ 0, 0, 0 ]
+        mass: 0.05
+        inertia: [
+        0.01, 0, 0,
+        0, 0.01, 0,
+        0, 0, 0.01 ]
+      -
+        type: Shape
+        geometry: {type: Resource, uri: "MELEW3_stl/joint_y.STL"}
+        appearance: *DARKGRAY
+
+  # Hip_Roll --------------------------------------------------
+  -
+    name: HIP_ROLL_FL
+    parent: HIP_YAW_FL
+    translation: [ 0, 0, 0 ]
+    jointType: revolute
+    jointAxis: X
+    jointRange: [ -45, 45 ]
+    maxJointVelocity: 90
+    jointId: 1
+    elements: &HIP_ROLL
+      -
+        type: RigidBody
+        centerOfMass: [ 0, 0, 0 ]
+        mass: 0.05
+        inertia: [
+        0.01, 0, 0,
+        0, 0.01, 0,
+        0, 0, 0.01 ]
+      -
+        type: Shape
+        geometry: {type: Resource, uri: "MELEW3_stl/joint_r.STL"}
+        appearance: *DARKGRAY
+
+  # Hip_Pitch --------------------------------------------------
+  -
+    name: HIP_PITCH_FL
+    parent: HIP_ROLL_FL
+    translation: [ 0, 0, 0 ]
+    jointType: revolute
+    jointAxis: Y
+    jointRange: [ -90, 90 ]
+    maxJointVelocity: 90
+    jointId: 2
+    elements: &HIP_PITCH
+      -
+        type: RigidBody
+        centerOfMass: [ 0, 0, 0 ]
+        mass: 0.05
+        inertia: [
+        0.01, 0, 0,
+        0, 0.01, 0,
+        0, 0, 0.01 ]
+      -
+        type: Shape
+        geometry: {type: Resource, uri: "MELEW3_stl/joint_p.STL"}
+        appearance: *DARKGRAY
+
+  # Upper_leg --------------------------------------------------
+  -
+    name: UPPER_LEG_FL
+    parent: HIP_PITCH_FL
+    translation: [ 0, 0, 0 ]
+    jointType: fixed
+    elements: &UPPER_LEG
+      -
+        type: RigidBody
+        centerOfMass: [ 0, 0, -0.1 ]
+        mass: 4.0
+        inertia: [
+        0.053958333, 0, 0,
+        0, 0.053958333, 0,
+        0, 0, 0.001250000 ]
+      -
+        type: Shape
+        geometry: {type: Resource, uri: "MELEW3_stl/link.STL"}
+        appearance: *BLUE
+
+  # Knee_Pitch --------------------------------------------------
+  -
+    name: KNEE_FL
+    parent: UPPER_LEG_FL
+    translation: [ 0, 0, -0.2 ]
+    jointType: revolute
+    jointAxis: Y
+    jointRange: [ -135, 0 ]
+    maxJointVelocity: 90
+    jointId: 3
+    elements: &KNEE
+      -
+        type: RigidBody
+        centerOfMass: [ 0, 0, 0 ]
+        mass: 0.05
+        inertia: [
+        0.01, 0, 0,
+        0, 0.01, 0,
+        0, 0, 0.01 ]
+      -
+        type: Shape
+        geometry: {type: Resource, uri: "MELEW3_stl/joint_p.STL"}
+        appearance: *DARKGRAY
+
+  # Lower_leg --------------------------------------------------
+  -
+    name: LOWER_LEG_FL
+    parent: KNEE_FL
+    translation: [ 0, 0, 0 ]
+    jointType: fixed
+    elements: &LOWER_LEG
+      -
+        type: RigidBody
+        centerOfMass: [ 0, 0, -0.1 ]
+        mass: 1.0
+        inertia: [
+        0.013489583, 0, 0,
+        0, 0.013489583, 0,
+        0, 0, 0.0003125 ]
+      -
+        type: Shape
+        geometry: {type: Resource, uri: "MELEW3_stl/link.STL"}
+        appearance: *BLACK
+
+  # Wheel_stator --------------------------------------------------
+  -
+    name: STATOR_FL
+    parent: LOWER_LEG_FL
+    translation: [ 0, 0, -0.2 ]
+    jointType: fixed
+    elements:
+      -
+        type: RigidBody
+        centerOfMass: [ 0, 0, 0 ]
+        mass: 0.5
+        inertia: [
+        0.01, 0, 0,
+        0, 0.01, 0,
+        0, 0, 0.01 ]
+      -
+        type: Shape
+        geometry: {type: Resource, uri: "MELEW3_stl/stator.STL"}
+        appearance: *DARKGRAY
+      -
+        type: ForceSensor
+        name: ForceSensor_foot_FL
+        id: 0
+
+  #  Wheel_rotor --------------------------------------------------
+  -
+    name: WHEEL_FL
+    parent: STATOR_FL
+    translation: [ 0, 0, 0 ]
+    jointType: revolute
+    jointAxis: Y
+    maxJointVelocity: 90
+    jointId: 16
+    material: Tire
+    elements: &WHEEL
+      -
+        type: RigidBody
+        centerOfMass: [ 0, 0, 0 ]
+        mass: 0.5
+        inertia: [
+        0.01, 0, 0,
+        0, 0.01, 0,
+        0, 0, 0.01 ]
+      -
+        type: Shape
+        geometry: {type: Resource, uri: "MELEW3_stl/wheel.STL"}
+        appearance: *LEMON
+
+  # Wheel_rotation_mark --------------------------------------------------
+  -
+    name: ROTATION_MARK_FL
+    parent: WHEEL_FL
+    translation: [ 0, 0.006, -0.05 ]
+    jointType: fixed
+    elements: &ROTATION_MARK
+      -
+        type: RigidBody
+        centerOfMass: [ 0, 0, 0 ]
+        mass: 0.0
+        inertia: [
+        0, 0, 0,
+        0, 0, 0,
+        0, 0, 0 ]
+      -
+        type: Shape
+        geometry: {type: Resource, uri: "MELEW3_stl/rotation_mark.STL"}
+        appearance: *RED
+
+#FrontRight
+  # Hip_Yaw --------------------------------------------------
+  -
+    name: HIP_YAW_FR
+    parent: BODY
+    translation: [ 0.25, -0.2, 0 ]
+    jointType: revolute
+    jointAxis: Z
+    jointRange: [ -90, 90 ]
+    maxJointVelocity: 90
+    jointId: 4
+    elements: *HIP_YAW
+
+  # Hip_Roll --------------------------------------------------
+  -
+    name: HIP_ROLL_FR
+    parent: HIP_YAW_FR
+    translation: [ 0, 0, 0 ]
+    jointType: revolute
+    jointAxis: X
+    jointRange: [ -45, 45 ]
+    maxJointVelocity: 90
+    jointId: 5
+    elements: *HIP_ROLL
+
+  # Hip_Pitch --------------------------------------------------
+  -
+    name: HIP_PITCH_FR
+    parent: HIP_ROLL_FR
+    translation: [ 0, 0, 0 ]
+    jointType: revolute
+    jointAxis: Y
+    jointRange: [ -90, 90 ]
+    maxJointVelocity: 90
+    jointId: 6
+    elements: *HIP_PITCH
+
+  # Upper_leg --------------------------------------------------
+  -
+    name: UPPER_LEG_FR
+    parent: HIP_PITCH_FR
+    translation: [ 0, 0, 0 ]
+    jointType: fixed
+    elements: *UPPER_LEG
+
+  # Knee_Pitch --------------------------------------------------
+  -
+    name: KNEE_FR
+    parent: HIP_PITCH_FR
+    translation: [ 0, 0, -0.2 ]
+    jointType: revolute
+    jointAxis: Y
+    jointRange: [ -135, 0 ]
+    maxJointVelocity: 90
+    jointId: 7
+    elements: *KNEE
+
+  # Lower_leg --------------------------------------------------
+  -
+    name: LOWER_LEG_FR
+    parent: KNEE_FR
+    translation: [ 0, 0, 0 ]
+    jointType: fixed
+    elements: *LOWER_LEG
+
+  # Wheel_stator --------------------------------------------------
+  -
+    name: STATOR_FR
+    parent: LOWER_LEG_FR
+    translation: [ 0, 0, -0.2 ]
+    jointType: fixed
+    elements:
+      -
+        type: RigidBody
+        centerOfMass: [ 0, 0, 0 ]
+        mass: 0.5
+        inertia: [
+        0.01, 0, 0,
+        0, 0.01, 0,
+        0, 0, 0.01 ]
+      -
+        type: Shape
+        geometry: {type: Resource, uri: "MELEW3_stl/stator.STL"}
+        appearance: *DARKGRAY
+      -
+        type: ForceSensor
+        name: ForceSensor_foot_FR
+        id: 1
+
+  #  Wheel_rotor --------------------------------------------------
+  -
+    name: WHEEL_FR
+    parent: STATOR_FR
+    translation: [ 0, 0, 0 ]
+    jointType: revolute
+    jointAxis: Y
+    maxJointVelocity: 90
+    jointId: 17
+    material: Tire
+    elements: *WHEEL
+
+  # Wheel_rotation_mark --------------------------------------------------
+  -
+    name: ROTATION_MARK_FR
+    parent: WHEEL_FR
+    translation: [ 0, -0.006, -0.05 ]
+    jointType: fixed
+    elements: *ROTATION_MARK
+
+#BackLeft
+  # Hip_Yaw --------------------------------------------------
+  -
+    name: HIP_YAW_BL
+    parent: BODY
+    translation: [ -0.25, 0.2, 0 ]
+    jointType: revolute
+    jointAxis: Z
+    jointRange: [ -90, 90 ]
+    maxJointVelocity: 90
+    jointId: 8
+    elements: *HIP_YAW
+
+  # Hip_Roll --------------------------------------------------
+  -
+    name: HIP_ROLL_BL
+    parent: HIP_YAW_BL
+    translation: [ 0, 0, 0 ]
+    jointType: revolute
+    jointAxis: X
+    jointRange: [ -45, 45 ]
+    maxJointVelocity: 90
+    jointId: 9
+    elements: *HIP_ROLL
+
+  # Hip_Pitch --------------------------------------------------
+  -
+    name: HIP_PITCH_BL
+    parent: HIP_ROLL_BL
+    translation: [ 0, 0, 0 ]
+    jointType: revolute
+    jointAxis: Y
+    jointRange: [ -90, 90 ]
+    maxJointVelocity: 90
+    jointId: 10
+    elements: *HIP_PITCH
+
+  # Upper_leg --------------------------------------------------
+  -
+    name: UPPER_LEG_BL
+    parent: HIP_PITCH_BL
+    translation: [ 0, 0, 0 ]
+    jointType: fixed
+    elements: *UPPER_LEG
+
+  # Knee_Pitch --------------------------------------------------
+  -
+    name: KNEE_BL
+    parent: HIP_PITCH_BL
+    translation: [ 0, 0, -0.2 ]
+    jointType: revolute
+    jointAxis: Y
+    jointRange: [ 0, 135 ]
+    maxJointVelocity: 90
+    jointId: 11
+    elements: *KNEE
+
+  # Lower_leg --------------------------------------------------
+  -
+    name: LOWER_LEG_BL
+    parent: KNEE_BL
+    translation: [ 0, 0, 0 ]
+    jointType: fixed
+    elements: *LOWER_LEG
+
+  # Wheel_stator --------------------------------------------------
+  -
+    name: STATOR_BL
+    parent: LOWER_LEG_BL
+    translation: [ 0, 0, -0.2 ]
+    jointType: fixed
+    elements:
+      -
+        type: RigidBody
+        centerOfMass: [ 0, 0, 0 ]
+        mass: 0.5
+        inertia: [
+        0.01, 0, 0,
+        0, 0.01, 0,
+        0, 0, 0.01 ]
+      -
+        type: Shape
+        geometry: {type: Resource, uri: "MELEW3_stl/stator.STL"}
+        appearance: *DARKGRAY
+      -
+        type: ForceSensor
+        name: ForceSensor_foot_BL
+        id: 2
+
+  #  Wheel_rotor --------------------------------------------------
+  -
+    name: WHEEL_BL
+    parent: STATOR_BL
+    translation: [ 0, 0, 0 ]
+    jointType: revolute
+    jointAxis: Y
+    maxJointVelocity: 90
+    jointId: 18
+    material: Tire
+    elements: *WHEEL
+
+  # Wheel_rotation_mark --------------------------------------------------
+  -
+    name: ROTATION_MARK_BL
+    parent: WHEEL_BL
+    translation: [ 0, 0.006, -0.05 ]
+    jointType: fixed
+    elements: *ROTATION_MARK
+
+#BackRight
+  # Hip_Yaw --------------------------------------------------
+  -
+    name: HIP_YAW_BR
+    parent: BODY
+    translation: [ -0.25, -0.2, 0 ]
+    jointType: revolute
+    jointAxis: Z
+    jointRange: [ -90, 90 ]
+    maxJointVelocity: 90
+    jointId: 12
+    elements: *HIP_YAW
+
+  # Hip_Roll --------------------------------------------------
+  -
+    name: HIP_ROLL_BR
+    parent: HIP_YAW_BR
+    translation: [ 0, 0, 0 ]
+    jointType: revolute
+    jointAxis: X
+    jointRange: [ -45, 45 ]
+    maxJointVelocity: 90
+    jointId: 13
+    elements: *HIP_ROLL
+
+  # Hip_Pitch --------------------------------------------------
+  -
+    name: HIP_PITCH_BR
+    parent: HIP_ROLL_BR
+    translation: [ 0, 0, 0 ]
+    jointType: revolute
+    jointAxis: Y
+    jointRange: [ -90, 90 ]
+    maxJointVelocity: 90
+    jointId: 14
+    elements: *HIP_PITCH
+
+  # Upper_leg --------------------------------------------------
+  -
+    name: UPPER_LEG_BR
+    parent: HIP_PITCH_BR
+    translation: [ 0, 0, 0 ]
+    jointType: fixed
+    elements: *UPPER_LEG
+
+  # Knee_Pitch --------------------------------------------------
+  -
+    name: KNEE_BR
+    parent: UPPER_LEG_BR
+    translation: [ 0, 0, -0.2 ]
+    jointType: revolute
+    jointAxis: Y
+    jointRange: [ 0, 135 ]
+    maxJointVelocity: 90
+    jointId: 15
+    elements: *KNEE
+
+  # Lower_leg --------------------------------------------------
+  -
+    name: LOWER_LEG_BR
+    parent: KNEE_BR
+    translation: [ 0, 0, 0 ]
+    jointType: fixed
+    elements: *LOWER_LEG
+
+  # Wheel_stator --------------------------------------------------
+  -
+    name: STATOR_BR
+    parent: LOWER_LEG_BR
+    translation: [ 0, 0, -0.2 ]
+    jointType: fixed
+    elements:
+      -
+        type: RigidBody
+        centerOfMass: [ 0, 0, 0 ]
+        mass: 0.5
+        inertia: [
+        0.01, 0, 0,
+        0, 0.01, 0,
+        0, 0, 0.01 ]
+      -
+        type: Shape
+        geometry: {type: Resource, uri: "MELEW3_stl/stator.STL"}
+        appearance: *DARKGRAY
+      -
+        type: ForceSensor
+        name: ForceSensor_foot_BR
+        id: 3
+
+  #  Wheel_rotor --------------------------------------------------
+  -
+    name: WHEEL_BR
+    parent: STATOR_BR
+    translation: [ 0, 0, 0 ]
+    jointType: revolute
+    jointAxis: Y
+    maxJointVelocity: 90
+    jointId: 19
+    material: Tire
+    elements: *WHEEL
+
+  # Wheel_rotation_mark --------------------------------------------------
+  -
+    name: ROTATION_MARK_BR
+    parent: WHEEL_BR
+    translation: [ 0, -0.006, -0.05 ]
+    jointType: fixed
+    elements: *ROTATION_MARK

@@ -1,0 +1,106 @@
+format: ChoreonoidBody
+formatVersion: 1.0
+name: Floor
+links:
+  -
+    name: Base
+    translation: [ 0, 0, 0 ]
+    jointType: fixed
+    material: Ground
+    elements:
+      -
+        type: Visual
+        resource:
+          uri: "field2022/Ground1.obj"
+      -
+        type: Visual
+        resource:
+          uri: "field2022/Ground2.obj"
+      -
+        type: Visual
+        resource:
+          uri: "field2022/Ground3.obj"
+      -
+        type: Visual
+        resource:
+          uri: "field2022/Stage.obj"
+      -
+        type: Visual
+        resource:
+          uri: "field2022/Slope.obj"
+      -
+        type: Visual
+        resource:
+          uri: "field2022/Stairs.obj"
+      -
+        type: Visual
+        resource:
+          uri: "field2022/Goal.obj"
+      -
+        type: Visual
+        resource:
+          uri: "field2022/Bar1.stl"
+      -
+        type: Visual
+        resource:
+          uri: "field2022/Bar2.stl"
+      -
+        type: Visual
+        resource:
+          uri: "field2022/Bar3.obj"
+      -
+        type: Visual
+        resource:
+          uri: "field2022/Bar4.stl"
+      -
+        type: Visual
+        resource:
+          uri: "field2022/Bar5.stl"
+      -
+        type: Collision
+        resource:
+          uri: "field2022/Ground1.stl"
+      -
+        type: Collision
+        resource:
+          uri: "field2022/Ground2.stl"
+      -
+        type: Collision
+        resource:
+          uri: "field2022/Ground3.stl"
+      -
+        type: Collision
+        resource:
+          uri: "field2022/Stage.stl"
+      -
+        type: Collision
+        resource:
+          uri: "field2022/Slope.stl"
+      -
+        type: Collision
+        resource:
+          uri: "field2022/Stairs.stl"
+      -
+        type: Collision
+        resource:
+          uri: "field2022/Goal.stl"
+      -
+        type: Collision
+        resource:
+          uri: "field2022/Bar1.stl"
+      -
+        type: Collision
+        resource:
+          uri: "field2022/Bar2.stl"
+      -
+        type: Collision
+        resource:
+          uri: "field2022/Bar3.stl"
+      -
+        type: Collision
+        resource:
+          uri: "field2022/Bar4.stl"
+      -
+        type: Collision
+        resource:
+          uri: "field2022/Bar5.stl"

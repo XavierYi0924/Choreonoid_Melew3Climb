@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mrp/catkin_ws/build/choreonoid_ros/devel/setup.sh

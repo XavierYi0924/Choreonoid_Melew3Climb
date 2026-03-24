@@ -1,0 +1,18 @@
+# pkg-config source file
+
+prefix=/home/mrp/catkin_ws/devel
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include/choreonoid-2.2
+subdir=choreonoid-2.2
+sharedir=/home/mrp/catkin_ws/devel/share/choreonoid-2.2
+plugindir=${exec_prefix}/lib/choreonoid-2.2
+simplecontrollerdir=${plugindir}/simplecontroller
+customizerdir=${plugindir}/simplecontroller/customizer
+
+Name: choreonoid-body-plugin
+Description: Choreonoid Body plugin
+Version: 2.2.0
+Requires: choreonoid-base = 2.2.0 choreonoid-body = 2.2.0
+Conflicts:
+Libs: -lCnoidBodyPlugin

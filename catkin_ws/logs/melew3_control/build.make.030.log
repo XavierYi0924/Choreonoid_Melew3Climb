@@ -1,0 +1,122 @@
+[  1%] Built target melew3_control_gencfg
+[  1%] Built target dynamic_reconfigure_generate_messages_lisp
+[  1%] Built target melew3_msgs_generate_messages_lisp
+[  1%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  1%] Built target geometry_msgs_generate_messages_py
+[  1%] Built target dynamic_reconfigure_generate_messages_eus
+[  1%] Built target dynamic_reconfigure_generate_messages_cpp
+[  1%] Built target geometry_msgs_generate_messages_nodejs
+[  1%] Built target dynamic_reconfigure_gencfg
+[  1%] Built target geometry_msgs_generate_messages_lisp
+[  1%] Built target rosgraph_msgs_generate_messages_eus
+[  1%] Built target geometry_msgs_generate_messages_cpp
+[  1%] Built target std_msgs_generate_messages_eus
+[  1%] Built target melew3_msgs_generate_messages_py
+[  1%] Built target melew3_msgs_generate_messages_nodejs
+[  1%] Built target roscpp_generate_messages_nodejs
+[  1%] Built target rosgraph_msgs_generate_messages_py
+[  1%] Built target controller_manager_msgs_generate_messages_nodejs
+[  1%] Built target rosgraph_msgs_generate_messages_lisp
+[  1%] Built target roscpp_generate_messages_eus
+[  1%] Built target roscpp_generate_messages_cpp
+[  1%] Built target rosgraph_msgs_generate_messages_cpp
+[  1%] Built target dynamic_reconfigure_generate_messages_py
+[  1%] Built target std_msgs_generate_messages_lisp
+[  1%] Built target melew3_msgs_generate_messages_eus
+[  1%] Built target roscpp_generate_messages_py
+[  1%] Built target controller_manager_msgs_generate_messages_cpp
+[  1%] Built target controller_manager_msgs_generate_messages_lisp
+[  1%] Built target geometry_msgs_generate_messages_eus
+[  1%] Built target roscpp_generate_messages_lisp
+[  1%] Built target rosgraph_msgs_generate_messages_nodejs
+[  1%] Built target std_msgs_generate_messages_py
+[  1%] Built target melew3_msgs_generate_messages_cpp
+[  1%] Built target controller_manager_msgs_generate_messages_eus
+[  1%] Built target std_msgs_generate_messages_nodejs
+[  1%] Built target std_msgs_generate_messages_cpp
+[  1%] Built target controller_manager_msgs_generate_messages_py
+[  4%] Built target z_jumping
+[  7%] Built target running
+[ 11%] Built target zmp_generator_node
+[ 12%] Built target pi_jumping
+[ 14%] Built target izmp_calculator_node
+[ 18%] Built target jumping
+[ 22%] Built target body_tilt_jumping
+[ 24%] Built target MELEW3_control
+[ 26%] Built target offline
+[ 30%] Built target AM_jumping
+[ 31%] Built target zmp_calculator_node
+[35m[1mScanning dependencies of target turning1[0m
+[ 36%] Built target zmp_preview_controller_node
+[ 40%] Built target melew_wheel_controller_node
+[ 42%] Built target trans2
+[ 44%] Built target trans3
+[ 50%] Built target turning
+[ 50%] Built target leg_turning
+[ 52%] Built target x_sine_wave
+[ 57%] Built target wr_z_sine
+[ 57%] Built target wheel_running_several
+[ 59%] Built target y_sine_wave
+[ 62%] Built target trans
+[ 62%] [32mBuilding CXX object src/controllers/CMakeFiles/turning1.dir/turning1.cpp.o[0m
+[ 65%] Built target z_sine_wave
+[ 68%] Built target dancing
+[ 70%] Built target wheel_running
+[ 72%] Built target body_yaw_sine_wave
+[ 74%] Built target psi_sine_wave
+[ 76%] Built target low_posture
+[ 78%] Built target body_pitch_tilt
+[ 80%] Built target lw_walk
+[ 84%] Built target slide
+[ 84%] Built target plot_sne_contour3
+[ 87%] Built target body_tilt_wheel_running
+[ 90%] Built target plot_sne_contour2
+[ 90%] Built target walk
+[ 91%] Built target plot_sne_contour
+[ 97%] Built target wheel_controller
+[01m[K/home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/src/controllers/turning1.cpp:[m[K In member function ‘[01m[Kvirtual void MELEW3_control::turning1_controller::control_loop()[m[K’:
+[01m[K/home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/src/controllers/turning1.cpp:282:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kemergency_stop[m[K’ was not declared in this scope
+  282 |           [01;31m[Kemergency_stop[m[K = true;
+      |           [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/src/controllers/turning1.cpp:284:11:[m[K [01;31m[Kerror: [m[K‘[01m[Kemergency_stop[m[K’ was not declared in this scope
+  284 |           [01;31m[Kemergency_stop[m[K = false;
+      |           [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/src/controllers/turning1.cpp:296:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kemergency_stop[m[K’ was not declared in this scope
+  296 |         if ([01;31m[Kemergency_stop[m[K) {
+      |             [01;31m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/opt/ros/noetic/include/ros/assert.h:35[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/common.h:36[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/publisher.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/ros/node_handle.h:32[m[K,
+                 from [01m[K/opt/ros/noetic/include/dynamic_reconfigure/client.h:50[m[K,
+                 from [01m[K/home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/include/MELEW3_control/BaseController.h:16[m[K,
+                 from [01m[K/home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/src/controllers/turning1.cpp:29[m[K:
+[01m[K/home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/src/controllers/turning1.cpp:337:73:[m[K [01;31m[Kerror: [m[K‘[01m[Kemergency_stop[m[K’ was not declared in this scope
+  337 |                             target_yaw * 180.0 / M_PI, current_segment, [01;31m[Kemergency_stop[m[K ? "YES" : "NO");
+      |                                                                         [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:351:165:[m[K [01;36m[Knote: [m[Kin definition of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION_WITH_FILTER[m[K’
+  351 |     ::ros::console::print(filter, __rosconsole_define_location__loc.logger_, __rosconsole_define_location__loc.level_, __FILE__, __LINE__, __ROSCONSOLE_FUNCTION__, [01;36m[K__VA_ARGS__[m[K)
+      |                                                                                                                                                                     [01;36m[K^~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/ros/console.h:466:7:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROSCONSOLE_PRINT_AT_LOCATION[m[K’
+  466 |       [01;36m[KROSCONSOLE_PRINT_AT_LOCATION[m[K(__VA_ARGS__); \
+      |       [01;36m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/noetic/include/rosconsole/macros_generated.h:70:41:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_LOG_THROTTLE[m[K’
+   70 | #define ROS_DEBUG_THROTTLE(period, ...) [01;36m[KROS_LOG_THROTTLE[m[K(period, ::ros::console::levels::Debug, ROSCONSOLE_DEFAULT_NAME, __VA_ARGS__)
+      |                                         [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/src/controllers/turning1.cpp:336:11:[m[K [01;36m[Knote: [m[Kin expansion of macro ‘[01m[KROS_DEBUG_THROTTLE[m[K’
+  336 |           [01;36m[KROS_DEBUG_THROTTLE[m[K(1.0, "Climbing: Yaw=%.2f deg, Segment=%d, Emergency=%s",
+      |           [01;36m[K^~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/src/controllers/turning1.cpp:[m[K In member function ‘[01m[Kvoid MELEW3_control::turning1_controller::DynamicCOMShift(double, Eigen::Vector3d&)[m[K’:
+[01m[K/home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/src/controllers/turning1.cpp:473:21:[m[K [01;31m[Kerror: [m[K‘[01m[KCOM_shift_gain[m[K’ was not declared in this scope
+  473 |   double y_shift = -[01;31m[KCOM_shift_gain[m[K * sin(current_yaw);
+      |                     [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/src/controllers/turning1.cpp:[m[K In member function ‘[01m[Kbool MELEW3_control::turning1_controller::CheckForceBalance()[m[K’:
+[01m[K/home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/src/controllers/turning1.cpp:503:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kforce_threshold_min[m[K’ was not declared in this scope
+  503 |   if (force_fl < [01;31m[Kforce_threshold_min[m[K || force_fr < force_threshold_min ||
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+[01m[K/home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/src/controllers/turning1.cpp:511:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kforce_threshold_max[m[K’ was not declared in this scope
+  511 |   if (force_fl > [01;31m[Kforce_threshold_max[m[K || force_fr > force_threshold_max ||
+      |                  [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+make[2]: *** [src/controllers/CMakeFiles/turning1.dir/build.make:63: src/controllers/CMakeFiles/turning1.dir/turning1.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:2059: src/controllers/CMakeFiles/turning1.dir/all] Error 2
+make: *** [Makefile:141: all] Error 2

@@ -1,0 +1,38 @@
+# Japanese translations for Choreonoid package.
+# This file is distributed under the same license as the Choreonoid package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Choreonoid\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-11-22 23:14+0900\n"
+"PO-Revision-Date: 2021-10-25 12:00+0900\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "MulticopterSimulatorItem"
+msgstr "マルチコプタシミュレータアイテム"
+
+msgid "MultiCopterMonitor"
+msgstr "マルチコプタモニタ"
+
+msgid "MulticopterMonitorView"
+msgstr "マルチコプタモニタビュー"
+
+msgid "Could not execute Simulation."
+msgstr "シミュレーションを実行できませんでした．"
+
+msgid "Fluid Environment is not ready."
+msgstr "流体環境の準備ができていません．"
+
+msgid "[{0}] tag is false in body[{1}]."
+msgstr "Body[{1}]のタグ[{0}]は間違っています．"
+
+msgid "[{0}] tag is missing, or wrong parameter in link[{1}]."
+msgstr "リンク[{1}]のタグ[{0}]が見つからないか，パラメータが間違っています．"
+
+msgid "[{}] tag is missing, or wrong parameter in RotorDevice."
+msgstr "ロータデバイスのタグ[{}]が見つからないか，パラメータが間違っています．"

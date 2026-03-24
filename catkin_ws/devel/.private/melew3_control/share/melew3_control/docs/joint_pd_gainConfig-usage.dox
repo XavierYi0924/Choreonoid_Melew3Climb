@@ -1,0 +1,47 @@
+\subsubsection usage Usage
+\verbatim
+<node name="melew3_control" pkg="MELEW3_control" type="melew3_control">
+  <param name="Send" type="bool" value="False" />
+  <param name="FL1_motor_Kp" type="double" value="0.0" />
+  <param name="FL1_motor_Kd" type="double" value="0.0" />
+  <param name="FL2_motor_Kp" type="double" value="0.0" />
+  <param name="FL2_motor_Kd" type="double" value="0.0" />
+  <param name="FL3_motor_Kp" type="double" value="0.0" />
+  <param name="FL3_motor_Kd" type="double" value="0.0" />
+  <param name="FL4_motor_Kp" type="double" value="0.0" />
+  <param name="FL4_motor_Kd" type="double" value="0.0" />
+  <param name="FR1_motor_Kp" type="double" value="0.0" />
+  <param name="FR1_motor_Kd" type="double" value="0.0" />
+  <param name="FR2_motor_Kp" type="double" value="0.0" />
+  <param name="FR2_motor_Kd" type="double" value="0.0" />
+  <param name="FR3_motor_Kp" type="double" value="0.0" />
+  <param name="FR3_motor_Kd" type="double" value="0.0" />
+  <param name="FR4_motor_Kp" type="double" value="0.0" />
+  <param name="FR4_motor_Kd" type="double" value="0.0" />
+  <param name="BL1_motor_Kp" type="double" value="0.0" />
+  <param name="BL1_motor_Kd" type="double" value="0.0" />
+  <param name="BL2_motor_Kp" type="double" value="0.0" />
+  <param name="BL2_motor_Kd" type="double" value="0.0" />
+  <param name="BL3_motor_Kp" type="double" value="0.0" />
+  <param name="BL3_motor_Kd" type="double" value="0.0" />
+  <param name="BL4_motor_Kp" type="double" value="0.0" />
+  <param name="BL4_motor_Kd" type="double" value="0.0" />
+  <param name="BR1_motor_Kp" type="double" value="0.0" />
+  <param name="BR1_motor_Kd" type="double" value="0.0" />
+  <param name="BR2_motor_Kp" type="double" value="0.0" />
+  <param name="BR2_motor_Kd" type="double" value="0.0" />
+  <param name="BR3_motor_Kp" type="double" value="0.0" />
+  <param name="BR3_motor_Kd" type="double" value="0.0" />
+  <param name="BR4_motor_Kp" type="double" value="0.0" />
+  <param name="BR4_motor_Kd" type="double" value="0.0" />
+  <param name="wheel_FL_motor_Kp" type="double" value="0.0" />
+  <param name="wheel_FL_motor_Kd" type="double" value="0.0" />
+  <param name="wheel_FR_motor_Kp" type="double" value="0.0" />
+  <param name="wheel_FR_motor_Kd" type="double" value="0.0" />
+  <param name="wheel_BL_motor_Kp" type="double" value="0.0" />
+  <param name="wheel_BL_motor_Kd" type="double" value="0.0" />
+  <param name="wheel_BR_motor_Kp" type="double" value="0.0" />
+  <param name="wheel_BR_motor_Kd" type="double" value="0.0" />
+</node>
+\endverbatim
+

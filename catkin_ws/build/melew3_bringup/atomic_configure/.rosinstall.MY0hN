@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/mrp/catkin_ws/build/melew3_bringup/devel/setup.sh

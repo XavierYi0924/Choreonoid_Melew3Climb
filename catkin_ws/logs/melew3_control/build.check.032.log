@@ -1,0 +1,33 @@
+[36m--[0m Using CATKIN_DEVEL_PREFIX: /home/mrp/catkin_ws/devel/.private/melew3_control
+[36m--[0m Using CMAKE_PREFIX_PATH: /home/mrp/catkin_ws/devel;/opt/ros/noetic
+[36m--[0m This workspace overlays: /home/mrp/catkin_ws/devel;/opt/ros/noetic
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3")
+[36m--[0m Using PYTHON_EXECUTABLE: /usr/bin/python3
+[36m--[0m Using Debian Python package layout
+[36m--[0m Using empy: /usr/lib/python3/dist-packages/em.py
+[36m--[0m Using CATKIN_ENABLE_TESTING: ON
+[36m--[0m Call enable_testing()
+[36m--[0m Using CATKIN_TEST_RESULTS_DIR: /home/mrp/catkin_ws/build/melew3_control/test_results
+[36m--[0m Forcing gtest/gmock from source, though one was otherwise available.
+[36m--[0m Found gtest sources under '/usr/src/googletest': gtests will be built
+[36m--[0m Found gmock sources under '/usr/src/googletest': gmock will be built
+[36m--[0m Found PythonInterp: /usr/bin/python3 (found version "3.8.10")
+[36m--[0m Using Python nosetests: /usr/bin/nosetests3
+[36m--[0m catkin 0.8.12
+[36m--[0m BUILD_SHARED_LIBS is on
+[36m--[0m Configuring done
+[31m[1mCMake Error[0m at /home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/src/controllers/CMakeLists.txt:266 (add_executable):
+  Cannot find source file:
+
+    BaseConroller.cpp
+
+  Tried extensions .c .C .c++ .cc .cpp .cxx .cu .m .M .mm .h .hh .h++ .hm
+  .hpp .hxx .in .txx
+
+
+[31m[1mCMake Error[0m at /home/mrp/catkin_ws/src/MELEW-3/MELEW3_control/src/controllers/CMakeLists.txt:266 (add_executable):
+  No SOURCES given to target: turning2
+
+
+CMake Generate step failed.  Build files cannot be regenerated correctly.
+make: *** [Makefile:1370: cmake_check_build_system] Error 1

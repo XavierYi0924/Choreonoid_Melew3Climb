@@ -1,0 +1,1 @@
+/home/mrp/catkin_ws/devel/.private/melew3_msgs/share/roseus/ros/melew3_msgs/manifest.l

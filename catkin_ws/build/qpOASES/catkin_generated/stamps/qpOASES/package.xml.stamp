@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package>
+  <name>qpOASES</name>
+  <version>3.2.0</version>
+  <description>The qpOASES package</description>
+
+  <maintainer email="hoarau@isir.upmc.fr">Antoine Hoarau</maintainer>
+  <author email="hoarau@isir.upmc.fr">Antoine Hoarau</author>
+
+  <license>LGPL</license>
+
+  <buildtool_depend>catkin</buildtool_depend>
+  <build_depend>subversion</build_depend>
+  
+</package>

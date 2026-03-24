@@ -1,0 +1,16 @@
+# pkg-config source file
+
+prefix=/home/mrp/catkin_ws/devel
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+subdir=choreonoid-2.2
+includedir=${prefix}/include/choreonoid-2.2
+sharedir=/home/mrp/catkin_ws/devel/share/choreonoid-2.2
+
+Name: choreonoid-util
+Description: Choreonoid Util library
+Version: 2.2.0
+Requires: eigen3 >= 3.2.7
+Conflicts:
+Libs: -L${libdir} -lCnoidUtil -lboost_filesystem -lboost_system
+Cflags: -I${includedir}

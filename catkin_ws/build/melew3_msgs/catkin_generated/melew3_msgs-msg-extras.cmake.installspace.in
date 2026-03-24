@@ -1,0 +1,2 @@
+set(melew3_msgs_MESSAGE_FILES "msg/ImpedanceCommand.msg;msg/leg_info.msg;msg/leg_info_set.msg;msg/leg_info.msg;msg/leg_pose.msg;msg/LinkInfoArray.msg;msg/Motion.msg;msg/MotionCommand.msg;msg/motor_info.msg;msg/PointArray.msg;msg/waypoint.msg")
+set(melew3_msgs_SERVICE_FILES "srv/AddMd80s.srv;srv/enter_control_mode.srv;srv/exit_control_mode.srv;srv/FallAvoidanceMotion.srv;srv/GenericMd80Msg.srv;srv/robot_config.srv;srv/servo_setting.srv;srv/set_pd_gain.srv;srv/set_position_zero.srv;srv/SetLimitsMd80.srv;srv/SetModeMd80s.srv")

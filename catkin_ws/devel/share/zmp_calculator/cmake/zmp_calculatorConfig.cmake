@@ -1,0 +1,1 @@
+/home/mrp/catkin_ws/devel/.private/zmp_calculator/share/zmp_calculator/cmake/zmp_calculatorConfig.cmake

@@ -1,0 +1,173 @@
+optionalPlugins: [ ODE, Bullet, PhysX, AgX ]
+
+items: 
+  id: 0
+  name: "Root"
+  plugin: Base
+  class: RootItem
+  children: 
+    - 
+      id: 1
+      name: "World"
+      plugin: Body
+      class: WorldItem
+      data: 
+        collisionDetection: false
+        collisionDetector: AISTCollisionDetector
+      children: 
+        - 
+          id: 2
+          name: "Floor"
+          plugin: Body
+          class: BodyItem
+          is_checked: true
+          data: 
+            modelFile: "${SHARE}/model/misc/floor.body"
+            currentBaseLink: "BASE"
+            rootPosition: [ 0, 0, -0.1 ]
+            rootAttitude: [ 
+              1, 0, 0, 
+              0, 1, 0, 
+              0, 0, 1 ]
+            jointPositions: [  ]
+            initialRootPosition: [ 0, 0, -0.1 ]
+            initialRootAttitude: [ 
+              1, 0, 0, 
+              0, 1, 0, 
+              0, 0, 1 ]
+            zmp: [ 0, 0, 0 ]
+            collisionDetection: true
+            selfCollisionDetection: false
+            isEditable: false
+        - 
+          id: 3
+          name: "box1"
+          plugin: Body
+          class: BodyItem
+          is_checked: true
+          data: 
+            modelFile: "${SHARE}/model/misc/box1.body"
+            currentBaseLink: "WAIST"
+            rootPosition: [ 0, 0.4, 0.1 ]
+            rootAttitude: [ 
+              2.22044605e-16, -1, 0, 
+              1, 2.22044605e-16, 0, 
+              0, 0, 1 ]
+            jointPositions: [  ]
+            initialRootPosition: [ 0, 0.4, 0.1 ]
+            initialRootAttitude: [ 
+              2.22044605e-16, -1, 0, 
+              1, 2.22044605e-16, 0, 
+              0, 0, 1 ]
+            zmp: [ 0, 0, 0 ]
+            collisionDetection: true
+            selfCollisionDetection: false
+        - 
+          id: 4
+          name: "Torus"
+          plugin: Body
+          class: BodyItem
+          is_checked: true
+          data: 
+            modelFile: "${SHARE}/model/misc/Torus.body"
+            currentBaseLink: "WAIST"
+            rootPosition: [ 0, 0, 0.5 ]
+            rootAttitude: [ 
+              1, 0, 0, 
+              0, 1, 0, 
+              0, 0, 1 ]
+            jointPositions: [  ]
+            initialRootPosition: [ 0, 0, 0.5 ]
+            initialRootAttitude: [ 
+              1, 0, 0, 
+              0, 1, 0, 
+              0, 0, 1 ]
+            zmp: [ 0, 0, 0 ]
+            collisionDetection: true
+            selfCollisionDetection: false
+        - 
+          id: 5
+          name: "box1"
+          plugin: Body
+          class: BodyItem
+          is_checked: true
+          data: 
+            modelFile: "${SHARE}/model/misc/box1.body"
+            currentBaseLink: "WAIST"
+            rootPosition: [ 0, 0, 1.5 ]
+            rootAttitude: [ 
+              1, 0, 0, 
+              0, 2.22044605e-16, -1, 
+              0, 1, 2.22044605e-16 ]
+            jointPositions: [  ]
+            initialRootPosition: [ 0, 0, 1.5 ]
+            initialRootAttitude: [ 
+              1, 0, 0, 
+              0, 2.22044605e-16, -1, 
+              0, 1, 2.22044605e-16 ]
+            zmp: [ 0, 0, 0 ]
+            collisionDetection: true
+            selfCollisionDetection: false
+        - 
+          id: 6
+          name: "AISTSimulator"
+          plugin: Body
+          class: AISTSimulatorItem
+          data: 
+            realtimeSync: true
+            recording: "full"
+            timeRangeMode: "Unlimited"
+            timeLength: 180
+            allLinkPositionOutputMode: false
+            deviceStateOutput: true
+            controllerThreads: true
+            recordCollisionData: false
+            controllerOptions: ""
+            dynamicsMode: "Forward dynamics"
+            integrationMode: semi-implicit_euler
+            gravity: [ 0, 0, -9.80665 ]
+            kinematicWalking: false
+            2Dmode: false
+            oldAccelSensorMode: false
+        - 
+          id: 7
+          name: "BulletSimulator"
+          plugin: Bullet
+          class: BulletSimulatorItem
+          data: 
+            realtimeSync: true
+            recording: "full"
+            timeRangeMode: "Unlimited"
+            timeLength: 180
+            allLinkPositionOutputMode: true
+            deviceStateOutput: true
+            controllerThreads: true
+            recordCollisionData: false
+            controllerOptions: ""
+            ErrorReductionParameter: 0.2
+            NumIterations: 10
+            Restitution: 0
+            Friction: 0.7
+            ERP2: 0
+            SplitImpulsePenetrationThreshold: -0.0001
+            useHACD: false
+            CollisionMargin: 0.0001
+            velocityMode: false
+views: 
+  - 
+    id: 4
+    plugin: Base
+    class: SceneView
+    mounted: true
+    state: 
+      floorGrid: false
+      cameras: 
+        - 
+          camera: [ System, Perspective ]
+          isCurrent: true
+          fieldOfView: 0.6978
+          near: 0.01
+          far: 100
+          eye: [ 6.74110241, 0.0389581346, 1.4093901 ]
+          direction: [ -0.994500407, 0.0660844786, -0.0812513474 ]
+          up: [ -0.0810725529, 0.00538726515, 0.996693643 ]

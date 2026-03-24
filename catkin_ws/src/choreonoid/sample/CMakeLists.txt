@@ -1,0 +1,27 @@
+function(install_project_files)
+  install(FILES ${ARGV} DESTINATION ${CNOID_SHARE_SUBDIR}/project)
+  if(UNIX AND NOT CNOID_SOURCE_SHARE_DIR STREQUAL CNOID_BINARY_SHARE_DIR)
+    get_filename_component(sample_dir ${CMAKE_CURRENT_SOURCE_DIR} NAME)
+    foreach(file ${ARGV})
+      add_custom_target(
+	symlink_to_${sample_dir}_sample_${file} ALL
+	COMMAND ${CMAKE_COMMAND} -E create_symlink
+	${CMAKE_CURRENT_SOURCE_DIR}/${file} ${CNOID_BINARY_SHARE_DIR}/project/${file})
+    endforeach()
+  endif()
+endfunction()
+
+add_subdirectory(general)
+add_subdirectory(SimpleController)
+add_subdirectory(SceneEffects)
+add_subdirectory(PoseSeq)
+add_subdirectory(HRP4C)
+add_subdirectory(GRobotPlugin)
+add_subdirectory(Multicopter)
+add_subdirectory(AGXDynamics)
+add_subdirectory(Roki)
+add_subdirectory(Submersible)
+add_subdirectory(CollisionHandler)
+add_subdirectory(JoystickTest)
+add_subdirectory(WRS2018)
+add_subdirectory(customizer)

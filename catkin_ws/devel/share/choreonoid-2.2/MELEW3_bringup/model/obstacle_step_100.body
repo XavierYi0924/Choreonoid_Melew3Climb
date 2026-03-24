@@ -1,0 +1,21 @@
+format: ChoreonoidBody
+formatVersion: 1.0
+
+name: obstacle_step_100
+rootLink: body
+links:
+  -
+    name: body
+    jointType: fixed
+    mass: 200  
+    inertia: [
+      1, 0, 0,
+      0, 1, 0,
+      0, 0, 1 
+      ]
+    elements:
+      Shape:
+        geometry: { type: Box, size: [ 6, 6, 0.1 ] }
+        appearance:
+          material:
+            diffuseColor: [ 0.2, 0.2, 1.0 ]

@@ -1,0 +1,1 @@
+/home/mrp/catkin_ws/devel/.private/qpOASES/share/qpOASES/cmake/qpOASESConfig-version.cmake

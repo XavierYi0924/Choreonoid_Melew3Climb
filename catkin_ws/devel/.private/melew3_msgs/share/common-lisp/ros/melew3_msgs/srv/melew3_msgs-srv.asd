@@ -1,0 +1,31 @@
+
+(cl:in-package :asdf)
+
+(defsystem "melew3_msgs-srv"
+  :depends-on (:roslisp-msg-protocol :roslisp-utils :melew3_msgs-msg
+               :std_msgs-msg
+)
+  :components ((:file "_package")
+    (:file "AddMd80s" :depends-on ("_package_AddMd80s"))
+    (:file "_package_AddMd80s" :depends-on ("_package"))
+    (:file "FallAvoidanceMotion" :depends-on ("_package_FallAvoidanceMotion"))
+    (:file "_package_FallAvoidanceMotion" :depends-on ("_package"))
+    (:file "GenericMd80Msg" :depends-on ("_package_GenericMd80Msg"))
+    (:file "_package_GenericMd80Msg" :depends-on ("_package"))
+    (:file "SetLimitsMd80" :depends-on ("_package_SetLimitsMd80"))
+    (:file "_package_SetLimitsMd80" :depends-on ("_package"))
+    (:file "SetModeMd80s" :depends-on ("_package_SetModeMd80s"))
+    (:file "_package_SetModeMd80s" :depends-on ("_package"))
+    (:file "enter_control_mode" :depends-on ("_package_enter_control_mode"))
+    (:file "_package_enter_control_mode" :depends-on ("_package"))
+    (:file "exit_control_mode" :depends-on ("_package_exit_control_mode"))
+    (:file "_package_exit_control_mode" :depends-on ("_package"))
+    (:file "robot_config" :depends-on ("_package_robot_config"))
+    (:file "_package_robot_config" :depends-on ("_package"))
+    (:file "servo_setting" :depends-on ("_package_servo_setting"))
+    (:file "_package_servo_setting" :depends-on ("_package"))
+    (:file "set_pd_gain" :depends-on ("_package_set_pd_gain"))
+    (:file "_package_set_pd_gain" :depends-on ("_package"))
+    (:file "set_position_zero" :depends-on ("_package_set_position_zero"))
+    (:file "_package_set_position_zero" :depends-on ("_package"))
+  ))

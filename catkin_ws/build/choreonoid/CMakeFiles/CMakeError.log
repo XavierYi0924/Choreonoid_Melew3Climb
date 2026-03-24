@@ -1,0 +1,73 @@
+Performing C++ SOURCE FILE Test has_cpp20 failed with the following output:
+Change Dir: /home/mrp/catkin_ws/build/choreonoid/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_9398a/fast && /usr/bin/make -f CMakeFiles/cmTC_9398a.dir/build.make CMakeFiles/cmTC_9398a.dir/build
+make[1]: Entering directory '/home/mrp/catkin_ws/build/choreonoid/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9398a.dir/src.cxx.o
+/usr/bin/c++    -Dhas_cpp20   -std=c++20 -o CMakeFiles/cmTC_9398a.dir/src.cxx.o -c /home/mrp/catkin_ws/build/choreonoid/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command line option '-std=c++20'; did you mean '-std=c++2a'?
+make[1]: *** [CMakeFiles/cmTC_9398a.dir/build.make:66: CMakeFiles/cmTC_9398a.dir/src.cxx.o] Error 1
+make[1]: Leaving directory '/home/mrp/catkin_ws/build/choreonoid/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_9398a/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
+Change Dir: /home/mrp/catkin_ws/build/choreonoid/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_850ae/fast && /usr/bin/make -f CMakeFiles/cmTC_850ae.dir/build.make CMakeFiles/cmTC_850ae.dir/build
+make[1]: Entering directory '/home/mrp/catkin_ws/build/choreonoid/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_850ae.dir/src.c.o
+/usr/bin/cc   -Wreturn-type -DCMAKE_HAVE_LIBC_PTHREAD   -o CMakeFiles/cmTC_850ae.dir/src.c.o   -c /home/mrp/catkin_ws/build/choreonoid/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_850ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_850ae.dir/link.txt --verbose=1
+/usr/bin/cc  -Wreturn-type -DCMAKE_HAVE_LIBC_PTHREAD   -Wl,--disable-new-dtags  CMakeFiles/cmTC_850ae.dir/src.c.o  -o cmTC_850ae 
+/usr/bin/ld: CMakeFiles/cmTC_850ae.dir/src.c.o: in function `main':
+src.c:(.text+0x46): undefined reference to `pthread_create'
+/usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
+/usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_850ae.dir/build.make:87: cmTC_850ae] Error 1
+make[1]: Leaving directory '/home/mrp/catkin_ws/build/choreonoid/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_850ae/fast] Error 2
+
+
+Source file was:
+#include <pthread.h>
+
+void* test_func(void* data)
+{
+  return data;
+}
+
+int main(void)
+{
+  pthread_t thread;
+  pthread_create(&thread, NULL, test_func, NULL);
+  pthread_detach(thread);
+  pthread_join(thread, NULL);
+  pthread_atfork(NULL, NULL, NULL);
+  pthread_exit(NULL);
+
+  return 0;
+}
+
+Determining if the function pthread_create exists in the pthreads failed with the following output:
+Change Dir: /home/mrp/catkin_ws/build/choreonoid/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/make cmTC_113b2/fast && /usr/bin/make -f CMakeFiles/cmTC_113b2.dir/build.make CMakeFiles/cmTC_113b2.dir/build
+make[1]: Entering directory '/home/mrp/catkin_ws/build/choreonoid/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_113b2.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -Wreturn-type -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_113b2.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_113b2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_113b2.dir/link.txt --verbose=1
+/usr/bin/cc  -Wreturn-type -DCHECK_FUNCTION_EXISTS=pthread_create   -Wl,--disable-new-dtags  CMakeFiles/cmTC_113b2.dir/CheckFunctionExists.c.o  -o cmTC_113b2  -lpthreads 
+/usr/bin/ld: cannot find -lpthreads
+collect2: error: ld returned 1 exit status
+make[1]: *** [CMakeFiles/cmTC_113b2.dir/build.make:87: cmTC_113b2] Error 1
+make[1]: Leaving directory '/home/mrp/catkin_ws/build/choreonoid/CMakeFiles/CMakeTmp'
+make: *** [Makefile:121: cmTC_113b2/fast] Error 2
+
+
+

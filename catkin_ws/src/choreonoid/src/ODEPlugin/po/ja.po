@@ -1,0 +1,62 @@
+# Japanese translations for Choreonoid package.
+# This file is distributed under the same license as the Choreonoid package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Choreonoid\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2021-10-25 12:41+0900\n"
+"PO-Revision-Date: 2021-10-25 12:00+0900\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "GazeboODESimulatorItem"
+msgstr "GazeboODEシミュレータアイテム"
+
+msgid "ODESimulatorItem"
+msgstr "ODEシミュレータアイテム"
+
+msgid "Iterative (quick step)"
+msgstr "反復(quick step)"
+
+msgid "Big matrix"
+msgstr ""
+
+msgid "Step mode"
+msgstr "ステップモード"
+
+msgid "Gravity"
+msgstr "重力加速度"
+
+msgid "Friction"
+msgstr "摩擦係数"
+
+msgid "Limit joint range"
+msgstr "関節範囲拘束"
+
+msgid "Global ERP"
+msgstr "グローバルERP"
+
+msgid "Global CFM"
+msgstr "グローバルCFM"
+
+msgid "Iterations"
+msgstr "反復回数"
+
+msgid "Over relaxation"
+msgstr "SOR係数"
+
+msgid "Limit correcting vel."
+msgstr "深度補正速度制限"
+
+msgid "Max correcting vel."
+msgstr "最大深度補正速度"
+
+msgid "2D mode"
+msgstr "2Dモード"
+
+msgid "Use WorldItem's Collision Detector"
+msgstr "ワールドアイテムの干渉検出器を使用"

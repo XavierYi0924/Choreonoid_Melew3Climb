@@ -1,0 +1,113 @@
+# Japanese translations for Choreonoid package.
+# This file is distributed under the same license as the Choreonoid package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Choreonoid\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2023-08-03 10:29+0900\n"
+"PO-Revision-Date: 2021-10-25 12:00+0900\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Balance Adjustment"
+msgstr "バランス補正"
+
+msgid "Starting margin"
+msgstr "開始マージン"
+
+msgid "Initial time margin before applying the balancer"
+msgstr "バランス補正適用前の時間マージン"
+
+msgid "[s]"
+msgstr "[秒]"
+
+msgid "Iteration"
+msgstr "計算回数"
+
+msgid "Plain-initial"
+msgstr "元軌道を無視"
+
+msgid "Initial balanced trajectory only depends on the desired ZMP"
+msgstr "元の腰軌道を無視して目標ZMPのみから腰軌道を計算"
+
+msgid "Boundary"
+msgstr "境界"
+
+msgid "Boundary condition type"
+msgstr "境界条件タイプ"
+
+msgid "Boundary smoother trajectory type"
+msgstr "境界平滑化軌道タイプ"
+
+msgid "Time length of smooth connection"
+msgstr "平滑接続時間長"
+
+msgid "Boundary CM adjustment"
+msgstr "境界重心軌道補正"
+
+msgid "Adjust the original CM trajectories around the boundaries"
+msgstr "境界周りの重心軌道を補正する"
+
+msgid "Transition time of the adjustment"
+msgstr "補正遷移時間"
+
+msgid "Waist height relaxation"
+msgstr "腰高さの緩和"
+
+msgid "Vertical waist position is lowered when the leg length is not enough."
+msgstr "脚長が十分でないときに腰の垂直位置を下げます．"
+
+msgid "Gravity"
+msgstr "重力加速度"
+
+msgid "[m/s^2]"
+msgstr "[m/s^2]"
+
+msgid "Dynamics time ratio"
+msgstr "動力学時間比"
+
+msgid "ZMP output:"
+msgstr "ZMP出力："
+
+msgid "Original input"
+msgstr "元の入力"
+
+msgid "ZMP for adjusted motion"
+msgstr "補正された動作のZMP"
+
+msgid "Applying the waist balance filter with {} iterations ... "
+msgstr "バランス補正を計算回数{}回で適用中…"
+
+msgid "OK ! ({} sec consumed.)"
+msgstr "完了 ! ({}秒消費）"
+
+msgid "failed."
+msgstr "失敗．"
+
+msgid "zero-velocity"
+msgstr "停止（速度０）"
+
+msgid "position"
+msgstr "位置を保存"
+
+msgid "cubic"
+msgstr "3次"
+
+msgid "quintic"
+msgstr "4次"
+
+msgid "off"
+msgstr "オフ"
+
+msgid "Warning: The body is floating at {0} (Vertical CM acceleration is {1})."
+msgstr "警告： {0}[s]にてボディが浮いています（重心垂直加速度は{1}[m/s^2]です）．"
+
+msgid "Waist height relaxation cannot be applied because the robot is not a biped robot."
+msgstr "ロボットが二足歩行型でないため，腰高さの緩和は適用出来ません．"
+
+msgid "Waist height relaxation cannot be applied because the knee joints are not specified."
+msgstr "膝関節が指定されていないため，腰高さの緩和は適用出来ません．"

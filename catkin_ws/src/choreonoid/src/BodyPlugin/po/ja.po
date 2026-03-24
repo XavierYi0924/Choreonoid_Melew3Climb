@@ -1,0 +1,1839 @@
+# Japanese translations for Choreonoid package.
+# This file is distributed under the same license as the Choreonoid package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Choreonoid\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-05 00:01+0900\n"
+"PO-Revision-Date: 2021-10-25 12:00+0900\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "AISTSimulatorItem"
+msgstr "AISTシミュレータアイテム"
+
+msgid "Forward dynamics"
+msgstr "順動力学"
+
+msgid "Kinematics"
+msgstr "運動学"
+
+msgid "Semi-implicit Euler"
+msgstr "半陰オイラー"
+
+msgid "Runge-Kutta"
+msgstr "ルンゲクッタ"
+
+msgid ""
+"AISTSimulatorItem::setFriction(Link* link1, Link* link2, double staticFriction, double "
+"dynamicFriction) is not supported in this version.\n"
+"Please use the material table instead of it."
+msgstr ""
+"AISTSimulatorItem::setFriction(Link* link1, Link* link2, double staticFriction, double "
+"dynamicFriction)はこのバージョンではサポートされていません．\n"
+"代わりにマテリアルテーブルご使用ください．"
+
+msgid "The mass of {0} is {1}, which cannot be simulated by AISTSimulatorItem."
+msgstr "{1}の質量{0}はAISTシミュレータアイテムではシミュレートできません．"
+
+msgid "{0} is attached to {1}, but attached bodies are not supported by AISTSimulatorItem."
+msgstr "{0}は{1}にアタッチされています．これはAISTシミュレータアイテムではサポートされていません．"
+
+msgid "Confirmation of all link position recording mode"
+msgstr "全リンク位置記録モードの確認"
+
+msgid ""
+"{0}: There is a model that has free-type joints other than the root link and all the link "
+"positions should be recorded in this case. Do you enable the mode to do it?"
+msgstr ""
+"{0}: ルートリンク以外でフリー型の関節を有するモデルがあるため，全てのリンクの位置を記録するのが望"
+"ましいです．これを行うモードを有効にしますか？"
+
+msgid "{} uses the ForwardDynamicsCBM module to perform the high-gain control."
+msgstr "{}はハイゲイン制御を行うためForwardDynamicsCBMモジュールを使います．"
+
+msgid "{0}: Actuation mode \"{1}\" cannot be used for the pseudo continuous track link {2} of {3}"
+msgstr ""
+"{0}: アクチュエーションモード \"{1}\" を{3}の簡易無限軌道リンク{2}に使用することはできません"
+
+msgid "{0}: Actuation mode \"{1}\" specified for the {2} link of {3} is not supported."
+msgstr ""
+"{0}: {3}の{2}リンクに指定されているアクチュエーションモード \"{1}\" はサポートされていません．"
+
+msgid "Dynamics mode"
+msgstr "動力学モード"
+
+msgid "Integration mode"
+msgstr "積分モード"
+
+msgid "Gravity"
+msgstr "重力加速度"
+
+msgid "Min friction coefficient"
+msgstr "最小摩擦係数"
+
+msgid "Max friction coefficient"
+msgstr "最大摩擦係数"
+
+msgid "Contact culling distance"
+msgstr "接触間引き距離"
+
+msgid "Contact culling depth"
+msgstr "接触間引き深度"
+
+msgid "Error criterion"
+msgstr "収束判定誤差基準"
+
+msgid "Max iterations"
+msgstr "最大反復計算回数"
+
+msgid "CC depth"
+msgstr "接触補正深度"
+
+msgid "CC v-ratio"
+msgstr "接触補正速度係数"
+
+msgid "Kinematic walking"
+msgstr "運動学歩行モード"
+
+msgid "2D mode"
+msgstr "2Dモード"
+
+msgid "Old accel sensor mode"
+msgstr "旧加速センサモード"
+
+msgid "BodyBar"
+msgstr "ボディバー"
+
+msgid "Move the selected bodies to the origin"
+msgstr "選択ボディを原点へ移動"
+
+msgid "Set the preset initial pose to the selected bodies"
+msgstr "選択ボディを初期姿勢に"
+
+msgid "Set the preset standard pose to the selected bodies"
+msgstr "選択ボディを標準姿勢に"
+
+msgid "Record pose"
+msgstr "姿勢の記録"
+
+msgid "Update recoreded pose"
+msgstr "記録姿勢の更新"
+
+msgid "Recall recorded pose"
+msgstr "記録姿勢の呼び出し"
+
+msgid "Copy the right side pose to the left side"
+msgstr "右側の姿勢を左側にコピー"
+
+msgid "Mirror copy"
+msgstr "反転コピー"
+
+msgid "Copy the left side pose to the right side"
+msgstr "左側の姿勢を右側にコピー"
+
+msgid "Pose list item creation"
+msgstr "姿勢リストアイテムの作成"
+
+msgid ""
+"Do you want to create a pose list item for {0}? The pose list is necessary for recording poses."
+msgstr "{0}用の姿勢リストアイテムを作成しますか？姿勢の記録には姿勢リストが必要です。"
+
+msgid ""
+"Unable to record a pose as a pose item because no target body item or pose list item is specified."
+msgstr ""
+"対象のボディアイテムまたは姿勢リストアイテムが指定されていないので、姿勢を姿勢アイテムとして記録す"
+"ることができません。"
+
+msgid "BodyContactPointLogItem"
+msgstr "ボディ接触点ログアイテム"
+
+msgid "Body Contact Point Log File"
+msgstr "ボディ接触点ログファイル"
+
+msgid "Body Contact Point Log File (YAML)"
+msgstr "ボディ接触点ログファイル（YAML）"
+
+msgid "BodyContactPointLoggerItem"
+msgstr "ボディ接触点ロガーアイテム"
+
+msgid "Offset {0}"
+msgstr "オフセット {0}"
+
+msgid "Offset {0} ( {1} )"
+msgstr "オフセット {0} ( {1} )"
+
+msgid "BodyItem"
+msgstr "ボディアイテム"
+
+msgid "{0} has been detached from {1} of {2}."
+msgstr "{0}は{2}の{1}からデタッチされました．"
+
+msgid "{0} has been attached to {1} of {2}."
+msgstr "{0}は{2}の{1}にアタッチされました．"
+
+msgid "Model name"
+msgstr "モデル名"
+
+msgid "Num links"
+msgstr "リンク数"
+
+msgid "Num joints"
+msgstr "関節数"
+
+msgid "Num devices"
+msgstr "デバイス数"
+
+msgid "Root link"
+msgstr "ルートリンク"
+
+msgid "Base link"
+msgstr "ベースリンク"
+
+msgid "Mass"
+msgstr "質量"
+
+msgid "Center of mass"
+msgstr "重心"
+
+msgid "Dynamic"
+msgstr "動的"
+
+msgid "Model type"
+msgstr "モデルタイプ"
+
+msgid "Static"
+msgstr "静的"
+
+msgid "Root fixed"
+msgstr "ルート固定"
+
+msgid "Collision detection"
+msgstr "干渉検出"
+
+msgid "Self-collision detection"
+msgstr "自己干渉検出"
+
+msgid "Lock location"
+msgstr "配置ロック"
+
+msgid "Scene sensitive"
+msgstr "シーン感知"
+
+msgid "Transparency"
+msgstr "透明度"
+
+msgid "Visible link selection"
+msgstr "表示リンクの選択"
+
+msgid "Enable attachment"
+msgstr "アタッチメント有効化"
+
+msgid "Multiplexing number"
+msgstr "多重化数"
+
+msgid "Existence"
+msgstr "存在"
+
+msgid "Mismatched size of the stored joint positions for {}"
+msgstr "{}に対して読み込まれる関節位置情報のサイズが一致しません"
+
+msgid "Mismatched size of the stored initial joint positions for {}"
+msgstr "{}に対して読み込まれる初期関節位置情報のサイズが一致しません"
+
+msgid "Change the position of \"{0}\""
+msgstr "\"{0}\" のポジションを変更"
+
+msgid "Restore the position of \"{0}\""
+msgstr "\"{0}\" のポジションの取り戻し"
+
+msgid "Ext model file mode:"
+msgstr "外部モデルファイルモード："
+
+msgid "Link to the original model files"
+msgstr "元のモデルファイルにリンク"
+
+msgid "Copy model files"
+msgstr "元のモデルファイルをコピー"
+
+msgid "Embed models"
+msgstr "モデルを埋め込む"
+
+msgid "Replace with standard scene files"
+msgstr "標準シーンファイルに置き換え"
+
+msgid "Replace with OBJ model files"
+msgstr "OBJモデルファイルに置き換え"
+
+msgid "Integrate transforms"
+msgstr "座標変換を統合"
+
+msgid "Body"
+msgstr "ボディ"
+
+msgid "Scene / Mesh"
+msgstr "シーン／メッシュ"
+
+msgid "Shape type:"
+msgstr "形状タイプ："
+
+msgid "Visual"
+msgstr "表示用"
+
+msgid "Collision"
+msgstr "干渉検出用"
+
+msgid "Coordinate:"
+msgstr "座標："
+
+msgid "Global"
+msgstr "グローバル"
+
+msgid "Local"
+msgstr "ローカル"
+
+msgid "Standard scene file"
+msgstr "標準シーンファイル"
+
+msgid "OBJ file"
+msgstr "OBJファイル"
+
+msgid "Group selection"
+msgstr "グループの選択"
+
+msgid "Store the body file in the library directory"
+msgstr "ボディファイルをライブラリディレクトリ内に格納する"
+
+msgid "&Accept"
+msgstr "決定(&A)"
+
+msgid "&Cancel"
+msgstr "キャンセル(&C)"
+
+msgid "Top-level"
+msgstr "トップレベル"
+
+msgid "Drop was canceled because item \"{0}\" is duplicated in the drop position."
+msgstr "ドロップ位置でアイテム \"{0}\" が重複するためドロップはキャンセルされました． "
+
+msgid "Group Name:"
+msgstr "グループ名；"
+
+msgid "Body Library"
+msgstr "ボディライブラリ"
+
+msgid "BodyLibraryView"
+msgstr "ボディライブラリビュー"
+
+msgid "Create Group"
+msgstr "グループの作成"
+
+msgid "Create Sub Group"
+msgstr "サブグループの作成"
+
+msgid "&Create"
+msgstr "作成（&C)"
+
+msgid "Group name \"{0}\" is duplicated. Please use another name for a new group."
+msgstr ""
+"グループ名 \"{0}\" は重複しています．新しいグループには別の名前を使用するようにしてください．"
+
+msgid "The body cannot be registered in the body library due to the lack of its name."
+msgstr "このボディは名前が無いためボディライブラリに登録することができません．"
+
+msgid ""
+"Name \"{0}\" of the body is already registered in the same group. Please modify the name or group "
+"to avoid the name duplication."
+msgstr ""
+"ボディの名前 \"{0}\" は同じグループで既に登録されています．名前かグループのどちらかを変更して名前"
+"の重複を避けるようにしてください．"
+
+msgid "Export to Body File"
+msgstr "ボディファイルへのエクスポート"
+
+msgid ""
+"Body item \"{0}\" cannot be registered in the body library because it does not have its "
+"corresponding body file. Do you want to export it as a body file for registration in the body "
+"library?"
+msgstr ""
+"ボディアイテム \"{0}\" は対応するボディファイルを持たないためボディライブラリに登録できません．ボ"
+"ディライブラリに登録するためボディファイルへのエクスポートを行いますか？"
+
+msgid ""
+"The directory \"{0}\" to put the body file in the body library cannot be created. The "
+"registration was canceled."
+msgstr ""
+" ボディライブラリ内でボディファイルを配置するディレクトリ\"{0}\" を作成できません．登録はキャンセ"
+"ルされました．"
+
+msgid "The directory \"{0}\" in the body library cannot be created. The registration was canceled."
+msgstr "ボディライブラリ内のディレクトリ \"{0}\" を作成できません．登録はキャンセルされました．"
+
+msgid ""
+"{0} cannot be stored in the library directory becasue its element file \"{1}\" is not placed in "
+"the same or lower directory as the main model file \"{2}\"."
+msgstr ""
+"{0}はその構成ファイル  \"{1}\" がメインモデルファイル \"{2}\" と同じか下位のディレクトリに配置され"
+"ていないため，ボディライブラリ内に格納できません．"
+
+msgid ""
+"{0} cannot be stored in the library directory due to an error in creating sub directory \"{1}\"."
+msgstr "{0}はサブディレクトリ \"{1}\" の作成エラーによりライブラリディレクトリ内に格納できません．"
+
+msgid "{0} cannot be stored in the library directory due to a file copy error."
+msgstr "{0}はファイルコピーエラーにより、ライブラリディレクトリ内に格納できません．"
+
+msgid "Select Thumbnail Image for {0}"
+msgstr "{0}のサムネイル画像の選択"
+
+msgid "Select"
+msgstr "選択"
+
+msgid "Images files (*.png *.jpg *.jpeg)"
+msgstr "画像ファイル (*.png *.jpg *.jpeg)"
+
+msgid "Any files (*)"
+msgstr "全てのファイル (*)"
+
+msgid "Rename Group"
+msgstr "グループ名の変更"
+
+msgid "Modify Registration Name"
+msgstr "登録名の変更"
+
+msgid "&Apply"
+msgstr "適用(&A)"
+
+msgid ""
+"The name cannot be modified because the corresponding files in the library directory cannot be "
+"moved to the renamed ones."
+msgstr ""
+"ライブラリディレクトリ内で対応するファイルを名前変更後のディレクトリに移動できないため，名前を変更"
+"することができません．"
+
+msgid "Name \"{0}\" is duplicated. Please use another name."
+msgstr "名前 \"{0}\" は重複しています．別の名前を使用してください．"
+
+msgid "Remove Selected Items"
+msgstr "選択アイテムの削除"
+
+msgid ""
+"Do you really want to remove the selected items? Note that files stored internally in the library "
+"directory will also be removed."
+msgstr ""
+"選択アイテムを本当に削除しますか？ライブラリディレクトリ内に格納されているファイルも削除されること"
+"に注意してください．"
+
+msgid "Move Selected Items"
+msgstr "選択アイテムの移動"
+
+msgid "&Move"
+msgstr "移動(&M)"
+
+msgid "Item \"{0}\" cannot be moved to \"{1}\" due to the name duplication."
+msgstr "アイテム \"{0}\" は名前の重複のため \"{1}\" に移動することができません．"
+
+msgid "Load"
+msgstr "読込"
+
+msgid "Move"
+msgstr "移動"
+
+msgid "Remove"
+msgstr "削除"
+
+msgid "Rename"
+msgstr "名前の変更"
+
+msgid "Set Thumbnail"
+msgstr "サムネイルの設定"
+
+msgid "Clear Thumbnail"
+msgstr "サムネイルの解除"
+
+msgid "Failed to load the body library index file \"{0}\": {1}"
+msgstr "ボディライブラリインデックスファイル \"{0}\" を読み込むことができません： {1}"
+
+msgid "Name is not specified for item in the index file \"{0}\"."
+msgstr "インデックスファイル \"{0}\" においてアイテムの名前が指定されていません．"
+
+msgid "Invalid type name \"{0}\" in the index file \"{1}\"."
+msgstr "インデックスファイル \"{1}\" における無効なタイプ名 \"{0}\"．"
+
+msgid "File is not specified for item \"{0}\" in the index file \"{1}\"."
+msgstr "インデックスファイル \"{1}\" においてアイテム \"{0}\" のファイルが指定されていません．"
+
+msgid ""
+"Temporary directory for extracting a body library cannot be created in the library directory: {1}"
+msgstr ""
+"ボディライブラリを展開するための一時ディレクトリをライブラリディレクトリ内に作成できません： {1}"
+
+msgid "Body library archive \"{0}\" has been imported."
+msgstr "ボディライブラリアーカイブ \"{0}\" をインポートしました．"
+
+msgid "Extracted files cannot be copied into the library directory: {1}"
+msgstr "展開されたファイルをライブラリディレクトリにコピーできません： {1}"
+
+msgid "The body library has been exported to \"{0}\"."
+msgstr "ボディライブラリを \"{0}\" にエクスポートしました．"
+
+msgid "A temporary directory for exporting library files cannot be created: {0}"
+msgstr "ボディライブラリをエクスポートするための一時ディレクトリを作成できません： {0}"
+
+msgid "Library files cannot be copied to a temporary directory for exportation: {0}"
+msgstr "ライブラリのファイルをエクスポートのための一時ディレクトリにコピーできません： {0}"
+
+msgid "Body / Link"
+msgstr "ボディ／リンク"
+
+msgid "BodyLinkView"
+msgstr "ボディ／リンクビュー"
+
+msgid "Index:"
+msgstr "インデックス"
+
+msgid "Joint ID:"
+msgstr "関節ID"
+
+msgid "Joint Type:"
+msgstr "関節タイプ"
+
+msgid "Joint Axis:"
+msgstr "関節軸"
+
+msgid "Material:"
+msgstr "マテリアル"
+
+msgid "Link Position [m],[deg]"
+msgstr "リンク位置 [m],[deg]"
+
+msgid "Matrix"
+msgstr "行列"
+
+msgid "min"
+msgstr "最小"
+
+msgid "max"
+msgstr "最大"
+
+msgid "Collisions"
+msgstr "干渉"
+
+msgid "Self-Collisions"
+msgstr "自己干渉"
+
+msgid "ZMP [m]"
+msgstr "ZMP [m]"
+
+msgid "Rotation"
+msgstr "回転"
+
+msgid "Joint Angle [deg]"
+msgstr "関節角 [deg]"
+
+msgid "Joint Velocity [deg/s]"
+msgstr "関節角速度 [deg/s]"
+
+msgid "Slide"
+msgstr "直動"
+
+msgid "Joint Translation [m]:"
+msgstr "関節並進位置 [m]"
+
+msgid "Joint Velocity [m/s]"
+msgstr "関節速度 [m/s]"
+
+msgid "Use Quaternion"
+msgstr "クォータニオンを使用"
+
+msgid "BodyMarkerItem"
+msgstr "ボディマーカアイテム"
+
+msgid "Cross"
+msgstr "十字"
+
+msgid "Sphere"
+msgstr "球"
+
+msgid "Axes"
+msgstr "座標軸"
+
+msgid "Target link \"{0}\" of \"{1}\" is not found."
+msgstr "\"{1}\" の対象リンク \"{0}\" がみつかりません．"
+
+msgid "Target node \"{0}\" of \"{1}\" is not found."
+msgstr "\"{1}\" の対象ノード \"{0}\" がみつかりません．"
+
+msgid "Marker type"
+msgstr "マーカタイプ"
+
+msgid "Link"
+msgstr "リンク"
+
+msgid "Node"
+msgstr "ノード"
+
+msgid "Translation"
+msgstr "位置"
+
+msgid "Size"
+msgstr "サイズ"
+
+msgid "Color"
+msgstr "色"
+
+msgid "BodyMotionControllerItem"
+msgstr "ボディモーションコントローラアイテム"
+
+msgid "Any body motion item for {} is not found."
+msgstr "{}用のボディモーションアイテムが見つかりません．"
+
+msgid "{0} for {1} is empty."
+msgstr "{1}用の{0}は空です．"
+
+msgid "Frame rate {0} of \"{1}\" is different from the simulation frame rate {2}."
+msgstr "\"{1}\" のフレームレート {0} はシミュレーションのフレームレート {2} と異なります．"
+
+msgid "Control mode"
+msgstr "制御モード"
+
+msgid "Number of joints"
+msgstr "関節数"
+
+msgid "BodyMotionItem"
+msgstr "ボディモーションアイテム"
+
+msgid "Body Motion"
+msgstr "ボディモーション"
+
+msgid "Body Motion (version 1.0)"
+msgstr "ボディモーション バージョン 1.0"
+
+msgid "Data conversion"
+msgstr "データ変換"
+
+msgid "Generate old-format position data items"
+msgstr "旧形式位置データアイテムの生成"
+
+msgid "Restore position data from old-format data items"
+msgstr "位置データを旧形式データアイテムから復元"
+
+msgid "Confirm"
+msgstr "確認"
+
+msgid "Do you overwrite the data of \"{}\"?"
+msgstr "{}のデータを上書きしますか？"
+
+msgid "Do you add the data of \"{0}\" to \"{1}\" as a sequence data element?"
+msgstr "\"{0}\" のデータを \"{1}\" のシーケンスデータ要素として追加しますか？"
+
+msgid "Number of link positions"
+msgstr "リンク位置数"
+
+msgid "Number of joint displacements"
+msgstr "関節変位数"
+
+msgid "Body joint velocity update"
+msgstr "ボディ関節速度の更新"
+
+msgid ""
+"The Collision deteciton module used in this plugin is implemented using the OPCODE library "
+"(http://www.codercorner.com/Opcode.htm).\n"
+msgstr ""
+
+msgid "Apply pose"
+msgstr "姿勢の適用"
+
+msgid "Fetch pose"
+msgstr "姿勢の取込"
+
+msgid "Pose{0}{1}{2}"
+msgstr "姿勢{1}{2}"
+
+msgid "BodyPoseListItem"
+msgstr "ボディ姿勢リストアイテム"
+
+msgid "PoseList"
+msgstr "姿勢リスト"
+
+msgid "Pose item"
+msgstr "姿勢アイテム"
+
+msgid "Pose list file"
+msgstr "姿勢リストファイル"
+
+msgid "Archive mode"
+msgstr "アーカイブモード"
+
+msgid "Body Pose List"
+msgstr "ボディ姿勢リスト"
+
+msgid "Body Pose List File"
+msgstr "ボディ姿勢リストファイル"
+
+msgid "BodyStateLoggerItem"
+msgstr "ボディ状態ロガーアイテム"
+
+msgid "Online logging"
+msgstr "オンラインロギング"
+
+msgid "All joints"
+msgstr "全関節"
+
+msgid "Joint effort"
+msgstr "関節エフォート"
+
+msgid "Body State"
+msgstr "ボディ状態"
+
+msgid "BodyStateView"
+msgstr "ボディ状態ビュー"
+
+msgid "OFF"
+msgstr "オフ"
+
+msgid "ON"
+msgstr "オン"
+
+msgid "BodySuperimposer"
+msgstr "ボディスーパーインポーザ"
+
+msgid "Align with the target origin"
+msgstr "ターゲット原点に設定"
+
+msgid "Coordinate System:"
+msgstr "座標系："
+
+msgid "Parallel tracking"
+msgstr "平行トラッキング"
+
+msgid "Camera Creation"
+msgstr "カメラの作成"
+
+msgid "{0} Camera"
+msgstr "{0}カメラ"
+
+msgid "BodySyncCameraItem"
+msgstr "ボディ同期カメラ"
+
+msgid "Target link"
+msgstr "対象リンク"
+
+msgid "CollisionDetectionController"
+msgstr "干渉検出コントローラ"
+
+msgid "The function to read CollisionSeq is not implemented."
+msgstr "CollisionSeqを読み込む機能は実装されていません．"
+
+msgid "CollisionSeqItem"
+msgstr "干渉時系列アイテム"
+
+msgid "Collision Data"
+msgstr "干渉データ"
+
+msgid "No delay mode"
+msgstr "無遅延モード"
+
+msgid "Controller options"
+msgstr "コントローラオプション"
+
+msgid "DeviceOverwriteItem"
+msgstr "デバイス上書きアイテム"
+
+msgid "The target body item of \"{0}\" is not found."
+msgstr "\"{0}\" の対象アイテムがみつかりません．"
+
+msgid "Input label"
+msgstr "入力名"
+
+msgid "Input"
+msgstr "入力"
+
+msgid "Output label"
+msgstr "出力名"
+
+msgid "Output"
+msgstr "出力"
+
+msgid "Off"
+msgstr "オフ"
+
+msgid "On"
+msgstr "オン"
+
+msgid "DigitalIoDeviceView"
+msgstr "デジタルI/Oデバイスビュー"
+
+msgid "I/O device"
+msgstr "I/Oデバイス"
+
+msgid "{0} (No I/O)"
+msgstr "{0} (I/O無し)"
+
+msgid "GLVisionSimulatorItem"
+msgstr "GLビジョンシミュレータアイテム"
+
+msgid "Single"
+msgstr "単一"
+
+msgid "Sensor"
+msgstr "センサ"
+
+msgid "Screen"
+msgstr "スクリーン"
+
+msgid "{0} detected vision sensor \"{1}\" of {2} as a target.\n"
+msgstr "{0} は {2} の \"{1}\" を対象視覚センサとして検出しました．\n"
+
+msgid "{} has no target sensors"
+msgstr "{}は対象センサを有していません"
+
+msgid "{0}: Target sensor \"{1}\" cannot be initialized.\n"
+msgstr "{0}: 対象センサ \"{1}\" の初期化に失敗しました．\n"
+
+msgid "Target bodies"
+msgstr "対象ボディ"
+
+msgid "Target sensors"
+msgstr "対象センサ"
+
+msgid "Max frame rate"
+msgstr "最大フレームレート"
+
+msgid "Max latency [s]"
+msgstr "最大レイテンシ[秒]"
+
+msgid "Record vision data"
+msgstr "ビジョンデータの記録"
+
+msgid "Thread mode"
+msgstr "スレッドモード"
+
+msgid "Best effort"
+msgstr "ベストエフォート"
+
+msgid "All scene objects"
+msgstr "全てのシーンオブジェクト"
+
+msgid "Precision ratio of range sensors"
+msgstr "レンジセンサ精度係数"
+
+msgid "Depth error"
+msgstr "深度エラー"
+
+msgid "Background color"
+msgstr "背景色"
+
+msgid "Head light"
+msgstr "ヘッドライト"
+
+msgid "World light"
+msgstr "ワールドライト"
+
+msgid "Additional lights"
+msgstr "追加のライト"
+
+msgid "Anti-aliasing"
+msgstr "アンチエイリアシング"
+
+msgid "\"{}\" cannot be opened."
+msgstr "\"{}\" が開けません．"
+
+msgid "\"{}\" contains different size columns."
+msgstr "\"{}\" に異なるサイズの列が含まれています．"
+
+msgid "Warning"
+msgstr "警告"
+
+msgid ""
+"The frame rate of a body motion exported as HRPSYS files should be standard value 200, but the "
+"frame rate of \"{0}\" is {1}. The exported data may cause a problem.\n"
+"\n"
+"Do you continue to export ?"
+msgstr ""
+"HRPSYS用ファイルのフレームレートは標準で200となっていますが，エクスポートしようとしている \"{0}\" "
+"のフレームレートは{1}となっており，これによって問題が起こる可能性があります．\n"
+"\n"
+"エクスポートを続けますか？"
+
+msgid ""
+"A fault has been detected. Please check the report in the MessageView.\n"
+"\n"
+"Do you continue to export ?"
+msgstr ""
+"障害を検出しました．メッセージビュー内に出力される内容を確認してください．\n"
+"\n"
+"エクスポートを続けますか ?"
+
+msgid ""
+"{} faults have been detected. Please check the report in the MessageView.\n"
+"\n"
+"Do you continue to export ?"
+msgstr ""
+"{} 箇所の障害を検出しました．メッセージビュー内に出力される内容を確認してください．\n"
+"\n"
+"エクスポートを続けますか ?"
+
+msgid "There is no ZMP data. Do you continue to export ?"
+msgstr "ZMPのデータがありませんが，エクスポートを続けますか？"
+
+msgid "HRPSYS Sequence File Set"
+msgstr "HRPSYSシーケンスファイル一式"
+
+msgid "HRPSYS Log File"
+msgstr "HRPSYSログファイル"
+
+msgid "IoConnectionMapItem"
+msgstr "IO接続マップアイテム"
+
+msgid "Output Device"
+msgstr "出力デバイス"
+
+msgid "Signal No"
+msgstr "信号No"
+
+msgid "Input Device"
+msgstr "入力デバイス"
+
+msgid "Note"
+msgstr "注釈"
+
+msgid "I/O Connection"
+msgstr "I/O接続"
+
+msgid "IoConnectionView"
+msgstr "I/O接続アイテム"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "There are no I/O devices in the world."
+msgstr "ワールドにI/Oデバイスが存在しません．"
+
+msgid "Joint Displacement"
+msgstr "関節変位"
+
+msgid "JointDisplacementView"
+msgstr "関節変位ビュー"
+
+msgid "Selected joints only"
+msgstr "選択関節のみ"
+
+msgid "Show private joints"
+msgstr "非公開関節を表示"
+
+msgid "Joint ID"
+msgstr "関節ID"
+
+msgid "Joint name"
+msgstr "関節名"
+
+msgid "Overlap joint name"
+msgstr "関節名を上に表示"
+
+msgid "Slider"
+msgstr "スライダ"
+
+msgid "Dial"
+msgstr "ダイヤル"
+
+msgid "Phase"
+msgstr "位相"
+
+msgid "Limit the slider range to within +/- 360 deg."
+msgstr "スライダの範囲を±360°以内に制限"
+
+msgid "Joint Trajectories"
+msgstr "関節軌道"
+
+msgid "JointGraphView"
+msgstr "関節グラフビュー"
+
+msgid "Joint State"
+msgstr "関節状態"
+
+msgid "JointStateView"
+msgstr "関節状態ビュー"
+
+msgid "Displacement"
+msgstr "変位"
+
+msgid "Torque"
+msgstr "トルク"
+
+msgid "Kinematic Fault Checker"
+msgstr "運動学障害チェッカ"
+
+msgid "Joint position check"
+msgstr "関節位置チェック"
+
+msgid "Angle margin"
+msgstr "角度マージン"
+
+msgid "Translation margin"
+msgstr "並進量マージン"
+
+msgid "Joint velocity check"
+msgstr "関節速度チェック"
+
+msgid "Limit ratio"
+msgstr "仕様制約値に対する割合"
+
+msgid "Selected joints"
+msgstr "選択関節"
+
+msgid "Non-selected joints"
+msgstr "非選択関節"
+
+msgid "Self-collision check"
+msgstr "自己干渉チェック"
+
+msgid "Time bar's range only"
+msgstr "タイムバーの範囲内に適用"
+
+msgid "No BodyMotionItems are selected."
+msgstr "BodyMotionアイテムが選択されていません．"
+
+msgid "{} is not owned by any BodyItem. Check skiped."
+msgstr "{}はボディアイテムの所有ではありませんので，チェックをしません．"
+
+msgid "Applying the Kinematic Fault Checker to {} ..."
+msgstr "{}に対して運動学的障害チェッカを適用中…"
+
+msgid "A fault has been detected."
+msgstr "障害が検出されました．"
+
+msgid "{} faults have been detected."
+msgstr "{}個の障害が検出されました．"
+
+msgid "No faults have been detected."
+msgstr "障害は検出されませんでした．"
+
+msgid ""
+"{0:7.3f} [s]: Position limit over of {1} ({2} is beyond the range ({3} , {4}) with margin {5}.)"
+msgstr ""
+"{0:7.3f} [秒]: {1}の関節位置制約オーバー ({2} は範囲({3} , {4})のマージン{5}を超えています．"
+
+msgid "{0:7.3f} [s]: Position limit over of {1} ({2} is beyond the range ({3} , {4}).)"
+msgstr "{0:7.3f} [秒]: {1}の関節位置制約オーバー ({2} は範囲({3} , {4})を超えています．"
+
+#, fuzzy, c-format
+msgid "{0:7.3f} [s]: Velocity limit over of {1} ({2} is {3:.0f}% of the range ({4} , {5}).)"
+msgstr "{0:7.3f} [秒]: {1}の速度リミットオーバー ({2}は範囲({4} , {5})の{3:.0f}%を超えています．"
+
+msgid "{0:7.3f} [s]: Collision between {1} and {2}"
+msgstr "{0:7.3f} [秒]: {1}と{2}の干渉を検出"
+
+msgid "KinematicSimulatorItem"
+msgstr "運動学シミュレータアイテム"
+
+msgid ""
+"Body multiplexing is not supported by the kinematics simulator item with the current collision "
+"detector that does not support the geometry removal function."
+msgstr ""
+
+msgid "KinematicsBar"
+msgstr "運動学バー"
+
+msgid "Enable forward kinematics"
+msgstr "順運動学を有効化"
+
+msgid "Use preset Kinematics"
+msgstr "プリセット運動学を使用"
+
+msgid "Enable inverse kinematics"
+msgstr "逆運動学を有効化"
+
+msgid "Enable link orientation editing"
+msgstr "リンク姿勢編集の許可"
+
+msgid "Penetration block mode"
+msgstr "貫通ブロックモード"
+
+msgid "Highlight colliding links"
+msgstr "干渉リンクのハイライト表示"
+
+msgid "Kinematics Operation Setup"
+msgstr "運動学操作の設定"
+
+msgid "Snap thresholds:"
+msgstr "スナップ閾値"
+
+msgid "distance"
+msgstr "足幅"
+
+msgid "[m]"
+msgstr ""
+
+msgid "angle"
+msgstr "角度"
+
+msgid "[deg]"
+msgstr ""
+
+msgid "Penetration block depth"
+msgstr "貫通防止における許容深度"
+
+msgid "Lazy collision detection mode"
+msgstr "遅延干渉検出モード"
+
+msgid "OK"
+msgstr "了解"
+
+msgid "LeggedBodyBar"
+msgstr "脚型ボディバー"
+
+msgid ""
+"Move the center of mass to the position where its projection corresponds to the support feet cener"
+msgstr "重心投影点が支持脚中心に一致するよう移動"
+
+msgid "Move the center of mass to fit its projection to ZMP"
+msgstr "重心投影点がZMPに一致するよう移動"
+
+msgid "Set ZMP to the projection of the center of mass"
+msgstr "ZMPを重心投影点に移動"
+
+msgid "Set ZMP under the right foot"
+msgstr "ZMPを右足に移動"
+
+msgid "Set ZMP at the center of the feet"
+msgstr "ZMPを両足中心に移動"
+
+msgid "Set ZMP under the left foot"
+msgstr "ZMPを左足に移動"
+
+msgid "Adjust the width between the feet"
+msgstr "足幅の調整"
+
+msgid "Width between the feet [m]"
+msgstr "両足中心間距離"
+
+msgid "The center of mass of {} cannt be moved to the target position\n"
+msgstr "{}の重心を指定の位置まで移動できません\n"
+
+msgid "LinkDeviceListView"
+msgstr "リンク／デバイスリストビュー"
+
+msgid "Links / Devices"
+msgstr "リンク／デバイス"
+
+msgid "All"
+msgstr "全要素"
+
+msgid "Links"
+msgstr "リンク"
+
+msgid "Joints"
+msgstr "関節"
+
+msgid "Devices"
+msgstr "デバイス"
+
+msgid "List"
+msgstr "リスト"
+
+msgid "Tree"
+msgstr "ツリー"
+
+msgid "Grouped Tree"
+msgstr "グループ化ツリー"
+
+msgid "No"
+msgstr ""
+
+msgid "ID"
+msgstr ""
+
+msgid " Part / Link "
+msgstr " 部位／リンク "
+
+msgid " Link / Device "
+msgstr " リンク／デバイス "
+
+msgid " Link "
+msgstr " リンク "
+
+msgid " Joint "
+msgstr "関節"
+
+msgid " Device "
+msgstr "デバイス"
+
+msgid "Device"
+msgstr "デバイス"
+
+msgid "Link Trajectories"
+msgstr "リンク軌道"
+
+msgid "LinkGraphView"
+msgstr "リンクグラフビュー"
+
+msgid "Link Mass Summary"
+msgstr "リンク質量集約"
+
+msgid "LinkMassSummaryView"
+msgstr "リンク質量集約ビュー"
+
+msgid "Mass:"
+msgstr "質量："
+
+msgid "Center of mass:"
+msgstr "重心："
+
+msgid "Show 3D Marker"
+msgstr "3Dマーカの表示"
+
+msgid "LinkOffsetFrameListItem"
+msgstr "リンクオフセットフレームリストアイテム"
+
+msgid "LinkOverwriteItem"
+msgstr "リンク上書きアイテム"
+
+msgid "Illegal jointType value \"{0}\""
+msgstr "不正な関節タイプ \"{0}\""
+
+msgid "{0} Shape"
+msgstr "{0} 形状"
+
+msgid "Link Position"
+msgstr "リンクポジション"
+
+msgid "LinkPositionView"
+msgstr "リンクポジションビュー"
+
+msgid "Target link type"
+msgstr "対象リンクタイプ"
+
+msgid "Any links"
+msgstr "全リンク"
+
+msgid "IK priority link and root link"
+msgstr "逆運動学優先／ルートリンク"
+
+msgid "IK priority link"
+msgstr "逆運動学優先リンク"
+
+msgid "Fetch"
+msgstr "取込"
+
+msgid "Apply"
+msgstr "適用"
+
+msgid "Coord:"
+msgstr "座標系"
+
+msgid "World"
+msgstr "ワールド"
+
+msgid "Base"
+msgstr "基準"
+
+msgid "Body Origin"
+msgstr "ボディ原点"
+
+msgid "Offset"
+msgstr "オフセット"
+
+msgid "Link Origin"
+msgstr "リンク原点"
+
+msgid "Config"
+msgstr "形態"
+
+msgid "Set"
+msgstr "切替"
+
+msgid "Disable custom IK"
+msgstr "カスタムIKを使用しない"
+
+msgid "Search"
+msgstr "絞り込み"
+
+msgid "Feasible"
+msgstr "実現可能"
+
+msgid "&Update"
+msgstr "更新(&U)"
+
+msgid "Joint-space configuration"
+msgstr "関節空間形態"
+
+msgid "{} configuration"
+msgstr "{}の形態"
+
+msgid "Not Solved"
+msgstr "解無し"
+
+msgid "Actual State"
+msgstr "実状態"
+
+msgid "Solved"
+msgstr "解有り"
+
+msgid "Link Properties"
+msgstr "リンクプロパティ"
+
+msgid "LinkPropertyView"
+msgstr "リンクプロパティビュー"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Index"
+msgstr "インデックス"
+
+msgid "Offset translation"
+msgstr "並進オフセット"
+
+msgid "Offset rotation"
+msgstr "回転オフセット"
+
+msgid "Inertia tensor"
+msgstr "慣性テンソル"
+
+msgid "Material"
+msgstr "マテリアル"
+
+msgid "Joint type"
+msgstr "関節タイプ"
+
+msgid "Joint axis"
+msgstr "関節軸"
+
+msgid "Lower joint limit"
+msgstr "関節変位下限"
+
+msgid "Upper joint limit"
+msgstr "関節変位上限"
+
+msgid "Lower joint velocity"
+msgstr "関節速度下限"
+
+msgid "Upper joint velocity"
+msgstr "関節速度上限"
+
+msgid "Joint inertia"
+msgstr "関節慣性"
+
+msgid "MaterialTableItem"
+msgstr "マテリアルテーブルアイテム"
+
+msgid "Material Table"
+msgstr "マテリアルテーブル"
+
+msgid "Num materials"
+msgstr "マテリアルの数"
+
+msgid "Num contact materials"
+msgstr "接触マテリアルの数"
+
+msgid "MultiDeviceStateSeqItem"
+msgstr "複数デバイス状態時系列アイテム"
+
+msgid "Move Forcibly"
+msgstr "強制移動"
+
+msgid "Hold Forcibly"
+msgstr "強制保持"
+
+msgid "Set Free"
+msgstr "フリーに"
+
+msgid "Set Base"
+msgstr "ベースに"
+
+msgid "Set Translation Pin"
+msgstr "並進ピンをセット"
+
+msgid "Set Rotation Pin"
+msgstr "回転ピンをセット"
+
+msgid "Set Both Pins"
+msgstr "両方のピンをセット"
+
+msgid "Level Attitude"
+msgstr "水平姿勢に"
+
+msgid "Markers"
+msgstr "マーカー"
+
+msgid "Link Origins"
+msgstr "リンク原点"
+
+msgid "Link Center of Masses"
+msgstr "リンク重心"
+
+msgid "Center of Mass"
+msgstr "重心"
+
+msgid "Center of Mass Projection"
+msgstr "重心投影点"
+
+msgid "ZMP"
+msgstr "ZMP"
+
+msgid "RegionIntrusionDetector"
+msgstr "領域侵入検出器"
+
+msgid "\"{0}\" cannot work with \"{1}\" because it does not have a digital IO device."
+msgstr "\"{0}\" はデジタルIOを有していない \"{1}\" に対して機能しません．"
+
+msgid "Box region size"
+msgstr "ボックス領域サイズ"
+
+msgid "Region offset"
+msgstr "領域オフセット"
+
+msgid "Region yaw angle"
+msgstr "領域ヨー軸角度"
+
+msgid "I/O signal number"
+msgstr "I/O信号番号"
+
+msgid "SensorVisualizerItem"
+msgstr "センサ可視化アイテム"
+
+msgid "ForceSensorVisualizerItem"
+msgstr "力センサ可視化アイテム"
+
+msgid "AccelerationSensorVisualizerItem"
+msgstr "加速度センサ可視化アイテム"
+
+msgid "RateGyroSensorVisualizerItem"
+msgstr "レートジャイロセンサ可視化アイテム"
+
+msgid "PointCloudVisualizerItem"
+msgstr "ポイントクラウド可視化アイテム"
+
+msgid "RangeSensorVisualizerItem"
+msgstr "レンジセンサ可視化アイテム"
+
+msgid "CameraImageVisualizerItem"
+msgstr "カメラ画像可視化アイテム"
+
+msgid "Visual ratio"
+msgstr "表示比率"
+
+msgid "Visual threshold"
+msgstr "表示閾値"
+
+msgid "SimpleControllerItem"
+msgstr "シンプルコントローラアイテム"
+
+msgid "None"
+msgstr "無"
+
+msgid "Controller directory"
+msgstr "コントローラディレクトリ"
+
+msgid "Project directory"
+msgstr "プロジェクトディレクトリ"
+
+msgid "The controller module of {0} is not specified."
+msgstr "{0}のコントローラモジュールが指定されていません．"
+
+msgid ""
+"Controller module \"{0}\" of {1} is specified as a relative path from the project directory, but "
+"the project directory has not been determined yet."
+msgstr ""
+"{1}のコントローラモジュール \"{0}\" はプロジェクトディレクトリからの相対パスで指定されていますが，"
+"プロジェクトディレクトリはまだ決まっていません．"
+
+msgid "The controller module of {} has already been loaded."
+msgstr "{}のコントローラモジュールは既にロードされています．"
+
+msgid "Loading the controller module \"{1}\" of {0} ... "
+msgstr "{0}のコントローラモジュール \"{1}\" をロード中･･･"
+
+msgid "Failed.\n"
+msgstr "失敗．\n"
+
+msgid "OK!"
+msgstr ""
+
+msgid "The factory function \"createSimpleController()\" is not found in the controller module."
+msgstr "ファクトリ関数 \"createSimpleController()\" がコントローラモジュール内に見つかりません．"
+
+msgid "The controller factory of {} failed to create a controller instance."
+msgstr "{}のコントローラファクトリはコントローラインスタンスの生成に失敗しました．"
+
+msgid "A controller instance has successfully been created."
+msgstr "コントローラインスタンスを生成しました．"
+
+msgid "{} failed to configure the controller"
+msgstr "{}はコントローラインスタンスの生成に失敗しました"
+
+msgid "The controller module \"{1}\" of {0} has been unloaded."
+msgstr "{0}のコントローラモジュール \"{1}\" をアンロードしました．"
+
+msgid "{} is not configured."
+msgstr "{} は未設定です．"
+
+msgid "{}'s initialize method failed."
+msgstr "{}のinitializeメソッドが失敗しました．"
+
+msgid "{} failed to start"
+msgstr "{}を稼働できませんでした"
+
+msgid "Simple Controller Module (*.{})"
+msgstr "シンプルコントローラモジュール (*.{})"
+
+msgid "Controller module"
+msgstr "コントローラモジュール"
+
+msgid "Base directory"
+msgstr "ベースディレクトリ"
+
+msgid "Reloading"
+msgstr "再読込"
+
+msgid "Export symbols"
+msgstr "シンボルのエクスポート"
+
+msgid "Old target value variable mode"
+msgstr "旧指令値変数モード"
+
+msgid "SimulationBar"
+msgstr "シミュレーションバー"
+
+msgid "Store body positions to the initial world state"
+msgstr "現在の状態をワールド初期状態として設定"
+
+msgid "Restore body positions from the initial world state"
+msgstr "ワールド初期状態のボディ位置に戻す"
+
+msgid "Start simulation from the beginning"
+msgstr "初期位置からのシミュレーションを開始"
+
+msgid "Start simulation from the current state"
+msgstr "現在位置からのシミュレーションを開始"
+
+msgid "Pause simulation"
+msgstr "シミュレーションの一時停止"
+
+msgid "Stop simulation"
+msgstr "シミュレーションの停止"
+
+msgid "Current state of {} has been set to the initial state."
+msgstr "{}の現在の状態を初期状態にセットしました．"
+
+msgid "Restore body initial positions"
+msgstr "ボディ初期位置の取り戻し"
+
+msgid "There is no simulator item."
+msgstr "シミュレータアイテムが存在しません．"
+
+msgid "{} cannot be processed because it is not related with a world."
+msgstr "{}はワールドと関連付けられていないため処理出来ません．"
+
+msgid "{} cannot be processed because another simulator in the same world is also selected."
+msgstr "{}は同じワールドに他のシミュレータも選択されているため処理出来ません．"
+
+msgid "Enable Confirmation Dialog"
+msgstr "確認ダイアログの有効化"
+
+msgid "Stop Simulation"
+msgstr "シミュレーションの停止"
+
+msgid "Do you really want to stop the simulation completely?"
+msgstr "本当にシミュレーションを完全に停止しますか？"
+
+msgid "Before init."
+msgstr "初期化前"
+
+msgid "During init."
+msgstr "初期化中"
+
+msgid "After init."
+msgstr "初期化後"
+
+msgid "During final."
+msgstr "終了処理中"
+
+msgid "After final."
+msgstr "終了処理後"
+
+msgid "Timing"
+msgstr "タイミング"
+
+msgid "Delay"
+msgstr "遅延"
+
+msgid "Simulation only"
+msgstr "シミュレーション用に限定"
+
+msgid "Simulation"
+msgstr "シミュレーション"
+
+msgid "Start"
+msgstr "開始"
+
+msgid "Pause"
+msgstr "停止"
+
+msgid "Resume"
+msgstr "再開"
+
+msgid "Finish"
+msgstr "終了"
+
+msgid "Timestep"
+msgstr "タイムステップ"
+
+msgid "Framerate"
+msgstr "フレームレート"
+
+msgid "Time bar"
+msgstr "タイムバー"
+
+msgid "full"
+msgstr "全て"
+
+msgid "tail"
+msgstr "末尾"
+
+msgid "off"
+msgstr "オフ"
+
+msgid "Unlimited"
+msgstr "無制限"
+
+msgid "Specified time"
+msgstr "指定時間"
+
+msgid "Time bar range"
+msgstr "タイムバー範囲"
+
+msgid "On (Compensatory)"
+msgstr "オン (補償型）"
+
+msgid "On (Conservative)"
+msgstr "オン (保守的）"
+
+msgid "{0} is doing its simulation."
+msgstr "{0}はシミュレーションを実行中です．"
+
+msgid "{0} cannot start the simulation because {1} in the same world is doing its simulation."
+msgstr ""
+"{0}と同じワールドの{1}がシミュレーション中であるため，{0}のシミュレーションを開始できません．"
+
+msgid "{} must be in a WorldItem to do simulation."
+msgstr "{}はシミュレーション対象のワールド内に配置されている必要があります．"
+
+msgid "{0} failed to initialize the simulation."
+msgstr "{0}のシミュレーションの初期化ができませんでした．"
+
+msgid "The clone of {0} for the simulation cannot be created."
+msgstr "シミュレーション用の{0}のクローンを生成できません．"
+
+msgid "SubSimulatorItem \"{}\" has been detected."
+msgstr "サブシミュレータアイテム \"{}\" が検出されました．"
+
+msgid "The initialization of \"{}\" failed."
+msgstr "\"{}\" の初期化に失敗しました．"
+
+msgid "SubSimulatorItem \"{}\" is disabled."
+msgstr "サブシミュレータアイテム \"{}\" は無効化されています．"
+
+msgid "{0} for {1} failed to start."
+msgstr "{1}用の{0}を稼働できませんでした．"
+
+msgid "{} failed to start."
+msgstr "{}を稼働できませんでした．"
+
+msgid "The simulation cannot be started because all the controllers are inactive."
+msgstr "稼働可能なコントローラが無いためシミュレーションを開始できません．"
+
+msgid "WorldLogFileItem \"{0}\" has been detected. A simulation result is recoreded to \"{1}\"."
+msgstr ""
+"ワールドログファイルアイテム \"{0}\" が検出されました．シミュレーション結果は \"{1}\" に記録されま"
+"す．"
+
+msgid "Simulation by {} has started."
+msgstr "{}によるシミュレーションを開始しました．"
+
+msgid "Simulation by {0} has finished at {1} [s]."
+msgstr "{0}によるシミュレーションが{1}秒時点で終了しました．"
+
+msgid "Computation time is {0} [s], computation time / simulation time = {1}."
+msgstr "計算時間: {0} [s], 計算時間 / シミュレーション時間 = {1}"
+
+msgid "Temporal resolution type"
+msgstr "時間分解能タイプ"
+
+msgid "Time step"
+msgstr "タイムステップ"
+
+msgid "Frame rate"
+msgstr "フレームレート"
+
+msgid "Realtime sync"
+msgstr "実時間同期"
+
+msgid "Time range"
+msgstr "時間範囲"
+
+msgid "Time length"
+msgstr "時間長"
+
+msgid "Active control period only"
+msgstr "能動制御期間のみ"
+
+msgid "Recording"
+msgstr "記録モード"
+
+msgid "All link position recording"
+msgstr "全リンク位置の記録"
+
+msgid "Device state output"
+msgstr "デバイス状態の記録"
+
+msgid "Record collision data"
+msgstr "干渉データの記録"
+
+msgid "Controller Threads"
+msgstr "コントローラスレッド"
+
+msgid "Block scene view edit mode"
+msgstr "シーンビュー編集モードをブロック"
+
+msgid "Spline filter"
+msgstr "スプラインフィルタ"
+
+msgid "Spline Filter"
+msgstr "スプラインフィルタ"
+
+msgid "Input frame rate"
+msgstr "入力フレームレート"
+
+msgid "Output frame rate"
+msgstr "出力フレームレート"
+
+msgid "Time length ratio"
+msgstr "時間長比率"
+
+msgid "Applying B-Spline filter to {0}: input frame rate = {1}, output frame rate = {2}"
+msgstr "B-Splineフィルタを{0}に適用中: 入力フレームレート = {1}, 出力フレームレート = {2}"
+
+msgid "Enabled"
+msgstr "有効"
+
+msgid "WorldItem"
+msgstr "ワールドアイテム"
+
+msgid "Default material table \"{}\" has been reloaded."
+msgstr "デフォルトマテリアルテーブル \"{}\" を読み込み直しました．"
+
+msgid "Reloading default material table \"{}\" failed."
+msgstr "デフォルトマテリアルテーブル \"{}\" の再読込ができませんでした．"
+
+msgid "Collision detector"
+msgstr "干渉検出器"
+
+msgid "Collision detection between multiplex bodies"
+msgstr "多重化ボディ間の干渉検出"
+
+msgid "Contact material definition file (*.yaml)"
+msgstr "接触マテリアル定義ファイル (*.yaml)"
+
+msgid "Default material table"
+msgstr "デフォルトマテリアルテーブル"
+
+msgid "WorldLogFileItem"
+msgstr "ワールドログファイルアイテム"
+
+msgid "World Log"
+msgstr "ワールドログ"
+
+msgid "Start Live Playback"
+msgstr "ライブ再生の開始"
+
+msgid "Save project as log playback archive"
+msgstr "ログ再生用アーカイブとしてプロジェクトを保存"
+
+msgid "Log file of {0} is corrupt."
+msgstr "{0}のログファイルが壊れています．"
+
+msgid "Corrupt log at time {0} in {1}."
+msgstr "{1}の時刻{0}に破壊されたログ．"
+
+msgid "World Log File (*.log)"
+msgstr "ワールドログファイル (*.log)"
+
+msgid "Log file"
+msgstr "ログファイル"
+
+msgid "Actual log file"
+msgstr "実際のログファイル"
+
+msgid "Time-stamp suffix"
+msgstr "タイムスタンプ接尾辞"
+
+msgid "Recording frame rate"
+msgstr "記録フレームレート"
+
+msgid "Live playback read interval (ms)"
+msgstr "ライブ再生読込時間間隔（ミリ秒）"
+
+msgid "Live playback read timeout"
+msgstr "ライブ再生読込タイムアウト"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Cancel"
+msgstr "キャンセル(&C)"
+
+msgid "Project files (*.cnoid)"
+msgstr "プロジェクトファイル (*.cnoid)"
+
+msgid "Project replacement"
+msgstr "プロジェクトの置き換え"
+
+msgid ""
+"The current project will be replaced with a new project for the log playback. Do you want to "
+"continue?"
+msgstr ""
+"現在のプロジェクトはログ再生のための新しいプロジェクトで置き換えられます．続けてもよろしいですか？"
+
+msgid "The world item of {0} is not found."
+msgstr "\"{0}\" のワールドアイテムがみつかりません．"
+
+msgid "Log file of {0} does not exist."
+msgstr "{0}のログファイルが存在しません．"
+
+msgid "Creating the project for the log playback ..."
+msgstr "ログ再生用プロジェクトを作成中…"
+
+msgid "Archive directory \"{0}\" cannot be created: {1}"
+msgstr "アーカイブディレクトリ \"{0}\" を作成できません： {1}"
+
+msgid "Log file \"{0}\" cannot be copied to \"{1}\": {2}"
+msgstr "ログファイル \"{0}\" を \"{1}\" にコピーできません： {2}"
+
+msgid "Directory \"{0}\" cannot be created: {1}."
+msgstr "ディレクトリ \"{}\" を作成できません： {1}."
+
+msgid "ZMPSeqItem"
+msgstr "ZMP時系列アイテム"
+
+msgid "{0} of {1} has been converted to {2}."
+msgstr "{1}の{0}は{2}に変換されました．"
+
+msgid "the global coordinate"
+msgstr "グローバル座標"
+
+msgid "the root relative coordinate"
+msgstr "ルート相対座標"
+
+msgid ""
+"{0}'s coordinate system cannot be changed because there is no root link motion associated with "
+"{0}."
+msgstr "{0}と関連付けられた動作はルートリンクが含まれていないため{0}の座標系は変更できません．"
+
+msgid "Root relative"
+msgstr "ルート相対"

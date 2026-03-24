@@ -1,0 +1,8 @@
+prefix=/home/mrp/catkin_ws/devel/.private/melew3_description
+
+Name: melew3_description
+Description: Description of melew3_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

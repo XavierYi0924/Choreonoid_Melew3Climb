@@ -1,0 +1,59 @@
+<!DOCTYPE RCC>
+<RCC version="1.0">
+  <qresource prefix="/Base" >
+    
+    <file>project/layout.cnoid</file>
+
+    <file>icon/choreonoid.svg</file>
+
+    <file>icon/setup.svg</file>
+
+    <file>icon/projectsave.svg</file>
+
+    <file>icon/play.svg</file>
+    <file>icon/resume.svg</file>
+    <file>icon/stop.svg</file>
+    <file>icon/refresh.svg</file>
+
+    <file>icon/script.svg</file>
+
+    <file>icon/sceneedit.svg</file>
+    <file>icon/walkthrough.svg</file>
+    <file>icon/viewfitting.svg</file>
+    <file>icon/vertex.svg</file>
+    <file>icon/wireframe.svg</file>
+    <file>icon/solidwireframe.svg</file>
+    <file>icon/solidpolygon.svg</file>
+    <file>icon/highlight.svg</file>
+    <file>icon/visualshape.svg</file>
+    <file>icon/shapeflip.svg</file>
+    <file>icon/collisionshape.svg</file>
+    <file>icon/collisionlines.svg</file>
+
+    <file>icon/frontview.svg</file>
+    <file>icon/backview.svg</file>
+    <file>icon/leftview.svg</file>
+    <file>icon/rightview.svg</file>
+    <file>icon/topview.svg</file>
+    <file>icon/bottomview.svg</file>
+    <file>icon/isometricview.svg</file>
+
+    <file>icon/global.svg</file>
+    
+    <file>icon/scenecapture.svg</file>
+
+    <file>icon/record.svg</file>
+    <file>icon/record2.svg</file>
+    <file>icon/recordtarget.svg</file>
+    
+    <file>icon/graph.svg</file>
+    <file>icon/velocitygraph.svg</file>
+    <file>icon/accgraph.svg</file>
+
+    <file>icon/eraser-cursor.png</file>
+    <file>icon/adjustsize.svg</file>
+
+    <file alias="LICENSE">../../LICENSE</file>
+
+  </qresource>
+</RCC>

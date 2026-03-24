@@ -1,0 +1,46 @@
+\subsubsection parameters ROS parameters
+
+Reads and maintains the following parameters on the ROS server
+
+- \b "~Send" : \b [bool] Send impedance_command min: False, default: False, max: True
+- \b "~FL1_motor_Kp" : \b [double] P gain of FL1_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~FL1_motor_Kd" : \b [double] D gain of FL1_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~FL2_motor_Kp" : \b [double] P gain of FL2_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~FL2_motor_Kd" : \b [double] D gain of FL2_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~FL3_motor_Kp" : \b [double] P gain of FL3_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~FL3_motor_Kd" : \b [double] D gain of FL3_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~FL4_motor_Kp" : \b [double] P gain of FL4_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~FL4_motor_Kd" : \b [double] D gain of FL4_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~FR1_motor_Kp" : \b [double] P gain of FR1_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~FR1_motor_Kd" : \b [double] D gain of FR1_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~FR2_motor_Kp" : \b [double] P gain of FR2_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~FR2_motor_Kd" : \b [double] D gain of FR2_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~FR3_motor_Kp" : \b [double] P gain of FR3_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~FR3_motor_Kd" : \b [double] D gain of FR3_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~FR4_motor_Kp" : \b [double] P gain of FR4_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~FR4_motor_Kd" : \b [double] D gain of FR4_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~BL1_motor_Kp" : \b [double] P gain of BL1_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~BL1_motor_Kd" : \b [double] D gain of BL1_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~BL2_motor_Kp" : \b [double] P gain of BL2_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~BL2_motor_Kd" : \b [double] D gain of BL2_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~BL3_motor_Kp" : \b [double] P gain of BL3_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~BL3_motor_Kd" : \b [double] D gain of BL3_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~BL4_motor_Kp" : \b [double] P gain of BL4_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~BL4_motor_Kd" : \b [double] D gain of BL4_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~BR1_motor_Kp" : \b [double] P gain of BR1_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~BR1_motor_Kd" : \b [double] D gain of BR1_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~BR2_motor_Kp" : \b [double] P gain of BR2_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~BR2_motor_Kd" : \b [double] D gain of BR2_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~BR3_motor_Kp" : \b [double] P gain of BR3_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~BR3_motor_Kd" : \b [double] D gain of BR3_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~BR4_motor_Kp" : \b [double] P gain of BR4_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~BR4_motor_Kd" : \b [double] D gain of BR4_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~wheel_FL_motor_Kp" : \b [double] P gain of wheel_FL_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~wheel_FL_motor_Kd" : \b [double] D gain of wheel_FL_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~wheel_FR_motor_Kp" : \b [double] P gain of wheel_FR_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~wheel_FR_motor_Kd" : \b [double] D gain of wheel_FR_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~wheel_BL_motor_Kp" : \b [double] P gain of wheel_BL_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~wheel_BL_motor_Kd" : \b [double] D gain of wheel_BL_motor joint min: 0.0, default: 0.0, max: 5.0
+- \b "~wheel_BR_motor_Kp" : \b [double] P gain of wheel_BR_motor joint min: 0.0, default: 0.0, max: 500.0
+- \b "~wheel_BR_motor_Kd" : \b [double] D gain of wheel_BR_motor joint min: 0.0, default: 0.0, max: 5.0
+

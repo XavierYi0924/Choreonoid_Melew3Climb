@@ -1,0 +1,201 @@
+[  0%] Built target dynamic_reconfigure_generate_messages_cpp
+[  0%] Built target dynamic_reconfigure_generate_messages_eus
+[  0%] Built target dynamic_reconfigure_generate_messages_lisp
+[  1%] [34m[1mGenerating dynamic reconfigure files from cfg/joint_pd_gain.cfg: /home/mrp/catkin_ws/devel/.private/melew3_control/include/melew3_control/joint_pd_gainConfig.h /home/mrp/catkin_ws/devel/.private/melew3_control/lib/python3/dist-packages/melew3_control/cfg/joint_pd_gainConfig.py[0m
+[  1%] Built target geometry_msgs_generate_messages_nodejs
+[  1%] Built target geometry_msgs_generate_messages_cpp
+[  1%] Built target melew3_msgs_generate_messages_py
+[  1%] Built target dynamic_reconfigure_gencfg
+[  1%] Built target geometry_msgs_generate_messages_py
+[  1%] Built target rosgraph_msgs_generate_messages_eus
+[  1%] Built target std_msgs_generate_messages_eus
+[  1%] Built target roscpp_generate_messages_nodejs
+[  1%] Built target melew3_msgs_generate_messages_lisp
+[  1%] Built target geometry_msgs_generate_messages_lisp
+[  1%] Built target dynamic_reconfigure_generate_messages_nodejs
+[  1%] Built target rosgraph_msgs_generate_messages_py
+[  1%] Built target roscpp_generate_messages_eus
+[  1%] Built target rosgraph_msgs_generate_messages_lisp
+[  1%] Built target rosgraph_msgs_generate_messages_cpp
+[  1%] Built target controller_manager_msgs_generate_messages_nodejs
+[  1%] Built target dynamic_reconfigure_generate_messages_py
+[  1%] Built target rosgraph_msgs_generate_messages_nodejs
+[  1%] Built target melew3_msgs_generate_messages_nodejs
+[  1%] Built target std_msgs_generate_messages_lisp
+[  1%] Built target roscpp_generate_messages_cpp
+[  1%] Built target controller_manager_msgs_generate_messages_cpp
+[  1%] Built target roscpp_generate_messages_py
+[  1%] Built target controller_manager_msgs_generate_messages_lisp
+[  1%] Built target melew3_msgs_generate_messages_eus
+[  1%] Built target controller_manager_msgs_generate_messages_eus
+[  1%] Built target std_msgs_generate_messages_py
+[  1%] Built target controller_manager_msgs_generate_messages_py
+Generating reconfiguration files for joint_pd_gain in MELEW3_control
+[  1%] Built target geometry_msgs_generate_messages_eus
+[  1%] Built target melew3_msgs_generate_messages_cpp
+[  1%] Built target std_msgs_generate_messages_nodejs
+[  1%] Built target roscpp_generate_messages_lisp
+[  1%] Built target std_msgs_generate_messages_cpp
+[35m[1mScanning dependencies of target running[0m
+[35m[1mScanning dependencies of target z_jumping[0m
+[35m[1mScanning dependencies of target pi_jumping[0m
+Wrote header file in /home/mrp/catkin_ws/devel/.private/melew3_control/include/melew3_control/joint_pd_gainConfig.h
+[35m[1mScanning dependencies of target body_tilt_jumping[0m
+[35m[1mScanning dependencies of target AM_jumping[0m
+[35m[1mScanning dependencies of target jumping[0m
+[  3%] Built target izmp_calculator_node
+[  3%] Built target melew3_control_gencfg
+[  5%] Built target zmp_generator_node
+[  6%] Built target zmp_calculator_node
+[  7%] [32mBuilding CXX object src/jumping_control/CMakeFiles/z_jumping.dir/z_jumping.cpp.o[0m
+[  8%] [32mBuilding CXX object src/jumping_control/CMakeFiles/z_jumping.dir/__/controllers/BaseController.cpp.o[0m
+[  8%] [32mBuilding CXX object src/jumping_control/CMakeFiles/running.dir/running.cpp.o[0m
+[  8%] [32mBuilding CXX object src/jumping_control/CMakeFiles/pi_jumping.dir/__/controllers/BaseController.cpp.o[0m
+[  8%] [32mBuilding CXX object src/jumping_control/CMakeFiles/running.dir/__/controllers/BaseController.cpp.o[0m
+[ 12%] Built target zmp_preview_controller_node
+[ 13%] [32mBuilding CXX object src/jumping_control/CMakeFiles/pi_jumping.dir/pi_jumping.cpp.o[0m
+[35m[1mScanning dependencies of target MELEW3_control[0m
+[ 14%] [32mBuilding CXX object src/jumping_control/CMakeFiles/body_tilt_jumping.dir/__/controllers/BaseController.cpp.o[0m
+[ 14%] [32mBuilding CXX object src/jumping_control/CMakeFiles/body_tilt_jumping.dir/body_tilt_jumping.cpp.o[0m
+[35m[1mScanning dependencies of target offline[0m
+[ 18%] Built target melew_wheel_controller_node
+[ 19%] [32mBuilding CXX object src/jumping_control/CMakeFiles/jumping.dir/jumping.cpp.o[0m
+[35m[1mScanning dependencies of target trans2[0m
+[35m[1mScanning dependencies of target trans3[0m
+[ 19%] [32mBuilding CXX object src/jumping_control/CMakeFiles/AM_jumping.dir/__/controllers/BaseController.cpp.o[0m
+[ 19%] [32mBuilding CXX object src/jumping_control/CMakeFiles/AM_jumping.dir/AM_jumping.cpp.o[0m
+[ 19%] [32mBuilding CXX object src/CMakeFiles/MELEW3_control.dir/MELEW3_control.cpp.o[0m
+[ 19%] [32mBuilding CXX object src/controllers/CMakeFiles/offline.dir/offline.cpp.o[0m
+[ 19%] [32mBuilding CXX object src/controllers/CMakeFiles/trans2.dir/trans2.cpp.o[0m
+[ 19%] [32mBuilding CXX object src/controllers/CMakeFiles/trans3.dir/trans3.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/CMakeFiles/MELEW3_control.dir/MELEW3_HWI.cpp.o[0m
+[ 20%] [32mBuilding CXX object src/controllers/CMakeFiles/trans2.dir/BaseController.cpp.o[0m
+[ 21%] [32mBuilding CXX object src/controllers/CMakeFiles/offline.dir/BaseController.cpp.o[0m
+[35m[1mScanning dependencies of target leg_turning[0m
+[ 22%] [32mBuilding CXX object src/controllers/CMakeFiles/leg_turning.dir/leg_turning.cpp.o[0m
+[ 22%] [32mBuilding CXX object src/controllers/CMakeFiles/leg_turning.dir/BaseController.cpp.o[0m
+[ 23%] [32mBuilding CXX object src/controllers/CMakeFiles/trans3.dir/BaseController.cpp.o[0m
+[35m[1mScanning dependencies of target turning[0m
+[ 23%] [32mBuilding CXX object src/jumping_control/CMakeFiles/jumping.dir/__/controllers/BaseController.cpp.o[0m
+[35m[1mScanning dependencies of target turning1[0m
+[ 24%] [32mBuilding CXX object src/controllers/CMakeFiles/turning.dir/turning.cpp.o[0m
+[ 24%] [32mBuilding CXX object src/controllers/CMakeFiles/turning1.dir/turning1.cpp.o[0m
+[ 24%] [32mBuilding CXX object src/controllers/CMakeFiles/turning1.dir/BaseController.cpp.o[0m
+[ 25%] [32mBuilding CXX object src/controllers/CMakeFiles/turning1.dir/__/basic_op.cpp.o[0m
+[ 25%] [32mBuilding CXX object src/controllers/CMakeFiles/turning1.dir/__/MELEW3_kinematics/MELEW3_Kinematics.cpp.o[0m
+[ 25%] [32mBuilding CXX object src/controllers/CMakeFiles/turning1.dir/__/utils.cpp.o[0m
+[ 25%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/pi_jumping[0m
+[ 25%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/z_jumping[0m
+[ 25%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/body_tilt_jumping[0m
+[ 25%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/running[0m
+[ 25%] [32mBuilding CXX object src/controllers/CMakeFiles/turning.dir/BaseController.cpp.o[0m
+[ 26%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/AM_jumping[0m
+[35m[1mScanning dependencies of target wheel_running_several[0m
+[ 28%] Built target pi_jumping
+[ 28%] [32mBuilding CXX object src/controllers/CMakeFiles/wheel_running_several.dir/wheel_running_several.cpp.o[0m
+[ 29%] Built target z_jumping
+[35m[1mScanning dependencies of target x_sine_wave[0m
+[35m[1mScanning dependencies of target wr_z_sine[0m
+[ 29%] [32mBuilding CXX object src/controllers/CMakeFiles/x_sine_wave.dir/x_sine_wave.cpp.o[0m
+[ 30%] [32mBuilding CXX object src/controllers/CMakeFiles/wr_z_sine.dir/wr_z_sine.cpp.o[0m
+[ 34%] Built target running
+[ 34%] [32mBuilding CXX object src/controllers/CMakeFiles/wr_z_sine.dir/BaseController.cpp.o[0m
+[ 37%] Built target body_tilt_jumping
+[ 38%] [32mBuilding CXX object src/controllers/CMakeFiles/wheel_running_several.dir/BaseController.cpp.o[0m
+[ 41%] Built target AM_jumping
+[35m[1mScanning dependencies of target y_sine_wave[0m
+[ 41%] [32mBuilding CXX object src/controllers/CMakeFiles/y_sine_wave.dir/y_sine_wave.cpp.o[0m
+[ 42%] [32mBuilding CXX object src/controllers/CMakeFiles/y_sine_wave.dir/BaseController.cpp.o[0m
+[ 43%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/MELEW3_control[0m
+[ 43%] Built target MELEW3_control
+[35m[1mScanning dependencies of target trans[0m
+[ 44%] [32mBuilding CXX object src/controllers/CMakeFiles/trans.dir/trans.cpp.o[0m
+[ 44%] [32mBuilding CXX object src/controllers/CMakeFiles/trans.dir/BaseController.cpp.o[0m
+[ 44%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/offline[0m
+[ 44%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/trans3[0m
+[ 45%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/turning1[0m
+[ 45%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/trans2[0m
+[ 45%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/jumping[0m
+[ 46%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/leg_turning[0m
+[ 46%] [32mBuilding CXX object src/controllers/CMakeFiles/x_sine_wave.dir/BaseController.cpp.o[0m
+[35m[1mScanning dependencies of target z_sine_wave[0m
+[ 47%] [32mBuilding CXX object src/controllers/CMakeFiles/z_sine_wave.dir/z_sine_wave.cpp.o[0m
+[ 47%] [32mBuilding CXX object src/controllers/CMakeFiles/z_sine_wave.dir/BaseController.cpp.o[0m
+[ 48%] Built target offline
+[ 49%] Built target trans3
+[35m[1mScanning dependencies of target dancing[0m
+[ 51%] Built target trans2
+[35m[1mScanning dependencies of target wheel_running[0m
+[35m[1mScanning dependencies of target psi_sine_wave[0m
+[ 51%] [32mBuilding CXX object src/controllers/CMakeFiles/dancing.dir/dancing.cpp.o[0m
+[ 51%] Built target turning1
+[35m[1mScanning dependencies of target body_yaw_sine_wave[0m
+[ 51%] [32mBuilding CXX object src/controllers/CMakeFiles/wheel_running.dir/wheel_running.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/controllers/CMakeFiles/psi_sine_wave.dir/psi_sine_wave.cpp.o[0m
+[ 51%] [32mBuilding CXX object src/controllers/CMakeFiles/body_yaw_sine_wave.dir/body_yaw_sine_wave.cpp.o[0m
+[ 52%] Built target leg_turning
+[ 52%] [32mBuilding CXX object src/controllers/CMakeFiles/wheel_running.dir/BaseController.cpp.o[0m
+[ 55%] Built target jumping
+[35m[1mScanning dependencies of target low_posture[0m
+[35m[1mScanning dependencies of target body_pitch_tilt[0m
+[ 55%] [32mBuilding CXX object src/controllers/CMakeFiles/low_posture.dir/low_posture.cpp.o[0m
+[ 55%] [32mBuilding CXX object src/controllers/CMakeFiles/body_pitch_tilt.dir/body_pitch_tilt.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/controllers/CMakeFiles/low_posture.dir/BaseController.cpp.o[0m
+[ 56%] [32mBuilding CXX object src/controllers/CMakeFiles/body_pitch_tilt.dir/BaseController.cpp.o[0m
+[ 57%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/turning[0m
+[35m[1mScanning dependencies of target body_tilt_wheel_running[0m
+[ 58%] [32mBuilding CXX object src/controllers/CMakeFiles/body_tilt_wheel_running.dir/body_tilt_wheel_running.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/controllers/CMakeFiles/dancing.dir/BaseController.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/controllers/CMakeFiles/psi_sine_wave.dir/BaseController.cpp.o[0m
+[ 59%] [32mBuilding CXX object src/controllers/CMakeFiles/body_yaw_sine_wave.dir/BaseController.cpp.o[0m
+[ 60%] Built target turning
+[35m[1mScanning dependencies of target walk[0m
+[35m[1mScanning dependencies of target slide[0m
+[ 60%] [32mBuilding CXX object src/controllers/CMakeFiles/walk.dir/walk.cpp.o[0m
+[ 60%] [32mBuilding CXX object src/controllers/CMakeFiles/slide.dir/slide.cpp.o[0m
+[ 61%] [32mBuilding CXX object src/controllers/CMakeFiles/slide.dir/BaseController.cpp.o[0m
+[ 62%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/wr_z_sine[0m
+[ 62%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/wheel_running_several[0m
+[ 63%] Built target wheel_running_several
+[35m[1mScanning dependencies of target lw_walk[0m
+[ 64%] Built target wr_z_sine
+[ 64%] [32mBuilding CXX object src/controllers/CMakeFiles/lw_walk.dir/lw_walk.cpp.o[0m
+[35m[1mScanning dependencies of target wheel_controller[0m
+[ 65%] [32mBuilding CXX object src/wheel_control/CMakeFiles/wheel_controller.dir/wheel_controller.cpp.o[0m
+[ 65%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/y_sine_wave[0m
+[ 67%] Built target y_sine_wave
+[ 68%] [32mBuilding CXX object src/controllers/CMakeFiles/lw_walk.dir/BaseController.cpp.o[0m
+[ 69%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/trans[0m
+[ 70%] Built target trans
+[ 72%] Built target plot_sne_contour3
+[ 73%] Built target plot_sne_contour2
+[ 74%] Built target plot_sne_contour
+[ 74%] [32mBuilding CXX object src/controllers/CMakeFiles/body_tilt_wheel_running.dir/BaseController.cpp.o[0m
+[ 74%] [32mBuilding CXX object src/wheel_control/CMakeFiles/wheel_controller.dir/__/controllers/BaseController.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/z_sine_wave[0m
+[ 76%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/x_sine_wave[0m
+[ 77%] [32mBuilding CXX object src/controllers/CMakeFiles/walk.dir/BaseController.cpp.o[0m
+[ 78%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/wheel_running[0m
+[ 79%] Built target z_sine_wave
+[ 80%] Built target x_sine_wave
+[ 81%] Built target wheel_running
+[ 81%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/low_posture[0m
+[ 82%] Built target low_posture
+[ 83%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/psi_sine_wave[0m
+[ 84%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/body_yaw_sine_wave[0m
+[ 85%] Built target body_yaw_sine_wave
+[ 85%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/body_pitch_tilt[0m
+[ 86%] Built target psi_sine_wave
+[ 86%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/dancing[0m
+[ 86%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/slide[0m
+[ 88%] Built target body_pitch_tilt
+[ 89%] Built target dancing
+[ 90%] Built target slide
+[ 90%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/lw_walk[0m
+[ 91%] Built target lw_walk
+[ 92%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/body_tilt_wheel_running[0m
+[ 93%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/wheel_controller[0m
+[ 93%] [32m[1mLinking CXX executable /home/mrp/catkin_ws/devel/.private/melew3_control/lib/melew3_control/walk[0m
+[ 94%] Built target body_tilt_wheel_running
+[ 95%] Built target walk
+[100%] Built target wheel_controller

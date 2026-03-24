@@ -1,0 +1,1 @@
+/home/mrp/catkin_ws/devel/.private/melew3_description/lib/pkgconfig/melew3_description.pc

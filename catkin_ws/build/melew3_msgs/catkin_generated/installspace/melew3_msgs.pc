@@ -1,0 +1,8 @@
+prefix=/home/mrp/catkin_ws/install
+
+Name: melew3_msgs
+Description: Description of melew3_msgs
+Version: 0.0.0
+Cflags: -I${prefix}/include
+Libs: -L${prefix}/lib 
+Requires: 

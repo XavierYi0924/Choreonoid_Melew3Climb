@@ -1,0 +1,2254 @@
+# Japanese translations for Choreonoid package.
+# This file is distributed under the same license as the Choreonoid package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Choreonoid\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2024-10-03 23:13+0900\n"
+"PO-Revision-Date: 2021-10-25 12:00+0900\n"
+"Language: ja\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+msgid "Frame rate"
+msgstr "フレームレート"
+
+msgid "Offset time"
+msgstr "オフセット時間"
+
+msgid "Number of frames"
+msgstr "フレーム数"
+
+msgid "Time length"
+msgstr "時間長"
+
+msgid "Time step"
+msgstr "タイムステップ"
+
+msgid "Num parts"
+msgstr "パート数"
+
+msgid "The Eigen library version {0}.{1}.{2} is used (SIMD intruction sets in use: {3})."
+msgstr ""
+"Eigenライブラリバージョン{0}.{1}.{2}が使用されています．( 使用されているSIMD命令セット: {3} )"
+
+msgid "Invalid file format."
+msgstr "無効なファイルフォーマット"
+
+msgid ""
+"Application config file \"{0}\" cannot be loaded.\n"
+"{1}"
+msgstr ""
+"アプリケーション設定ファイル \"{0}\" を読み込むことができません．\n"
+"{1}"
+
+msgid "Note that item \"{0}\" will be saved to the original file \"{1}\"."
+msgstr "アイテム \"{0}\" は元ファイルである \"{1}\" に保存されることになります．"
+
+msgid "Name:"
+msgstr "名前："
+
+msgid "Align with the builtin camera"
+msgstr "組み込みカメラに合わせる"
+
+msgid "Camera type:"
+msgstr "カメラタイプ："
+
+msgid "Perspective"
+msgstr "透視投影"
+
+msgid "Orthographic"
+msgstr "平行投影"
+
+msgid "Position:"
+msgstr "位置："
+
+msgid "Look-at:"
+msgstr "視線方向："
+
+msgid "Up vector:"
+msgstr "上方向："
+
+msgid "Field of View:"
+msgstr "視野角："
+
+msgid "[deg]"
+msgstr ""
+
+msgid "Near Clip:"
+msgstr "近方クリップ："
+
+msgid "Far Clip:"
+msgstr "遠方クリップ："
+
+msgid "Interactive viewpoint change"
+msgstr "インタラクティブな視点変更"
+
+msgid "Activate in the scene view"
+msgstr "シーンビューで有効化"
+
+msgid "&OK"
+msgstr "&OK"
+
+msgid "Camera Creation"
+msgstr "カメラの作成"
+
+msgid "Camera"
+msgstr "カメラ"
+
+msgid "Camera Configuration"
+msgstr "カメラの設定"
+
+msgid "CameraItem"
+msgstr "カメラアイテム"
+
+msgid "Activate camera"
+msgstr "このカメラを使用"
+
+msgid "Apply to built-in camera"
+msgstr "組み込みカメラに適用"
+
+msgid "Camera configuration"
+msgstr "カメラの設定"
+
+msgid "Camera type"
+msgstr "カメラタイプ"
+
+msgid "Field Of View"
+msgstr "視野角"
+
+msgid "Near clip distance"
+msgstr "近方クリップ距離"
+
+msgid "Far clip distance"
+msgstr "近方クリップ距離"
+
+msgid "CaptureBar"
+msgstr "キャプチャバー"
+
+msgid "Capture the image of a view or toolbar"
+msgstr "ビューやツールバーの画像をキャプチャします"
+
+msgid "Include Tab"
+msgstr "タブを含める"
+
+msgid "Save the image of %1"
+msgstr "%1の画像を保存"
+
+msgid "Save"
+msgstr "保存"
+
+msgid "Cancel"
+msgstr "キャンセル"
+
+msgid "Any files (*)"
+msgstr "全てのファイル (*)"
+
+msgid "The image of %1 cannot be saved into \"%2\"."
+msgstr "%1の画像を\"%2\"に保存できませんでした．"
+
+msgid "CoordinateFrameItem"
+msgstr "座標フレームアイテム"
+
+msgid "Global"
+msgstr "グローバル"
+
+msgid "Local"
+msgstr "ローカル"
+
+msgid "ID"
+msgstr ""
+
+msgid "Mode"
+msgstr "モード"
+
+msgid "Note"
+msgstr "注釈"
+
+msgid "CoordinateFrameListItem"
+msgstr "座標フレームリストアイテム"
+
+msgid "\"{0}\" cannot be added to \"{1}\" because the item of ID {2} already exists in it. "
+msgstr "アイテム \"{0}\" のID{2}は既に \"{1}\" に存在するためアイテムを追加できません．"
+
+msgid "Num coordinate frames"
+msgstr "座標フレーム数"
+
+msgid "Position"
+msgstr "ポジション"
+
+msgid "Coordinate Frames"
+msgstr "座標フレーム"
+
+msgid "CoordinateFrameListView"
+msgstr "座標フレームリストビュー"
+
+msgid "Add"
+msgstr "追加"
+
+msgid "Support offset frames"
+msgstr "オフセットフレームのサポート"
+
+msgid "Remove"
+msgstr "削除"
+
+msgid "&Ok"
+msgstr "了解(&O)"
+
+msgid "DisplayValueFormatBar"
+msgstr "数値表示形式バー"
+
+msgid "Meter"
+msgstr "メートル"
+
+msgid "Millimeter"
+msgstr "ミリメートル"
+
+msgid "Length value precision (number of decimals)"
+msgstr "長さ精度（小数点以下桁数）"
+
+msgid "Degree"
+msgstr "度"
+
+msgid "Radian"
+msgstr "ラジアン"
+
+msgid "Angle value precision (number of decimals)"
+msgstr "角度値精度（小数点以下桁数）"
+
+msgid "Distance Measurement"
+msgstr "距離測定"
+
+msgid "Object %1"
+msgstr "対象%1"
+
+msgid "Pick"
+msgstr "ピック"
+
+msgid "Surface"
+msgstr "表面"
+
+msgid "Vertex"
+msgstr "頂点"
+
+msgid "Circle Center"
+msgstr "円中心"
+
+msgid "Shortest Distance"
+msgstr "最短距離"
+
+msgid "Fix one side"
+msgstr "片方を固定"
+
+msgid "Point %1"
+msgstr "点%1"
+
+msgid "Distance"
+msgstr "距離"
+
+msgid "Marker"
+msgstr "マーカ"
+
+msgid "Color"
+msgstr "色"
+
+msgid "Line width"
+msgstr "線幅"
+
+msgid "Overlay"
+msgstr "オーバーレイ"
+
+msgid "Create measurement item"
+msgstr "計測アイテムの作成"
+
+msgid "&Measure"
+msgstr "測定"
+
+msgid ""
+"The Distance measurement item \"{0}\" has been removed from the project and close the distance "
+"measurement dialog."
+msgstr "距離測定アイテム \"{0}\" はプロジェクトから削除されました．距離測定ダイアログを閉じます．"
+
+msgid "Removing Distance Measurement Item"
+msgstr "距離測定アイテムの削除"
+
+msgid ""
+"The distance measurement item \"{0}\" will be removed from the project. Do you want to continue "
+"this operation?"
+msgstr "距離測定アイテム \"{0}\" はプロジェクトから削除されます．この処理を続けますか？"
+
+msgid "The distance measurement cannot be started since the target items are not specified."
+msgstr "対象アイテムが指定されていないので距離測定を開始できません．"
+
+msgid "[m]"
+msgstr ""
+
+msgid "[mm]"
+msgstr ""
+
+msgid "Distance Marker Color"
+msgstr "距離マーカの色"
+
+msgid "DistanceMeasurementItem"
+msgstr "距離測定アイテム"
+
+msgid "Configuration"
+msgstr "設定"
+
+msgid "None"
+msgstr "無し"
+
+msgid "Item{0}"
+msgstr "アイテム{0}"
+
+msgid "Item{0} sub entry"
+msgstr "アイテム{0}サブエントリ"
+
+msgid "Active"
+msgstr "アクティブ"
+
+msgid "Shortest distance mode"
+msgstr "最短距離モード"
+
+msgid "Fix one side for shortest distance"
+msgstr "最短距離の一方を固定"
+
+msgid "Fixed side"
+msgstr "固定する側"
+
+msgid "ExtCommandItem"
+msgstr "外部コマンドアイテム"
+
+msgid "Execute"
+msgstr "実行"
+
+msgid "Terminate"
+msgstr "停止"
+
+msgid "External command \"{0}\" has been executed by item \"{1}\"."
+msgstr "外部コマンド \"{0}\" がアイテム \"{1}\" によって実行されました．"
+
+msgid "External command \"{}\" cannot be executed."
+msgstr "外部コマンド \"{}\" を実行できません．"
+
+msgid " The command does not exist."
+msgstr "コマンドが存在しません．"
+
+msgid "Command"
+msgstr "コマンド"
+
+msgid "Execute on loading"
+msgstr "ロード時に実行"
+
+msgid "Waiting time after started"
+msgstr "開始後の待ち時間"
+
+msgid "FileBar"
+msgstr "ファイルバー"
+
+msgid "Save the project"
+msgstr "プロジェクトを保存"
+
+msgid "FolderItem"
+msgstr "フォルダアイテム"
+
+msgid "The file format of \"{}\" is not supported.\n"
+msgstr "ファイルフォーマット \"{}\" はサポートされていません．\n"
+
+msgid "Load a scene file"
+msgstr "シーンファイルの読み込み"
+
+msgid "Scene file"
+msgstr "シーンファイル"
+
+msgid "Load"
+msgstr "読み込み"
+
+msgid "Loading the file \"{0}\" ..."
+msgstr "ファイル \"{0}\" を読み込み中…"
+
+msgid " OK!"
+msgstr ""
+
+msgid " Failed."
+msgstr " 失敗．"
+
+msgid "[ import hints ]"
+msgstr "[ インポートヒント ]"
+
+msgid "Unit:"
+msgstr "単位："
+
+msgid "Inch"
+msgstr "インチ"
+
+msgid "Upper axis:"
+msgstr "上方軸"
+
+msgid "General Sliders"
+msgstr "汎用スライダ"
+
+msgid "GeneralSliderView"
+msgstr "汎用スライダビュー"
+
+msgid "GraphBar"
+msgstr "グラフバー"
+
+msgid "Plot trajectories of the target data on the graph view"
+msgstr "対象データの軌道をグラフビューにプロット"
+
+msgid "Plot velocity trajectories"
+msgstr "速度軌道のプロット"
+
+msgid "Plot acceleration trajectories"
+msgstr "加速度軌道のプロット"
+
+msgid "Show the config dialog"
+msgstr "設定ダイアログの表示"
+
+msgid "Graph Config"
+msgstr "グラフ設定"
+
+msgid "y-range, 10^"
+msgstr "y軸範囲, 10^"
+
+msgid "Show limit values"
+msgstr "リミット値の表示"
+
+msgid "Show grid"
+msgstr "グリッドの表示"
+
+msgid "Show rulers"
+msgstr "定規の表示"
+
+msgid "Edit mode"
+msgstr "編集モード"
+
+msgid "Free line"
+msgstr "フリーライン編集モード"
+
+msgid "Line edit"
+msgstr "ライン編集モード"
+
+msgid "Control points"
+msgstr "制御点の表示"
+
+msgid "Step"
+msgstr "ステップ"
+
+msgid "Offset"
+msgstr "オフセット"
+
+msgid "Time bar sync"
+msgstr "タイムバーと同期"
+
+msgid "off"
+msgstr "オフ"
+
+msgid "cont."
+msgstr "連続"
+
+msgid "page"
+msgstr "ページ"
+
+msgid "Graph: Position = ({0:.5f}, {1:.5f})"
+msgstr "グラフ位置 = ({0:.5f}, {1:.5f})"
+
+msgid "Image"
+msgstr "画像"
+
+msgid "ImageView"
+msgstr "画像ビュー"
+
+msgid "ImageViewBar"
+msgstr "画像ビューバー"
+
+msgid "Select an imageable item"
+msgstr "画像アイテムの選択"
+
+msgid "Adjust image size according to view"
+msgstr "画像サイスをビューに合わせる"
+
+msgid " "
+msgstr "　"
+
+msgid "Item \"{0}\" was about to be inserted into itself."
+msgstr "アイテム \"{0}\" が自身に挿入されようとしました．"
+
+msgid "Name"
+msgstr "名前"
+
+msgid "Display name"
+msgstr "表示名"
+
+msgid "Class"
+msgstr "クラス"
+
+msgid "File"
+msgstr "ファイル"
+
+msgid "Addon"
+msgstr "アドオン"
+
+msgid "Addon {0}"
+msgstr "アドオン{0}"
+
+msgid "Sub Item"
+msgstr "サブアイテム"
+
+msgid "Attached"
+msgstr "添付"
+
+msgid "Unique"
+msgstr "固有"
+
+msgid "Temporary"
+msgstr "一時的"
+
+msgid "Builtin"
+msgstr "組込"
+
+msgid "Reloadable"
+msgstr "再読込可"
+
+msgid "No undo"
+msgstr "Undo対象外"
+
+msgid "Attribute"
+msgstr "属性"
+
+msgid "Attributes"
+msgstr "属性"
+
+msgid "Num children"
+msgstr "子アイテムの数"
+
+msgid "Refs"
+msgstr "参照数"
+
+msgid ""
+"The edit history has been cleared because inconsistent item move operation on \"{0}\" was carried "
+"out."
+msgstr "\"{0}\" に関する一貫性の無い移動操作が実行されたため，編集履歴はクリアされました．"
+
+msgid "Add \"{0}\" to \"{1}\""
+msgstr "\"{0}\" を \"{1}\" に追加"
+
+msgid "Remove \"{0}\" from \"{1}\""
+msgstr "\"{0}\" を \"{1}\" から除去"
+
+msgid "Move \"{0}\" from \"{1}\" to \"{2}\""
+msgstr "\"{0}\" を \"{1}\" から \"{2}\" へ移動"
+
+msgid "Rename \"{0}\" to \"{1}\""
+msgstr "\"{0}\" の名前を \"{1}\" に変更"
+
+msgid "Load {0}"
+msgstr "{0}の読み込み"
+
+msgid "Import {0}"
+msgstr "{0}のインポート"
+
+msgid "Import"
+msgstr "インポート"
+
+msgid "The singleton instance of {} has already been loaded."
+msgstr "{}のシングルトンインスタンスは既に読み込まれています．"
+
+msgid "Saving {0} to a file is not supported"
+msgstr "{0}のファイル保存はサポートされていません"
+
+msgid "Exporting {0} to a file is not supported"
+msgstr "{0}のファイルエクスポートはサポートされていません"
+
+msgid "Save {}"
+msgstr "{} の保存"
+
+msgid "Export {}"
+msgstr "{} のエクスポート"
+
+msgid "%1 already exists. Do you want to replace it? "
+msgstr "既存のファイル %1 を上書きしてもよいですか？"
+
+msgid "Item with empty filename cannot be loaded."
+msgstr "空のファイル名のアイテムを読み込むことはできません．"
+
+msgid "{0} cannot be loaded."
+msgstr "{0}を読み込むことができません．"
+
+msgid "{0} cannot be loaded because {1}"
+msgstr "{0}を読み込むことができません: {1}"
+
+msgid "Loading {0} \"{1}\""
+msgstr "{0} \"{1}\" を読み込み中"
+
+msgid " -> failed."
+msgstr " -> 失敗."
+
+msgid " -> ok!"
+msgstr " -> 完了!"
+
+msgid "{0} cannot be saved with empty filename."
+msgstr "ファイル名が指定されていないので{0}を保存できません．"
+
+msgid "{0} cannot be saved."
+msgstr "{0}を保存することができません．"
+
+msgid "{0} cannot be saved because {1}"
+msgstr "{0}を保存することができません： {1}"
+
+msgid "Saving {0} \"{1}\" to \"{2}\""
+msgstr "{0} \"{1}\" を \"{2}\" に保存中"
+
+msgid "Exporting {0} \"{1}\" into \"{2}\""
+msgstr "{0} \"{1}\" を \"{2}\" にエクスポート中"
+
+msgid "{0} is a singleton item type and its instance exists in the project item tree."
+msgstr "{0}はシングルトンアイテム型で，そのインスタンスはプロジェクトツリー内に存在します．"
+
+msgid "Class {} is not registered as an item class."
+msgstr "クラス{}はアイテムクラスとして登録されていません．"
+
+msgid "The panel to create {} is not registered."
+msgstr "{}を生成するパネルは登録されていません．"
+
+msgid "Item$"
+msgstr "アイテム$"
+
+msgid "Create New %1"
+msgstr "%1の新規生成"
+
+msgid "&Create"
+msgstr "生成(&C)"
+
+msgid "&Cancel"
+msgstr "キャンセル(&C)"
+
+msgid "There is no file I/O processor registered for the \"{0}\" type."
+msgstr "アイテム型 \"{0}\" に対してI/Oプロセッサが登録されていません．"
+
+msgid ""
+"\"{0}\" cannot be accessed because there is no file I/O processor registered for the \"{1}\" type."
+msgstr ""
+"アイテム型 \"{1}\" に対してI/Oプロセッサが登録されていないので \"{0}\"へのアクセスができません．"
+
+msgid "The file format for accessing \"{0}\" cannot be determined."
+msgstr "\"{0}\"のファイル形式を確定できません．"
+
+msgid "Unknown file format \"{0}\" is specified in accessing \"{1}\"."
+msgstr "\"{1}\"に対して不明なファイル形式\"{0}\"が指定されています．"
+
+msgid ""
+"\"{0}\" is an item that usually does not need to be saved. Do you really want to save this item?"
+msgstr "\"{0}\" は通常保存する必要のないアイテムです．本当にこのアイテムを保存しますか？"
+
+msgid ";;Any files (*)"
+msgstr ";;全てのファイル (*)"
+
+msgid "ItemPropertyView"
+msgstr "アイテムプロパティビュー"
+
+msgid "Property"
+msgstr "プロパティ"
+
+msgid "False"
+msgstr ""
+
+msgid "True"
+msgstr ""
+
+msgid "Select File"
+msgstr "ファイルを選択"
+
+msgid "Select"
+msgstr "選択"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Update"
+msgstr "更新"
+
+msgid "Reset Column Sizes"
+msgstr "コラムサイズのリセット"
+
+msgid "Not all items were stored correctly."
+msgstr "正常に書き出しできないアイテムがあります．"
+
+msgid "\"{}\" cannot be stored. Its type is not registered."
+msgstr "\"{}\" は型が登録されていないため書き出しできません．"
+
+msgid "Storing {0} \"{1}\""
+msgstr "{0} \"{1}\"を書き出し中"
+
+msgid "\"{}\" cannot be stored."
+msgstr "\"{}\" は書き出しできません．"
+
+msgid "Addon \"{0}\" of item \"{1}\" cannot be stored. Its type is not registered."
+msgstr "アイテム \"{1}\" のアドオン \"{0}\" は型が登録されていないため書き出しできません．"
+
+msgid "{0} \"{1}\" cannot be restored."
+msgstr "{0} \"{1}\" を読み出すことができません．"
+
+msgid "\"{0}\" cannot be restored."
+msgstr "\"{0}\" を読み出すことができません．"
+
+msgid "An instance of {0} cannot be restored."
+msgstr "{0}のインスタンスを読み出すことができません．"
+
+msgid "An instance of unkown item type cannot be restored."
+msgstr "不明なアイテム型のインスタンスを読み出すことができません．"
+
+msgid "The archive has an empty-name sub item, which cannot be processed."
+msgstr "アーカイブ内に名前の無いサブアイテムがありますがこれを処理することはできません．"
+
+msgid "Sub item \"{}\" is not found. Its children cannot be restored."
+msgstr "サブアイテム \"{}\" が見つからないため読み出しができません．"
+
+msgid "Archive is broken."
+msgstr "アーカイブが壊れています．"
+
+msgid "{0} of {1}Plugin is not a registered item type."
+msgstr "{1}Pluginの{0}は未登録のタイプであるため読み込みできません．"
+
+msgid "Restoring {0} \"{1}\""
+msgstr "{0} \"{1}\" を読み出し中"
+
+msgid "The 'data' key does not have mapping-type data."
+msgstr "'data'の値がマッピング型でありません．"
+
+msgid "{0} \"{1}\" cannot be added to \"{2}\" as a child item."
+msgstr "{0} \"{1}\" は \"{2}\" の子アイテムとして追加できません．"
+
+msgid "The 'addons' value must be a listing."
+msgstr "'addons'の値はリストでなければなりません．"
+
+msgid "The name and plugin are not specified at addon {0}."
+msgstr "アドオン {0} の名前とプラグインが指定されていません．"
+
+msgid "Addon \"{0}\" of plugin \"{1}\" cannot be created."
+msgstr "プラグイン \"{1}\" のアドオン \"{0}\" を生成できません．"
+
+msgid "Addon \"{0}\" cannot be added to item \"{1}\"."
+msgstr "アドオン \"{0}\" はアイテム \"{1}\" に追加できません．"
+
+msgid "Addon \"{0}\" of plugin \"{1}\" cannot be restored."
+msgstr "プラグイン \"{1}\" のアドオン \"{0}\" を読み出すことができません．"
+
+msgid "Unkown"
+msgstr "不明"
+
+msgid "There are no items to be configured."
+msgstr "設定対象のアイテムがありません．"
+
+msgid "No item is selected."
+msgstr "アイテムが選択されていません．"
+
+msgid "\"{0}\" is not a target item."
+msgstr "\"{0}\" は対象アイテムではありません．"
+
+msgid "ItemTreeView"
+msgstr "アイテムツリービュー"
+
+msgid "Items"
+msgstr "アイテム"
+
+msgid "Rename"
+msgstr "名前を変更"
+
+msgid "Cut"
+msgstr "切り取り"
+
+msgid "Copy (single)"
+msgstr "コピー（単独）"
+
+msgid "Copy (sub tree)"
+msgstr "コピー（サブツリー）"
+
+msgid "Paste"
+msgstr "貼り付け"
+
+msgid "Check"
+msgstr "チェック"
+
+msgid "Uncheck"
+msgstr "アンチェック"
+
+msgid "Toggle checks"
+msgstr "チェックの反転"
+
+msgid "Reload"
+msgstr "再読み込み"
+
+msgid "Save as"
+msgstr "名前を付けて保存"
+
+msgid "Select all"
+msgstr "全て選択"
+
+msgid "Clear selection"
+msgstr "選択解除"
+
+msgid "Cut items in {0}"
+msgstr "複数のアイテムを{0}上で切り取り"
+
+msgid "The copied items cannot be pasted to \"{0}\"."
+msgstr "コピーされたアイテムを \"{0}\" にペーストできませんでした．"
+
+msgid "Paste items in {0}"
+msgstr "複数のアイテムを{0}上で貼り付け"
+
+msgid "Item \"{0}\" cannot be reloaded currently, as it is being continuously updated."
+msgstr "アイテム \"{0}\" は継続的に更新中のため、今は再読込することができません．"
+
+msgid ""
+"Item \"{0}\" cannot be reloaded currently, as it is a part of a sub-tree being continuously "
+"updated."
+msgstr ""
+"アイテム \"{0}\" は継続的に更新中のサブツリーの一部であるため、今は再読込することができません．"
+
+msgid "Drop items in {0}"
+msgstr "複数のアイテムを{0}上でドロップ"
+
+msgid "the {0} view"
+msgstr "{0}ビュー"
+
+msgid "Register Layout"
+msgstr "レイアウトの登録"
+
+msgid "Layout"
+msgstr "レイアウト"
+
+msgid "&Register"
+msgstr "登録(&R)"
+
+msgid ""
+"Permission is hereby granted, free of charge, to any person obtaining a copy of this software and "
+"associated documentation files (the \"Software\"), to deal in the Software without restriction, "
+"including without limitation the rights to use, copy, modify, merge, publish, distribute, "
+"sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is "
+"furnished to do so, subject to the following conditions:\n"
+"\n"
+"The above copyright notice and this permission notice shall be included in all copies or "
+"substantial portions of the Software.\n"
+"\n"
+"THE SOFTWARE IS PROVIDED \"AS IS\", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING "
+"BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND "
+"NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, "
+"DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, "
+"OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE\n"
+msgstr ""
+
+msgid ""
+"This program is free software; you can redistribute it and/or modify it under the terms of the "
+"GNU Lesser General Public License as published by the Free Software Foundation; either version "
+"2.1 of the License, or (at your option) any later version.\n"
+"\n"
+"This package is distributed in the hope that it will be useful, but WITHOUT ANY WARRANTY; without "
+"even the implied warranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.See the GNU "
+"Lesser General Public License for more details.\n"
+msgstr ""
+
+msgid "LightingItem"
+msgstr "ライティングアイテム"
+
+msgid "Directional light"
+msgstr "ディレクショナルライト"
+
+msgid "Point light"
+msgstr "ポイントライト"
+
+msgid "Spot light"
+msgstr "スポットライト"
+
+msgid "Light type"
+msgstr "ライトの種類"
+
+msgid "Translation"
+msgstr "並進"
+
+msgid "Direction"
+msgstr "方向"
+
+msgid "ON"
+msgstr "オン"
+
+msgid "Intensity"
+msgstr "照度"
+
+msgid "Ambient intensity"
+msgstr "環境照度"
+
+msgid "Constant attenuation"
+msgstr "定数減衰"
+
+msgid "Linear attenuation"
+msgstr "線形減衰率"
+
+msgid "Quadratic attenuation"
+msgstr "2次減衰率"
+
+msgid "Beam width"
+msgstr "光線幅"
+
+msgid "Cut-off angle"
+msgstr "カットオフ角度"
+
+msgid "Cut-off exponent"
+msgstr "カットオフ指数"
+
+msgid "Show marker"
+msgstr "マーカ表示"
+
+msgid "Location"
+msgstr "配置"
+
+msgid "LocationView"
+msgstr "配置ビュー"
+
+msgid "Lock"
+msgstr "ロック"
+
+msgid "Coord :"
+msgstr "座標系："
+
+msgid "Individual Rotation"
+msgstr "個別回転"
+
+msgid "<b>{0}</b>"
+msgstr ""
+
+msgid "<b>{0}</b> + {1}"
+msgstr ""
+
+msgid "<b>{0}</b> + {1} objects"
+msgstr "<b>{0}</b> + {1} オブジェクト"
+
+msgid "{0} + {1}"
+msgstr ""
+
+msgid "{0} + {1} objects"
+msgstr "{0} + {1}オブジェクト"
+
+msgid "World"
+msgstr "ワールド"
+
+msgid "Offset ( {} )"
+msgstr "オフセット（ {} ）"
+
+msgid "Parent ( {} )"
+msgstr "親（ {} ）"
+
+msgid "Parent"
+msgstr "親"
+
+msgid "Change multiple object locations"
+msgstr "複数オブジェクトの配置を変更"
+
+msgid "New ..."
+msgstr "新規"
+
+msgid "Load ..."
+msgstr "読み込み"
+
+msgid "Reload Selected Items"
+msgstr "選択アイテムの再読み込み"
+
+msgid "Save Selected Items"
+msgstr "選択アイテムの保存"
+
+msgid "Save Selected Items As"
+msgstr "選択アイテムに名前を付けて保存"
+
+msgid "Import ..."
+msgstr "インポート"
+
+msgid "Export Selected Items"
+msgstr "選択アイテムのエクスポート"
+
+msgid "Open Project"
+msgstr "プロジェクトを開く"
+
+msgid "Save Project"
+msgstr "プロジェクトの保存"
+
+msgid "Save Project As"
+msgstr "プロジェクトに名前を付けて保存"
+
+msgid "Project File Options"
+msgstr "プロジェクトファイルオプション"
+
+msgid "Recovery from Backup"
+msgstr "バックアップからの回復"
+
+msgid "Backup Configuration"
+msgstr "バックアップの設定"
+
+msgid "Edit Path Variables"
+msgstr "パス変数の設定"
+
+msgid "Load Plugin"
+msgstr "プラグインの読み込み"
+
+msgid "Plugin"
+msgstr "プラグイン"
+
+msgid "Exit"
+msgstr "終了"
+
+msgid "Edit"
+msgstr "編集"
+
+msgid "Undo"
+msgstr "元に戻す"
+
+msgid "Redo"
+msgstr "やり直し"
+
+msgid "View"
+msgstr "表示"
+
+msgid "Show Toolbar"
+msgstr "ツールバーの表示"
+
+msgid "Show View"
+msgstr "ビューの表示"
+
+msgid "Create View"
+msgstr "ビューの生成"
+
+msgid "Delete View"
+msgstr "ビューの消去"
+
+msgid "Show View Tabs"
+msgstr "ビュータブの表示"
+
+msgid "Show Status Bar"
+msgstr "ステータスバーの表示"
+
+msgid "Full Screen"
+msgstr "フルスクリーン"
+
+msgid "Reset Layout"
+msgstr "レイアウトのリセット"
+
+msgid "Tools"
+msgstr "ツール"
+
+msgid "Put Scene Statistics"
+msgstr "シーン統計情報の表示"
+
+msgid "Export Scene"
+msgstr "シーンのエクスポート"
+
+msgid "Movie Recorder"
+msgstr "動画レコーダ"
+
+msgid "Filters"
+msgstr "フィルタ"
+
+msgid "Options"
+msgstr "オプション"
+
+msgid "OpenGL"
+msgstr ""
+
+msgid "Vertical Sync"
+msgstr "垂直同期"
+
+msgid "Low GPU Memory Consumption Mode"
+msgstr "GPUメモリ消費低減モード"
+
+msgid "Help"
+msgstr "ヘルプ"
+
+msgid "About Choreonoid"
+msgstr "Choreonoid について"
+
+msgid "About Plugins"
+msgstr "プラグインについて"
+
+msgid "Delete All Unmounted Views"
+msgstr "マウントされていない全てのビューを削除"
+
+msgid "MenuManager failed to set the current menu path to {0}."
+msgstr "メニューマネージャがカレントメニューパスを{0}にセットできませんでした．"
+
+msgid "MessageLogItem"
+msgstr "メッセージログアイテム"
+
+msgid "Append"
+msgstr "追記"
+
+msgid "Overwrite"
+msgstr "上書き"
+
+msgid "Confirm"
+msgstr "確認"
+
+msgid ""
+" \"{}\" already exists.\n"
+" Do you want to replace it? "
+msgstr ""
+" \"{}\" は既存のファイルです．\n"
+" 上書きしてもよいですか？"
+
+msgid "Couldn't open file \"{}\" for writing.\n"
+msgstr "\"{}\" は書き込み用ファイルとして開けません．\n"
+
+msgid "Opened file \"{}\" for writing.\n"
+msgstr "\"{}\" を書き込み用ファイルとして開きました．\n"
+
+msgid "Message view log file (*.log)"
+msgstr "メッセージビューログファイル (*.log)"
+
+msgid "file name"
+msgstr "ファイル名"
+
+msgid "File mode"
+msgstr "ファイルモード"
+
+msgid "skip escapeSequence"
+msgstr "エスケープシーケンスをスキップ"
+
+msgid "Message"
+msgstr "メッセージ"
+
+msgid "MessageView"
+msgstr "メッセージビュー"
+
+msgid "Error: "
+msgstr "エラー："
+
+msgid "Warning: "
+msgstr "警告："
+
+msgid "Warning"
+msgstr "警告"
+
+msgid "Error"
+msgstr "エラー"
+
+msgid "Recording of {0} has been started with the {1} mode."
+msgstr "{1}モードによる{0}の録画を開始しました．"
+
+msgid "Offline"
+msgstr "オフライン"
+
+msgid "Online"
+msgstr "オンライン"
+
+msgid "Direct"
+msgstr "ダイレクト"
+
+msgid "Target view is not specified."
+msgstr "対象のビューが指定されていません．"
+
+msgid "Please set a directory to output image files."
+msgstr "画像ファイルを出力するディレクトリを指定してください．"
+
+msgid "{} is not a directory."
+msgstr "{}はディレクトリではありません．"
+
+msgid "The online mode recording for {} is ready."
+msgstr "オンラインモードによる{}の録画を待機しています．"
+
+msgid "Abort Output"
+msgstr "出力中止"
+
+msgid "Outputting sequential image files..."
+msgstr "連番画像ファイルを出力中…"
+
+msgid "Movie Recorder's Output Status"
+msgstr "動画レコーダの出力状況"
+
+msgid "Recording of {} has been finished."
+msgstr "{}の録画が終了しました．"
+
+msgid "Recording of {} has been stopped."
+msgstr "{}の録画を停止しました．"
+
+msgid "Sequential numbered PNG image files"
+msgstr "連番PNG画像ファイル"
+
+msgid "Saving an image to \"{}\" failed."
+msgstr "画像の \"{}\" への保存ができませんでした．"
+
+msgid "MovieRecorderBar"
+msgstr "動画レコーダバー"
+
+msgid "Toggle Recording"
+msgstr "録画"
+
+msgid "Toggle Target View Marker"
+msgstr "対象ビューのマーカを表示"
+
+msgid "Target view"
+msgstr "対象ビュー"
+
+msgid "Show the marker"
+msgstr "マーカ表示"
+
+msgid "Recording mode"
+msgstr "録画モード"
+
+msgid "Record animation of existing playback data in a frame-by-frame manner."
+msgstr "既存再生データのアニメーションをコマ送りしながら録画します．"
+
+msgid "Record animation of ongoing process in realtime."
+msgstr "進行中の処理のアニメーションをリアルタイムで録画します．"
+
+msgid "Record the display contents of a view directly in realtime."
+msgstr "ビューの表示内容を直接リアルタイムで録画します．"
+
+msgid "Format"
+msgstr "形式"
+
+msgid "Directory"
+msgstr "ディレクトリ"
+
+msgid "File base name"
+msgstr "ファイルベース名"
+
+msgid "[fps]"
+msgstr ""
+
+msgid "Start time"
+msgstr "開始時刻"
+
+msgid "[s]"
+msgstr "[秒]"
+
+msgid "Finish time"
+msgstr "終了時刻"
+
+msgid "Image size"
+msgstr "画像サイズ"
+
+msgid "Capture the mouse cursor"
+msgstr "マウスカーソルもキャプチャする"
+
+msgid "&Record"
+msgstr "録画(&R)"
+
+msgid "Select Directory"
+msgstr "ディレクトリの選択"
+
+msgid "MultiPointSetItem"
+msgstr "複数ポイントセットアイテム"
+
+msgid "Multi Point Clouds"
+msgstr "複数ポイントクラウド"
+
+msgid "All"
+msgstr "全て"
+
+msgid "Selected"
+msgstr "選択"
+
+msgid "Point"
+msgstr "点"
+
+msgid "Voxel"
+msgstr "ボクセル"
+
+msgid "Visibility"
+msgstr "表示"
+
+msgid "Auto save"
+msgstr "自動保存"
+
+msgid "Num point sets"
+msgstr "点群数"
+
+msgid "Rendering mode"
+msgstr "描画モード"
+
+msgid "Point size"
+msgstr "デフォルト点サイズ"
+
+msgid "Voxel size"
+msgstr "ボクセルサイズ"
+
+msgid "Rotation"
+msgstr "回転"
+
+msgid "PointSet: Clear Attention Points"
+msgstr "PointSet: 注視点のクリア"
+
+msgid "PointSet: Start Eraser Mode"
+msgstr "PointSet: 消去モード開始"
+
+msgid "PointSet: Exit Eraser Mode"
+msgstr "PointSet: 消去モード終了"
+
+msgid "MultiSE3MatrixSeqItem"
+msgstr "複数SE3行列時系列アイテム"
+
+msgid "Number of SE3 values in a frame"
+msgstr "フレームあたりSE3要素数"
+
+msgid "Multi SE3 Seq"
+msgstr "複数SE3時系列"
+
+msgid "MultiSE3SeqGraphView"
+msgstr "複数SE3時系列グラフビュー"
+
+msgid "MultiSE3SeqItem"
+msgstr "複数SE3時系列アイテム"
+
+msgid "Multi Value Seq"
+msgstr "複数値時系列"
+
+msgid "MultiValueSeqGraphView"
+msgstr "複数値時系列グラフビュー"
+
+msgid "MultiValueSeqItem"
+msgstr "複数値時系列アイテム"
+
+msgid "Number of values in a frame"
+msgstr "フレームあたり要素数"
+
+msgid "Plain Format of a Multi Value Sequence"
+msgstr "複数値時系列のプレインフォーマット"
+
+msgid "MultiVector3SeqItem"
+msgstr "複数3次元ベクトル時系列アイテム"
+
+msgid "Input file \"{}\" was not processed."
+msgstr "入力ファイル  \"{}\" は処理されませんでした．"
+
+msgid "Path Variables"
+msgstr "パス変数"
+
+msgid "Variable"
+msgstr "変数"
+
+msgid "Path"
+msgstr "パス"
+
+msgid "&Apply"
+msgstr "適用(&A)"
+
+msgid "Loading {0} failed.\n"
+msgstr "{0}の読み込みに失敗しました．\n"
+
+msgid "{0}-plugin cannot be initialized because required plugin(s) {1} are not found."
+msgstr "必要なプラグイン{1}が見つからないため，{0}プラグインの初期化ができません．"
+
+msgid "Plugin file \"{}\" has already been activated.\n"
+msgstr "プラグインファイル \"{}\" は既に読み込まれています．\n"
+
+msgid "Detecting plugin file \"{}\".\n"
+msgstr "プラグインファイル \"{}\" を検出しました．\n"
+
+msgid "System error: {0}"
+msgstr "システムエラー: {0}"
+
+msgid "The plugin entry function \"getChoreonoidPlugin\" is not found.\n"
+msgstr "プラグインエントリ関数 \"getChoreonoidPlugin\" が見つかりません．\n"
+
+msgid "The plugin object cannot be created.\n"
+msgstr "プラグインオブジェクトを生成できません．\n"
+
+msgid ""
+"The internal version of the {0} plugin is different from the system internal version.\n"
+"The plugin file \"{1}\" should be removed or updated to avoid a problem.\n"
+msgstr ""
+"{0}プラグインの内部バージョンがシステムの内部バージョンと一致しません．\n"
+"問題を避けるため，プラグインファイル \"{1}\" は削除か更新を行なってください．\n"
+
+msgid "Plugin file \"{0}\" conflicts with \"{1}\".\n"
+msgstr "{0}プラグインは \"{1}\" と競合しています．\n"
+
+msgid "Loading the plugin failed.\n"
+msgstr "プラグインの読み込みができませんでした．\n"
+
+msgid "The plugin object cannot be intialized."
+msgstr "プラグインオブジェクトの初期化ができません．"
+
+msgid "About {} Plugin"
+msgstr "{}プラグインについて"
+
+msgid "{}-plugin has been activated.\n"
+msgstr "{}プラグインが読み込まれました．\n"
+
+msgid ""
+"Loading the plugin failed.\n"
+"{0}"
+msgstr ""
+"プラグインの読み込みができませんでした．\n"
+"{0}"
+
+msgid "{0}-plugin cannot be finalized."
+msgstr "{}プラグインを終了できません．"
+
+msgid "Plugin DLL \"{}\" has been unloaded."
+msgstr "プラグインDLL \"{}\" が解放されました．"
+
+msgid "Load plugins"
+msgstr "プラグインの読み込み"
+
+msgid "Plugin files (*.%1)"
+msgstr "プラグインファイル (*.%1)"
+
+msgid "Point Cloud"
+msgstr "ポイントクラウド"
+
+msgid "PointSetItem"
+msgstr "ポイントセットアイテム"
+
+msgid "Editable"
+msgstr "編集可能"
+
+msgid "Num points"
+msgstr "ポイント数"
+
+msgid "Offset position of {0}"
+msgstr "{0}のオフセット位置"
+
+msgid "PositionTagGroupItem"
+msgstr "ポジションタググループアイテム"
+
+msgid "Change the order of a position tag"
+msgstr "ポジションタグの順序を変更"
+
+msgid "Number of tags"
+msgstr "タグ数"
+
+msgid "Offset translation"
+msgstr "並進オフセット"
+
+msgid "Offset rotation (RPY)"
+msgstr "姿勢オフセット(RPY)"
+
+msgid "Origin marker"
+msgstr "原点マーカ"
+
+msgid "Tag marker size"
+msgstr "マーカサイズ"
+
+msgid "Show edges"
+msgstr "エッジ表示"
+
+msgid "Transparency"
+msgstr "透明度"
+
+msgid "Move"
+msgstr "移動"
+
+msgid "{0}: Origin"
+msgstr "{0}: 原点"
+
+msgid "{0}: Tag {1}"
+msgstr "{0}: タグ {1}"
+
+msgid "Change the origin offset of a position tag group"
+msgstr "ポジションタググループの原点オフセットを変更"
+
+msgid "Add a position tag"
+msgstr "ポジションタグを追加"
+
+msgid "Update a position tag"
+msgstr "ポジションタグを更新"
+
+msgid "Remove a position tag"
+msgstr "ポジションタグを削除"
+
+msgid "Tag Group Conversion"
+msgstr "タググループ変換"
+
+msgid "Which type of positions do you want to keep in the coordinate system change?"
+msgstr "座標系の変更においてどちらのタイプの位置を保持しますか？"
+
+msgid "Global positions"
+msgstr "グローバル位置"
+
+msgid "Clear the origin offset"
+msgstr "原点オフセットをクリア"
+
+msgid "Local positions"
+msgstr "ローカル位置"
+
+msgid "The parent coordinate system of \"%1\" is changed to the coordinate system of \"%2\"."
+msgstr "\"%1\" の親座標系は \"%2\" の座標系に変更されます."
+
+msgid "The parent coordinate system of \"%1\" is changed to the global coordinate system."
+msgstr "\"%1\" の親座標系はグローバル座標系に変更されます."
+
+msgid "Roll-pitch-yaw"
+msgstr "ロールピッチヨー"
+
+msgid "Fetch as a unique RPY value"
+msgstr "一意なRPY値として取り込み"
+
+msgid "Quaternion"
+msgstr "クォータニオン"
+
+msgid "Rotation matrix"
+msgstr "回転行列"
+
+msgid "Additional precision"
+msgstr "追加精度"
+
+msgid ""
+"The application has crashed, and auto-backup project files are available for project recovery. Do "
+"you want to show the dialog for recovery?"
+msgstr ""
+"アプリケーションがクラッシュしましたが、プロジェクト回復のための自動バックアップされたプロジェクト"
+"ファイルが利用可能です。回復用のダイアログを表示しますか？"
+
+msgid "The project backup directory \"{0}\" cannot be created: {1}"
+msgstr "プロジェクトパックディレクトリ \"{0}\" を作成することができません： {1}"
+
+msgid "Automatically saving project \"{0}\" to \"{1}\" as backup ..."
+msgstr "プロジェクト \"{0}\" を \"{1}\" にバックアップとして自動保存中 …"
+
+msgid "Automatically saving project \"{0}\" to \"{1}\" as backup ... done."
+msgstr "プロジェクト \"{0}\" を \"{1}\" にバックアップとして自動保存中 … 完了．"
+
+msgid "Project Auto-Backup Configuration"
+msgstr "プロジェクト自動バックアップの設定"
+
+msgid "Enable auto backup"
+msgstr "自動バックアップの有効化"
+
+msgid "Time interval"
+msgstr "時間間隔"
+
+msgid "sec."
+msgstr "秒"
+
+msgid "Max number of backups"
+msgstr "最大バックアップ数"
+
+msgid "Pause auto backup during playback"
+msgstr "プレイバック中は自動バックアップを停止"
+
+msgid "Pause auto backup during continuous update"
+msgstr "継続更新中は自動バックアップを停止"
+
+msgid "Backup before starting continuous update"
+msgstr "継続更新開始前にバックアップ"
+
+msgid "Backup Project Recovery"
+msgstr "バックアッププロジェクトの回復"
+
+msgid "Date and Time"
+msgstr "日時"
+
+msgid "Project"
+msgstr "プロジェクト"
+
+msgid "&Recovery"
+msgstr "回復(&R)"
+
+msgid "Selected backup is not found."
+msgstr "選択されたバックアップがみつかりません．"
+
+msgid "The state of the \"{0}\" {1} was not completely restored.\n"
+msgstr "\"{0}\" {1} の状態は完全には復帰できませんでした．\n"
+
+msgid "Loading project file \"{}\" ..."
+msgstr "プロジェクトファイル \"{}\" を読み込み中…"
+
+msgid "Resource \"{0}\" is not found."
+msgstr "リソース \"{}\" がみつかりません．"
+
+msgid "The project file is empty."
+msgstr "プロジェクトファイルは空です．"
+
+msgid "This is a backup of an unsaved project."
+msgstr "これは未保存プロジェクトのバックアップです．"
+
+msgid "This is a backup of \"{0}\"."
+msgstr "これは \"{0}\" のバックアップです．"
+
+msgid "{0} / {1} item(s) have been loaded."
+msgstr "{0} / {1} のアイテムが読みこまれました．"
+
+msgid "{0} item(s) were not loaded."
+msgstr "{0}個のアイテムが正常に読み込まれませんでした．"
+
+msgid "{0} item(s) were not loaded in the builtin project \"{1}\"."
+msgstr "ビルトインプロジェクト \"{1}\" の{}個のアイテムが正常に読み込まれませんでした．"
+
+msgid "Project \"{}\" has been completely loaded."
+msgstr "プロジェクト \"{}\" を完全に読み込みました．"
+
+msgid "Project \"{}\" has been partially loaded."
+msgstr "プロジェクト \"{}\" を部分的に読み込みました．"
+
+msgid "This project backup has been loaded as an unsaved project."
+msgstr "このプロジェクトバックアップは未保存プロジェクトとして読み込まれました．"
+
+msgid "This project backup has been loaded as project \"{0}\"."
+msgstr "このプロジェクトバックアップはプロジェクト \"{0}\" として読み込まれました．"
+
+msgid "Loading project \"{}\" failed. Any valid objects were not loaded."
+msgstr "プロジェクト \"{}\" の読み込みに失敗しました．いかなるオブジェクトもロードされていません．"
+
+msgid "Can't open file \"{}\" for writing."
+msgstr "\"{}\" は書き込み用ファイルとして開けません．"
+
+msgid "Saving the project as \"{}\" ..."
+msgstr "プロジェクトを \"{}\" に保存中…"
+
+msgid "Saving the project file has been finished."
+msgstr "プロジェクトファイルの保存が完了しました."
+
+msgid "Saving the sub-project file has been finished."
+msgstr "サブプロジェクトファイルの保存が完了しました."
+
+msgid "Saving the project file failed."
+msgstr "プロジェクトファイルの保存に失敗しました．"
+
+msgid "Saving the sub-project file failed."
+msgstr "サブプロジェクトファイルの保存に失敗しました．"
+
+msgid "Open a project"
+msgstr "プロジェクトを開く"
+
+msgid "Open"
+msgstr "開く"
+
+msgid "Project files (*.cnoid)"
+msgstr "プロジェクトファイル (*.cnoid)"
+
+msgid ""
+"The current project has not been saved yet. Do you want to save it as a project file before "
+"loading a new project?"
+msgstr "現在のプロジェクトは保存されていません．新しいプロジェクトを読み込む前に保存しますか？"
+
+msgid ""
+"The current project has not been saved yet. Do you want to save it as a project file before "
+"closing the project?"
+msgstr "現在のプロジェクトは保存されていません．プロジェクトを閉じる前に保存しますか？"
+
+msgid "Project \"%1\" has been updated. Do you want to save it before loading a new project?"
+msgstr "プロジェクト \"%1\" は更新されています．新しいプロジェクトを読み込む前に保存しますか？"
+
+msgid "Project \"%1\" has been updated. Do you want to save it before closing the project?"
+msgstr "プロジェクト \"%1\" は更新されています．プロジェクトを閉じる前に保存しますか？"
+
+msgid "Save a project"
+msgstr "プロジェクトの保存"
+
+msgid "Save temporary items"
+msgstr "一時的アイテムを保存"
+
+msgid "Directory \"{0}\" for packing a project already exists and cannot be removed: {1}."
+msgstr "プロジェクトのパッキング用のディレクトリ \"{0}\" が既に存在していて削除できません： {1}．"
+
+msgid "File system error in packing a project: {0}"
+msgstr "プロジェクトをパッキング中のファイルシステムエラー： {0}"
+
+msgid "Directory \"{0}\" for packing a project cannot be created: {1}."
+msgstr "プロジェクトのパッキング用のディレクトリ \"{0}\" を作成できません： {1}．"
+
+msgid "Directory \"{0}\" for \"{1}\" cannot be created in \"{2}\": {3}."
+msgstr "\"{1}\" 用のディレクトリ \"{0}\" を \"{2}\" に作成できません： {3}．"
+
+msgid "File \"{0}\" cannot be copied into the directory \"{1}\" for packing: {2}."
+msgstr "ファイル \"{0}\" をパッキング用ディレクトリ \"{1}\" にコピーできません： {2}．"
+
+msgid "The project for packing cannot be saved as project file \"{0}\"."
+msgstr "パッキングするプロジェクトをプロジェクトファイル \"{0}\" として保存できません．"
+
+msgid ""
+"A relative path \"{0}\" is given to the project packer as a file path to which {1} depends but it "
+"must be an absolute path."
+msgstr ""
+"{1}が依存するファイルのパスとして相対パス \"{0}\" がプロジェクトパッカーに与えられましたが、これは"
+"絶対パスである必要があります．"
+
+msgid "The file path \"{0}\" for {1} cannot be relocated to be a file path in the project pack."
+msgstr "{1}のファイルパス \"{0}\" をプロジェクトパック内のファイルパスに再配置できません．"
+
+msgid "The project pack file \"{0}\" already exists and cannot be removed: {1}."
+msgstr "プロジェクトパックファイル \"{0}\" が既に存在していて、削除もできません： {1}．"
+
+msgid "Failed to create the project pack file \"{0}\": {1}"
+msgstr "プロジェクトパックファイル \"{0}\" を作成することができません： {1}"
+
+msgid "Failed to create the project pack file \"{0}\"."
+msgstr "プロジェクトパックファイル \"{0}\" を作成することができません．}"
+
+msgid "Failed to add directory \"{0}\" to the project pack: {1}"
+msgstr "プロジェクトパックにディレクトリ \"{0}\" を追加することができません： {1}"
+
+msgid "Failed to add file \"{0}\" to the project pack: {1}"
+msgstr "プロジェクトパックにファイル \"{0}\" を追加することができません： {1}"
+
+msgid "Failed to open the project pack file \"{0}\": {1}"
+msgstr "プロジェクトパックファイル \"{0}\" を開くことができません： {1}"
+
+msgid "Entry {0} in \"{1}\" cannot be extracted."
+msgstr "\"{1}\" 内のエントリ{0}を展開できません．"
+
+msgid "Directory \"{0}\" in the project pack \"{1}\" cannot be created: {2}."
+msgstr "プロジェクトパック \"{1}\" のディレクトリ \"{0}\" を作成できません： {2}．"
+
+msgid "File \"{0}\" in the project pack \"{1}\" cannot be extracted."
+msgstr "プロジェクトパック \"{1}\" のファイル \"{0}\" を展開できません．"
+
+msgid "The project pack file \"{0}\" does not include a project file."
+msgstr "プロジェクトパック \"{0}\" はプロジェクトファイルを含んでいません．"
+
+msgid "ReferencedObjectSeqItem"
+msgstr "参照オブジェクト時系列アイテム"
+
+msgid "Export the scene of selected items"
+msgstr "選択アイテムのシーンのエクスポート"
+
+msgid "Export"
+msgstr "エクスポート"
+
+msgid "No selected items."
+msgstr "アイテムが選択されていません．"
+
+msgid "Scene to export is empty."
+msgstr "エクスポートするシーンが空です．"
+
+msgid ""
+"Export the scene of the following items to \"{0}\":\n"
+" "
+msgstr ""
+"以下のアイテムのシーンを \"{0}\" にエクスポートします：\n"
+" "
+
+msgid "Completed!"
+msgstr "完了！"
+
+msgid "Failed."
+msgstr "失敗．"
+
+msgid "Scene statistics:"
+msgstr "シーン統計情報:"
+
+msgid " Scene \"{}\":"
+msgstr " シーン \"{}\":"
+
+msgid "  Vertices: {}\n"
+msgstr "  頂点: {}\n"
+
+msgid "  Normals: {}\n"
+msgstr "  法線: {}\n"
+
+msgid "  Triangles: {}"
+msgstr "  トライアングル: {}"
+
+msgid "No valid scene item is selected."
+msgstr "有効なシーンアイテムが選択されていません．"
+
+msgid "The total number of {} scene items:\n"
+msgstr "{}シーンアイテムの総数: \n"
+
+msgid " Vertices: {}\n"
+msgstr " 頂点: {}\n"
+
+msgid " Normals: {}\n"
+msgstr " 法線: {}\n"
+
+msgid " Triangles: {}"
+msgstr " トライアングル: {}"
+
+msgid "The project must be saved to detect the scene files for {0}."
+msgstr "{0}のシーンファイルを検出するためにプロジェクトが保存されている必要があります．"
+
+msgid "The file \"{0}\" on which {1} depends is not relocatable and will be lost in the archive."
+msgstr "{1}が依存しているファイル \"{0}\" は再配置できないためアーカイブ内で失われます．"
+
+msgid "RootItem"
+msgstr "ルートアイテム"
+
+msgid "Primary check"
+msgstr "プライマリチェック"
+
+msgid "SceneBar"
+msgstr "シーンバー"
+
+msgid "Switch to the edit mode"
+msgstr "編集モードへの切り替え"
+
+msgid "First-person viewpoint control mode"
+msgstr "一人称視点制御"
+
+msgid "Projection method / camera selection"
+msgstr "投影法／カメラの選択"
+
+msgid "Move the camera to look at the objects"
+msgstr "全ての物体が見えるように視点を移動"
+
+msgid "Vertex rendering"
+msgstr "頂点描画"
+
+msgid "Wireframe rendering"
+msgstr "ワイヤフレーム描画"
+
+msgid "Solid wireframe rendering"
+msgstr "ワイヤフレーム+ポリゴン描画"
+
+msgid "Polygon rendering"
+msgstr "ポリゴン描画"
+
+msgid "Highlight selected objects"
+msgstr "選択オブジェクトのハイライト"
+
+msgid "Show visual models"
+msgstr "表示用モデルの表示"
+
+msgid "Flip active model types"
+msgstr "表示するモデルタイプの切り替え"
+
+msgid "Show the collision detection models"
+msgstr "干渉チェック用モデルを表示"
+
+msgid "Toggle the collision line visibility"
+msgstr "干渉線の表示"
+
+msgid "Front view"
+msgstr "正面ビュー"
+
+msgid "Back view"
+msgstr "背面ビュー"
+
+msgid "Top view"
+msgstr "上面ビュー"
+
+msgid "Bottom view"
+msgstr "下面ビュー"
+
+msgid "Right view"
+msgstr "右面ビュー"
+
+msgid "Left view"
+msgstr "左面ビュー"
+
+msgid "Isometric view"
+msgstr "等角投影ビュー"
+
+msgid "Scene"
+msgstr "シーン"
+
+msgid "Scene / Mesh"
+msgstr "シーン / メッシュ"
+
+msgid "SceneItem"
+msgstr "シーンアイテム"
+
+msgid "Lightweight rendering"
+msgstr "軽量レンダリング"
+
+msgid "Standard scene file"
+msgstr "標準シーンファイル"
+
+msgid "Empty scene"
+msgstr "空のシーン"
+
+msgid "Normal"
+msgstr " 標準"
+
+msgid "Minimum"
+msgstr "最小限"
+
+msgid "Solid color"
+msgstr "ソリッドカラー"
+
+msgid "Smooth shading"
+msgstr "スムーズシェーディング"
+
+msgid "Enabled"
+msgstr "有効"
+
+msgid "Disabled"
+msgstr "無効"
+
+msgid "Forced"
+msgstr "強制"
+
+msgid "Head light"
+msgstr "ヘッドライト"
+
+msgid "World light"
+msgstr "ワールドライト"
+
+msgid "Ambient light"
+msgstr "環境光"
+
+msgid "Additional lights"
+msgstr "追加のライト"
+
+msgid "Shadow"
+msgstr "影"
+
+msgid "Shadow for light"
+msgstr "影：ライト"
+
+msgid "Index of the light source causing the shadow"
+msgstr "影の要因となる光源の番号"
+
+msgid "Anti-aliasing of shadows"
+msgstr "影のアンチエイリアシング"
+
+msgid "Texture"
+msgstr "テクスチャ"
+
+msgid "Fog"
+msgstr "フォグ"
+
+msgid "Background Color"
+msgstr "背景色"
+
+msgid "Default Color"
+msgstr "デフォルト色"
+
+msgid "Upside down"
+msgstr "上下反転"
+
+msgid "Lighting mode"
+msgstr "ライティングモード"
+
+msgid "Back face culling: "
+msgstr "裏面除去："
+
+msgid "Default line width"
+msgstr "デフォルトの線幅"
+
+msgid "Default point size"
+msgstr "デフォルト点サイズ"
+
+msgid "SceneView"
+msgstr "シーンビュー"
+
+msgid "Use dedicated item tree view checks to select the target items"
+msgstr "対象アイテム選択用の専用のチェックをアイテムツリービューに追加"
+
+msgid "Scene view"
+msgstr "シーンビュー"
+
+msgid "Configuration of {0}"
+msgstr "{0}の設定"
+
+msgid "Lighting"
+msgstr "ライティング"
+
+msgid "Background"
+msgstr "背景"
+
+msgid "Drawing"
+msgstr "描画"
+
+msgid "Debug"
+msgstr "デバッグ"
+
+msgid "OpengGL image buffer for picking"
+msgstr "ピッキング用OpenGL画像バッファ"
+
+msgid "OpenGL initialization failed."
+msgstr "OpenGLの初期化に失敗しました．"
+
+msgid "Recursive editable node set change on a scene widget."
+msgstr "シーンウィジェットにおける編集可ノード集合の再帰的変化．"
+
+msgid "Recursive editable node set change on scene widget {0}."
+msgstr "シーンウィジェット{0}における編集可ノード集合の再帰的変化 ．"
+
+msgid "The OpenGL resources of {0} has been cleared."
+msgstr "{0}のOpenGLリソースがクリアされました．"
+
+msgid "FPS test cannot be executed because the current camera is not a built-in interactive camera."
+msgstr "カレントカメラが組み込みのインタラクティブカメラでは無いため，FPSテストを実行できません．"
+
+msgid "FPS Test Result"
+msgstr "フレームレートテスト結果"
+
+msgid "FPS: %1 frames / %2 [s] = %3"
+msgstr "フレームレート: %1 フレーム / %2 [秒] = %3 [fps]"
+
+msgid "Global Position"
+msgstr "グローバル座標位置"
+
+msgid "Object"
+msgstr "オブジェクト"
+
+msgid "Edit Mode"
+msgstr "編集モード"
+
+msgid "View Mode"
+msgstr "閲覧モード"
+
+msgid "Restrict camera roll"
+msgstr "カメラロールを制限"
+
+msgid "Coordinate axes"
+msgstr "座標軸"
+
+msgid "XY (Floor) Grid"
+msgstr "XY (床) グリッド"
+
+msgid "XZ Grid"
+msgstr "XZグリッド"
+
+msgid "YZ Grid"
+msgstr "YZグリッド"
+
+msgid "{0} Color"
+msgstr "{0}の色"
+
+msgid "Normal Visualization"
+msgstr "法線の表示"
+
+msgid "Normal length"
+msgstr "法線の長さ"
+
+msgid "Lightweight view change"
+msgstr "軽量視点変更"
+
+msgid "FPS Test"
+msgstr "FPSテスト"
+
+msgid "Number of test iterations"
+msgstr "テスト回数"
+
+msgid "Picking image"
+msgstr "ピッキング用画像"
+
+msgid "Field of view"
+msgstr "視野角"
+
+msgid "Clip distances"
+msgstr "クリップ距離"
+
+msgid "Near"
+msgstr "近方"
+
+msgid "Far"
+msgstr "遠方"
+
+msgid "Vertical axis"
+msgstr "垂直軸"
+
+msgid "Background color"
+msgstr "背景色"
+
+msgid "Span"
+msgstr "長さ"
+
+msgid "Interval"
+msgstr "間隔"
+
+msgid "Default color"
+msgstr "デフォルト色"
+
+msgid "ScriptBar"
+msgstr "スクリプトバー"
+
+msgid "Execute scripts"
+msgstr "スクリプトの実行"
+
+msgid "SubProjectItem"
+msgstr "サブプロジェクトアイテム"
+
+msgid "SubProjet"
+msgstr "サブプロジェクト"
+
+msgid "Manual save"
+msgstr "手動保存"
+
+msgid "Automatic save"
+msgstr "自動保存"
+
+msgid "Sub projects to load \"{}\" are recursively specified."
+msgstr "読みこもうとしているサブプロジェクト \"{}\" は再帰的に指定されています．"
+
+msgid "Save mode"
+msgstr "保存モード"
+
+msgid "Updated"
+msgstr "更新"
+
+msgid "Task"
+msgstr "タスク"
+
+msgid "TaskView"
+msgstr "タスクビュー"
+
+msgid "Select a task type"
+msgstr "タスクの選択"
+
+msgid "Option Menu"
+msgstr "オプションメニュー"
+
+msgid "Return to the current phase"
+msgstr "元のフェーズに復帰"
+
+msgid "Go to the config phase"
+msgstr "設定フェーズに移動"
+
+msgid "Go back to the previous phase"
+msgstr "前のフェーズに戻る"
+
+msgid "Cancel waiting for the command to finish"
+msgstr "コマンド完了待ちのキャンセル"
+
+msgid "Phase index"
+msgstr "フェーズインデックス"
+
+msgid "Execute the default command of the current phase"
+msgstr "本フェーズのデフォルトコマンドを実行"
+
+msgid "Auto"
+msgstr "自動"
+
+msgid "Automatic mode"
+msgstr "自動モード"
+
+msgid "Skip to the next phase"
+msgstr "次のフェーズに移動"
+
+msgid "Task sequencer '%1' has been activated."
+msgstr "タスクシーケンサ '%1' が活性化されました．"
+
+msgid "Task sequencer '%1' has been deactivated."
+msgstr "タスクシーケンサ '%1' が非活性化されました．"
+
+msgid "Task \"{}\" has been added."
+msgstr "タスク \"{}\" が追加されました．"
+
+msgid "Task \"{}\" cannot be updated now because it is wating for a command to finish."
+msgstr "タスク \"{}\" は現在コマンドの終了待ちを行っているため更新できません．"
+
+msgid "Task \"{}\" has been updated with the new one."
+msgstr "タスク \"{}\" が更新されました．"
+
+msgid "Next task \"{}\" is not found."
+msgstr "次のタスク \"{}\" がみつかりません．"
+
+msgid "Retry"
+msgstr "リトライ"
+
+msgid "Vertical Layout"
+msgstr "縦配置"
+
+msgid "Text"
+msgstr "テキスト"
+
+msgid "TextEditView"
+msgstr "テキスト編集ビュー"
+
+msgid ""
+"The document has been modified.\n"
+" Do you want to save your changes?"
+msgstr ""
+"ドキュメントは変更されています．\n"
+"変更内容を保存しますか？"
+
+msgid "unselected"
+msgstr "アイテムが選択されてません．"
+
+msgid ""
+"The file has been modified outside of text editor.\n"
+"Do you want to reload it?"
+msgstr ""
+"外部のエディタによって内容が変更されました．\n"
+"ファイルを読み込み直しますか？"
+
+msgid "TimeBar"
+msgstr "タイムバー"
+
+msgid "Start playback"
+msgstr "再生開始"
+
+msgid "Resume playback"
+msgstr "再生再開"
+
+msgid "Refresh state at the current time"
+msgstr "現在時刻で状態を更新"
+
+msgid "Time Bar Config"
+msgstr "タイムバーの設定"
+
+msgid "Internal frame rate"
+msgstr "内部フレームレート"
+
+msgid "Playback frame rate"
+msgstr "再生フレームレート"
+
+msgid "Idle event driven mode"
+msgstr "アイドルイベント駆動モード"
+
+msgid "Playback speed ratio"
+msgstr "再生速度倍率"
+
+msgid "Sync with ongoing updates"
+msgstr "進行中の更新に同期"
+
+msgid "Automatically expand the time range"
+msgstr "時間範囲の自動拡張"
+
+msgid "Stop animation"
+msgstr "アニメーションの停止"
+
+msgid "Resume animation"
+msgstr "アニメーションの再生・停止"
+
+msgid "Undo: {0}."
+msgstr "「{0}」を元に戻しました．"
+
+msgid "Undo failed and the edit history has been clered."
+msgstr "元に戻すことができませんでした．編集履歴をクリアしました．"
+
+msgid "Redo: {0}."
+msgstr "「{0}」をやり直しました．"
+
+msgid "Redo failed and the edit history has been clered."
+msgstr "やり直すことができませんでした．編集履歴をクリアしました．"
+
+msgid "Edit History"
+msgstr "編集履歴"
+
+msgid "UnifiedEditHistoryView"
+msgstr "統合編集履歴ビュー"
+
+msgid "Vector3SeqItem"
+msgstr "３次元ベクタ時系列アイテム"
+
+msgid "Separate the view"
+msgstr "ビューの分離"
+
+msgid "Please specify the name of the new view."
+msgstr "作成するビューの名前を指定してください．"
+
+msgid "Create %1"
+msgstr "%1の生成"
+
+msgid "{0} is not registered in {1}."
+msgstr "{0}は{1}に登録されていません．"
+
+msgid "{0} is disabled by the application."
+msgstr "{0}はアプリケーションによって無効化されています．"
+
+msgid "{0} cannot be restored."
+msgstr "{0}を復帰することができません．"
+
+msgid "{0} cannot be restored: {1}"
+msgstr "{0}を復帰することができません．{1}"
+
+msgid "The \"{0}\" view of {1} cannot be restored."
+msgstr "{1}の \"{0}\" ビューを復帰できません．"
+
+msgid "The \"{0}\" view of {1} cannot be restored: {2}"
+msgstr "{1}の \"{0}\" ビューを復帰できません．{2}"
+
+msgid "The \"{0}\" plugin for \"{1}\" is not found. The view cannot be restored."
+msgstr "\"{1}\" のための \"{0}\" プラグインが見つかりません．ビューの復帰ができません．"
+
+msgid "Virtual Joystick"
+msgstr "仮想ジョイスティック"
+
+msgid "VirtualJoystickView"
+msgstr "仮想ジョイスティックビュー"
