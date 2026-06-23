@@ -1,2 +1,0 @@
-geometry_msgs/Point32 position
-std_msgs/Float64 yaw

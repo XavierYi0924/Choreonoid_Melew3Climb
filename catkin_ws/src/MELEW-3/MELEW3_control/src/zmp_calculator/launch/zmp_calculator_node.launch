@@ -1,8 +1,0 @@
-<launch>
-  <node name="zmp_calculator_node" pkg="melew3_control" type="zmp_calculator_node" output="screen">
-    <rosparam command="load" file="$(find zmp_calculator)/config/param.yaml"/>
-  </node>
-  <node name="izmp_calculator_node" pkg="melew3_control" type="izmp_calculator_node">
-    <rosparam command="load" file="$(find zmp_calculator)/config/param.yaml"/>
-  </node>
-</launch>

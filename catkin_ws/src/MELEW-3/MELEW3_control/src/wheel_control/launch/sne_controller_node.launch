@@ -1,6 +1,0 @@
-<launch>
-  <node name="melew_wheel_controller_node" pkg="melew_wheel_controller" type="melew_wheel_controller_node" output="screen"> 
-      <rosparam command="load" file="$(find melew_wheel_controller)/config/param.yaml"/>
-      <rosparam command="load" file="$(find melew_wheel_controller)/config/waypoint.yaml"/>
-  </node>
-</launch>

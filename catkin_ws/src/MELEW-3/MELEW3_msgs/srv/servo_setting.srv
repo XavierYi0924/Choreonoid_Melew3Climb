@@ -1,6 +1,0 @@
-# CAN_ID of the motor
-string name
-bool servo
----
-# Whether if configuration success
-bool success

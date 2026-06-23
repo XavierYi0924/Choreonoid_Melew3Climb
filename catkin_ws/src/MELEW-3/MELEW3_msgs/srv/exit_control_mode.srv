@@ -1,5 +1,0 @@
-# CAN_ID of the motor
-uint8 CAN_ID
----
-# Whether if configuration success
-bool success

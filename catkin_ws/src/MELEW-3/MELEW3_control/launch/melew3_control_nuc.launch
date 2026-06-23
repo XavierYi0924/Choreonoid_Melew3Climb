@@ -1,8 +1,0 @@
-<launch>
-  <group ns="MELEW3">
-  </group>
-
-  <!-- IMU setting -->
-    <include file="$(find xsens_mti_driver)/launch/xsens_mti_node.launch"/>
-    <!-- <include file="$(find xsens_mti_driver)/launch/display.launch"/> -->
-</launch>

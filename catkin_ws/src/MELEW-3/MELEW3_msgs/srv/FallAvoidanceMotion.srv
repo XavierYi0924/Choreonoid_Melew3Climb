@@ -1,5 +1,0 @@
-std_msgs/Float64MultiArray desired_angles  # 目標姿勢を満たす関節角度
-bool support_foot # 支持脚（false：左脚，true：右脚）
----
-bool success
-string message
